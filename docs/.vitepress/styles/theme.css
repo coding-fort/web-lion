@@ -1,5 +1,6 @@
 :root {
-  /* --vp-home-hero-name-color: #f7b628; /* 主题色 */
+  --vp-home-hero-name-color: rgb(49, 170, 43);
+  --vp-c-brand-1: rgb(49, 170, 43);
   /* --vp-button-brand-bg: #f7b628; */
   /* --vp-c-brand-1: #f7b628; */
 }
