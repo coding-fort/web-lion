@@ -47,15 +47,15 @@
         "collapsed": false,
         "items": [
           {
-            "text": "Canvas 2D",
+            "text": "Canvas",
             "items": [
               {
                 "text": "Echarts",
-                "link": "/views/领域分支/可视化/Canvas 2D/Echarts"
+                "link": "/views/领域分支/可视化/Canvas/Echarts"
               },
               {
                 "text": "HighCharts",
-                "link": "/views/领域分支/可视化/Canvas 2D/HighCharts"
+                "link": "/views/领域分支/可视化/Canvas/HighCharts"
               }
             ],
             "collapsed": false
@@ -72,8 +72,28 @@
                 "link": "/views/领域分支/可视化/SVG/Raphael"
               },
               {
-                "text": "Snap",
-                "link": "/views/领域分支/可视化/SVG/Snap"
+                "text": "SVG Snap库",
+                "link": "/views/领域分支/可视化/SVG/SVG Snap库"
+              },
+              {
+                "text": "SVG 动画",
+                "link": "/views/领域分支/可视化/SVG/SVG 动画"
+              },
+              {
+                "text": "SVG 图表",
+                "link": "/views/领域分支/可视化/SVG/SVG 图表"
+              },
+              {
+                "text": "SVG 基础",
+                "link": "/views/领域分支/可视化/SVG/SVG 基础"
+              },
+              {
+                "text": "SVG 滤镜",
+                "link": "/views/领域分支/可视化/SVG/SVG 滤镜"
+              },
+              {
+                "text": "SVG 进阶",
+                "link": "/views/领域分支/可视化/SVG/SVG 进阶"
               },
               {
                 "text": "html svg",
