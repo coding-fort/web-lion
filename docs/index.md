@@ -2,12 +2,12 @@
 layout: home
 
 hero:
-  name: "CODING FORT"
-  text: "前端知识框架"
+  name: "Web Lion"
+  text: "Web Lion"
   tagline: 构建坚实的前端编程基础，探索最新的技术趋势
   image:
     src: ./assets/images/index.png
-    alt: CODING FORT Logo
+    alt: Web Lion Logo
   actions:
 
 features:
@@ -19,7 +19,7 @@ features:
     details: 分享最新的前端技术和工具动态，确保你始终站在技术前沿。
 ---
 
-## 欢迎来到 CODING FORT
+## 欢迎来到 Web Lion
 
 这里是前端开发者的学习乐园，提供系统化的学习路径、实用的技术教程和最新的行业资讯。无论你是新手还是经验丰富的工程师，都能在这里找到有价值的内容。
 
