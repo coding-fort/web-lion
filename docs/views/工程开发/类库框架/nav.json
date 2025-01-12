@@ -1,0 +1,326 @@
+{
+  "nav": [
+    {
+      "text": "类库框架",
+      "items": [
+        {
+          "text": "工具库",
+          "link": "/views/类库框架/工具库/"
+        },
+        {
+          "text": "开发库",
+          "link": "/views/类库框架/开发库/"
+        },
+        {
+          "text": "测试库",
+          "link": "/views/类库框架/测试库/"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/类库框架/工具库": [
+      {
+        "title": "工具库",
+        "children": [
+          {
+            "title": "Axios",
+            "path": "/views/类库框架/工具库/Axios"
+          },
+          {
+            "title": "BootStrap",
+            "path": "/views/类库框架/工具库/BootStrap"
+          },
+          {
+            "title": "Dumi-组件文档研发工具",
+            "path": "/views/类库框架/工具库/Dumi-组件文档研发工具"
+          },
+          {
+            "title": "JQuery",
+            "path": "/views/类库框架/工具库/JQuery"
+          },
+          {
+            "title": "Lodash",
+            "path": "/views/类库框架/工具库/Lodash"
+          },
+          {
+            "title": "moment",
+            "path": "/views/类库框架/工具库/moment"
+          },
+          {
+            "title": "Npm",
+            "path": "/views/类库框架/工具库/Npm"
+          },
+          {
+            "title": "Prototype",
+            "path": "/views/类库框架/工具库/Prototype"
+          },
+          {
+            "title": "RxJS",
+            "path": "/views/类库框架/工具库/RxJS"
+          },
+          {
+            "title": "Underscore",
+            "path": "/views/类库框架/工具库/Underscore"
+          },
+          {
+            "title": "VuePress-Vue 驱动的静态网站生成器",
+            "path": "/views/类库框架/工具库/VuePress-Vue 驱动的静态网站生成器"
+          },
+          {
+            "title": "Zepto",
+            "path": "/views/类库框架/工具库/Zepto"
+          },
+          {
+            "title": "创建自定义组件库",
+            "path": "/views/类库框架/工具库/创建自定义组件库"
+          },
+          {
+            "title": "前端工具",
+            "path": "/views/类库框架/工具库/前端工具"
+          },
+          {
+            "title": "搭建前端脚手架",
+            "path": "/views/类库框架/工具库/搭建前端脚手架"
+          }
+        ]
+      }
+    ],
+    "/views/类库框架/开发库": [
+      {
+        "title": "开发库",
+        "children": [
+          {
+            "title": "Ant Design",
+            "children": [
+              {
+                "title": "Ant Design Pro",
+                "path": "/views/类库框架/开发库/Ant Design/Ant Design Pro"
+              },
+              {
+                "title": "Ant Design",
+                "path": "/views/类库框架/开发库/Ant Design/Ant Design"
+              },
+              {
+                "title": "Ant Design概述",
+                "path": "/views/类库框架/开发库/Ant Design/Ant Design概述"
+              }
+            ]
+          },
+          {
+            "title": "React",
+            "children": [
+              {
+                "title": "create-react-app",
+                "path": "/views/类库框架/开发库/React/create-react-app"
+              },
+              {
+                "title": "React 入门",
+                "children": [
+                  {
+                    "title": "JSX 语法",
+                    "path": "/views/类库框架/开发库/React/React 入门/JSX 语法"
+                  },
+                  {
+                    "title": "State 管理",
+                    "path": "/views/类库框架/开发库/React/React 入门/State 管理"
+                  },
+                  {
+                    "title": "事件处理",
+                    "path": "/views/类库框架/开发库/React/React 入门/事件处理"
+                  },
+                  {
+                    "title": "生命周期方法",
+                    "path": "/views/类库框架/开发库/React/React 入门/生命周期方法"
+                  },
+                  {
+                    "title": "组件和Props",
+                    "path": "/views/类库框架/开发库/React/React 入门/组件和Props"
+                  },
+                  {
+                    "title": "组件通信",
+                    "path": "/views/类库框架/开发库/React/React 入门/组件通信"
+                  },
+                  {
+                    "title": "表单",
+                    "path": "/views/类库框架/开发库/React/React 入门/表单"
+                  },
+                  {
+                    "title": "路由",
+                    "path": "/views/类库框架/开发库/React/React 入门/路由"
+                  }
+                ]
+              },
+              {
+                "title": "React 进阶",
+                "children": [
+                  {
+                    "title": "FunctionAsAChildren",
+                    "path": "/views/类库框架/开发库/React/React 进阶/FunctionAsAChildren"
+                  },
+                  {
+                    "title": "React Hooks",
+                    "path": "/views/类库框架/开发库/React/React 进阶/React Hooks"
+                  },
+                  {
+                    "title": "Redux",
+                    "path": "/views/类库框架/开发库/React/React 进阶/Redux"
+                  },
+                  {
+                    "title": "_Redux",
+                    "path": "/views/类库框架/开发库/React/React 进阶/_Redux"
+                  },
+                  {
+                    "title": "性能优化",
+                    "path": "/views/类库框架/开发库/React/React 进阶/性能优化"
+                  },
+                  {
+                    "title": "数据传递",
+                    "path": "/views/类库框架/开发库/React/React 进阶/数据传递"
+                  },
+                  {
+                    "title": "版本迭代",
+                    "path": "/views/类库框架/开发库/React/React 进阶/版本迭代"
+                  }
+                ]
+              },
+              {
+                "title": "React-router",
+                "path": "/views/类库框架/开发库/React/React-router"
+              },
+              {
+                "title": "Redux",
+                "path": "/views/类库框架/开发库/React/Redux"
+              }
+            ]
+          },
+          {
+            "title": "Vue",
+            "children": [
+              {
+                "title": "Element UI",
+                "path": "/views/类库框架/开发库/Vue/Element UI"
+              },
+              {
+                "title": "Vue JSX",
+                "path": "/views/类库框架/开发库/Vue/Vue JSX"
+              },
+              {
+                "title": "Vue 常用集成库",
+                "path": "/views/类库框架/开发库/Vue/Vue 常用集成库"
+              },
+              {
+                "title": "Vue 数据劫持",
+                "path": "/views/类库框架/开发库/Vue/Vue 数据劫持"
+              },
+              {
+                "title": "Vue 测试",
+                "path": "/views/类库框架/开发库/Vue/Vue 测试"
+              },
+              {
+                "title": "Vue-cli",
+                "path": "/views/类库框架/开发库/Vue/Vue-cli"
+              },
+              {
+                "title": "Vue-router",
+                "path": "/views/类库框架/开发库/Vue/Vue-router"
+              },
+              {
+                "title": "Vue",
+                "path": "/views/类库框架/开发库/Vue/Vue"
+              },
+              {
+                "title": "Vuex",
+                "path": "/views/类库框架/开发库/Vue/Vuex"
+              }
+            ]
+          },
+          {
+            "title": "微信小程序",
+            "children": [
+              {
+                "title": "[功能] api+slider 实现音乐播放",
+                "path": "/views/类库框架/开发库/微信小程序/[功能] api+slider 实现音乐播放"
+              },
+              {
+                "title": "[功能] 使用云存储资源",
+                "path": "/views/类库框架/开发库/微信小程序/[功能] 使用云存储资源"
+              },
+              {
+                "title": "[功能] 播放音乐",
+                "path": "/views/类库框架/开发库/微信小程序/[功能] 播放音乐"
+              },
+              {
+                "title": "[问题] swiper-item 不会随内容自动撑开",
+                "path": "/views/类库框架/开发库/微信小程序/[问题] swiper-item 不会随内容自动撑开"
+              },
+              {
+                "title": "[问题] 修改小程序logo 及名称",
+                "path": "/views/类库框架/开发库/微信小程序/[问题] 修改小程序logo 及名称"
+              },
+              {
+                "title": "[问题] 页面底部滚动后出现白条",
+                "path": "/views/类库框架/开发库/微信小程序/[问题] 页面底部滚动后出现白条"
+              },
+              {
+                "title": "小程序组件",
+                "path": "/views/类库框架/开发库/微信小程序/小程序组件"
+              },
+              {
+                "title": "小程序项目相关",
+                "path": "/views/类库框架/开发库/微信小程序/小程序项目相关"
+              },
+              {
+                "title": "开发基础",
+                "path": "/views/类库框架/开发库/微信小程序/开发基础"
+              },
+              {
+                "title": "开发进阶",
+                "path": "/views/类库框架/开发库/微信小程序/开发进阶"
+              },
+              {
+                "title": "数据传递",
+                "path": "/views/类库框架/开发库/微信小程序/数据传递"
+              },
+              {
+                "title": "滚动视图-scrollView",
+                "path": "/views/类库框架/开发库/微信小程序/滚动视图-scrollView"
+              },
+              {
+                "title": "生命周期",
+                "path": "/views/类库框架/开发库/微信小程序/生命周期"
+              },
+              {
+                "title": "监听全局共享数据",
+                "path": "/views/类库框架/开发库/微信小程序/监听全局共享数据"
+              },
+              {
+                "title": "轮播控件-swiper",
+                "path": "/views/类库框架/开发库/微信小程序/轮播控件-swiper"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "/views/类库框架/测试库": [
+      {
+        "title": "测试库",
+        "children": [
+          {
+            "title": "Jest",
+            "path": "/views/类库框架/测试库/Jest"
+          },
+          {
+            "title": "Vitest",
+            "path": "/views/类库框架/测试库/Vitest"
+          },
+          {
+            "title": "Vue Test Utils",
+            "path": "/views/类库框架/测试库/Vue Test Utils"
+          }
+        ]
+      }
+    ]
+  }
+}

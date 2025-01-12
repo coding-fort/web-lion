@@ -1,0 +1,252 @@
+{
+  "nav": [
+    {
+      "text": "计算机基础",
+      "items": [
+        {
+          "text": "性能安全",
+          "link": "/views/计算机基础/性能安全/readme.md"
+        },
+        {
+          "text": "操作系统",
+          "link": "/views/计算机基础/操作系统/readme.md"
+        },
+        {
+          "text": "数据结构",
+          "link": "/views/计算机基础/数据结构/readme.md"
+        },
+        {
+          "text": "算法",
+          "link": "/views/计算机基础/算法/readme.md"
+        },
+        {
+          "text": "编译原理",
+          "link": "/views/计算机基础/编译原理/readme.md"
+        },
+        {
+          "text": "计算机网络",
+          "link": "/views/计算机基础/计算机网络/readme.md"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/计算机基础/性能安全": [
+      {
+        "text": "性能安全",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "安全",
+            "items": [
+              {
+                "text": "CSP",
+                "link": "/views/计算机基础/性能安全/安全/CSP"
+              },
+              {
+                "text": "CSRF",
+                "link": "/views/计算机基础/性能安全/安全/CSRF"
+              },
+              {
+                "text": "SOP",
+                "link": "/views/计算机基础/性能安全/安全/SOP"
+              },
+              {
+                "text": "SQL 注入",
+                "link": "/views/计算机基础/性能安全/安全/SQL 注入"
+              },
+              {
+                "text": "XSS",
+                "link": "/views/计算机基础/性能安全/安全/XSS"
+              },
+              {
+                "text": "接口加密",
+                "link": "/views/计算机基础/性能安全/安全/接口加密"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "性能",
+            "items": [
+              {
+                "text": "性能指标",
+                "link": "/views/计算机基础/性能安全/性能/性能指标"
+              },
+              {
+                "text": "评估工具",
+                "link": "/views/计算机基础/性能安全/性能/评估工具"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "浏览器",
+            "items": [
+              {
+                "text": "Chrome(Blink)",
+                "link": "/views/计算机基础/性能安全/浏览器/Chrome(Blink)"
+              },
+              {
+                "text": "Edge(EdgeHTML)",
+                "link": "/views/计算机基础/性能安全/浏览器/Edge(EdgeHTML)"
+              },
+              {
+                "text": "Firefox(Gecko)",
+                "link": "/views/计算机基础/性能安全/浏览器/Firefox(Gecko)"
+              },
+              {
+                "text": "IE(Trident)",
+                "link": "/views/计算机基础/性能安全/浏览器/IE(Trident)"
+              },
+              {
+                "text": "Opera(Blink)",
+                "link": "/views/计算机基础/性能安全/浏览器/Opera(Blink)"
+              },
+              {
+                "text": "Safari(WebKit)",
+                "link": "/views/计算机基础/性能安全/浏览器/Safari(WebKit)"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "网络通信",
+            "items": [
+              {
+                "text": "API 风格",
+                "link": "/views/计算机基础/性能安全/网络通信/API 风格"
+              },
+              {
+                "text": "通信协议",
+                "link": "/views/计算机基础/性能安全/网络通信/通信协议"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/计算机基础/操作系统": [
+      {
+        "text": "操作系统",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Mobile",
+            "items": [
+              {
+                "text": "Android",
+                "link": "/views/计算机基础/操作系统/Mobile/Android"
+              },
+              {
+                "text": "IOS",
+                "link": "/views/计算机基础/操作系统/Mobile/IOS"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "PC",
+            "items": [
+              {
+                "text": "Linux",
+                "link": "/views/计算机基础/操作系统/PC/Linux"
+              },
+              {
+                "text": "Mac OS",
+                "link": "/views/计算机基础/操作系统/PC/Mac OS"
+              },
+              {
+                "text": "Unix",
+                "link": "/views/计算机基础/操作系统/PC/Unix"
+              },
+              {
+                "text": "Windows",
+                "link": "/views/计算机基础/操作系统/PC/Windows"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/计算机基础/数据结构": [
+      {
+        "text": "数据结构",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "哈希表（Map）",
+            "link": "/views/计算机基础/数据结构/哈希表（Map）"
+          },
+          {
+            "text": "堆（Heap）",
+            "link": "/views/计算机基础/数据结构/堆（Heap）"
+          },
+          {
+            "text": "数组（Array）",
+            "link": "/views/计算机基础/数据结构/数组（Array）"
+          },
+          {
+            "text": "栈（Stack）",
+            "link": "/views/计算机基础/数据结构/栈（Stack）"
+          },
+          {
+            "text": "树（Tree）",
+            "link": "/views/计算机基础/数据结构/树（Tree）"
+          },
+          {
+            "text": "链表（Linked List）",
+            "link": "/views/计算机基础/数据结构/链表（Linked List）"
+          },
+          {
+            "text": "队列（Queue）",
+            "link": "/views/计算机基础/数据结构/队列（Queue）"
+          },
+          {
+            "text": "集合（Set）",
+            "link": "/views/计算机基础/数据结构/集合（Set）"
+          }
+        ]
+      }
+    ],
+    "/views/计算机基础/算法": [
+      {
+        "text": "算法",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Diff",
+            "items": [],
+            "collapsed": false
+          },
+          {
+            "text": "排序",
+            "items": [],
+            "collapsed": false
+          },
+          {
+            "text": "检索",
+            "items": [],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/计算机基础/编译原理": [
+      {
+        "text": "编译原理",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/计算机基础/计算机网络": [
+      {
+        "text": "计算机网络",
+        "collapsed": false,
+        "items": []
+      }
+    ]
+  }
+}

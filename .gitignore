@@ -1,0 +1,76 @@
+# Node.js 模块
+/node_modules/
+.pnp
+.pnp.js
+
+# 构建输出目录
+/dist/
+/.vitepress/dist/
+docs/.vitepress/dist/
+
+# VitePress 缓存
+.vitepress/.temp/
+.vitepress/.cache/
+.vitepress/cache/
+docs/.vitepress/cache/
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境配置文件
+.env
+.env.*
+!.env.example # 如果你有 .env.example 文件作为模板，则不应忽略它
+
+# 测试报告
+/coverage/
+
+# IDE 和编辑器相关的文件
+*.iml
+.idea/
+.project
+.classpath
+.settings/
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# 操作系统相关的文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 其他临时文件
+*~
+*.swp
+*.lock
+*.log
+
+# Docker 相关文件
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Lerna 或 Yarn Workspaces 的配置文件（如果你使用了这些工具）
+.lernarc.json
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/berry.js
+
+# ESLint 缓存
+.eslintcache
+
+# Prettier 缓存
+.prettierignore
+
+# Markdown 文件的备份或临时文件
+*.md~
+*.markdown~
+
+# 自定义忽略规则（根据你的项目需求添加）

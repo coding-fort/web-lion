@@ -1,0 +1,144 @@
+{
+  "nav": [
+    {
+      "text": "开发软件",
+      "items": [
+        {
+          "text": "切图",
+          "link": "/views/开发软件/切图/"
+        },
+        {
+          "text": "编辑器",
+          "link": "/views/开发软件/编辑器/"
+        },
+        {
+          "text": "编辑器及IDE",
+          "link": "/views/开发软件/编辑器及IDE/"
+        },
+        {
+          "text": "调试工具",
+          "link": "/views/开发软件/调试工具/"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/开发软件/切图": [
+      {
+        "title": "切图",
+        "children": [
+          {
+            "title": "PhotoShop",
+            "path": "/views/开发软件/切图/PhotoShop"
+          },
+          {
+            "title": "PxCook",
+            "path": "/views/开发软件/切图/PxCook"
+          },
+          {
+            "title": "Sketch",
+            "path": "/views/开发软件/切图/Sketch"
+          }
+        ]
+      }
+    ],
+    "/views/开发软件/编辑器": [
+      {
+        "title": "编辑器",
+        "children": [
+          {
+            "title": "Markdown",
+            "path": "/views/开发软件/编辑器/Markdown"
+          },
+          {
+            "title": "Notepad++",
+            "path": "/views/开发软件/编辑器/Notepad++"
+          },
+          {
+            "title": "Submit Text 3",
+            "path": "/views/开发软件/编辑器/Submit Text 3"
+          },
+          {
+            "title": "VIM",
+            "path": "/views/开发软件/编辑器/VIM"
+          },
+          {
+            "title": "Visual Studio Code",
+            "children": [
+              {
+                "title": "VSCode 插件",
+                "path": "/views/开发软件/编辑器/Visual Studio Code/VSCode 插件"
+              }
+            ]
+          },
+          {
+            "title": "WebStorm",
+            "path": "/views/开发软件/编辑器/WebStorm"
+          }
+        ]
+      }
+    ],
+    "/views/开发软件/编辑器及IDE": [
+      {
+        "title": "编辑器及IDE",
+        "children": [
+          {
+            "title": "Notepad++",
+            "path": "/views/开发软件/编辑器及IDE/Notepad++"
+          },
+          {
+            "title": "Submit Text 3",
+            "path": "/views/开发软件/编辑器及IDE/Submit Text 3"
+          },
+          {
+            "title": "VIM",
+            "path": "/views/开发软件/编辑器及IDE/VIM"
+          },
+          {
+            "title": "Visual Studio Code",
+            "path": "/views/开发软件/编辑器及IDE/Visual Studio Code"
+          },
+          {
+            "title": "WebStorm",
+            "path": "/views/开发软件/编辑器及IDE/WebStorm"
+          }
+        ]
+      }
+    ],
+    "/views/开发软件/调试工具": [
+      {
+        "title": "调试工具",
+        "children": [
+          {
+            "title": "Apifox",
+            "path": "/views/开发软件/调试工具/Apifox"
+          },
+          {
+            "title": "Charles",
+            "path": "/views/开发软件/调试工具/Charles"
+          },
+          {
+            "title": "Chrome Dev Tool",
+            "path": "/views/开发软件/调试工具/Chrome Dev Tool"
+          },
+          {
+            "title": "Dragonfly",
+            "path": "/views/开发软件/调试工具/Dragonfly"
+          },
+          {
+            "title": "Fiddler",
+            "path": "/views/开发软件/调试工具/Fiddler"
+          },
+          {
+            "title": "Firebug",
+            "path": "/views/开发软件/调试工具/Firebug"
+          },
+          {
+            "title": "Postman",
+            "path": "/views/开发软件/调试工具/Postman"
+          }
+        ]
+      }
+    ]
+  }
+}

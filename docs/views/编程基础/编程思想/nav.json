@@ -1,0 +1,191 @@
+{
+  "nav": [
+    {
+      "text": "编程思想",
+      "items": [
+        {
+          "text": "ECMAScript标准",
+          "link": "/views/编程思想/ECMAScript标准/"
+        },
+        {
+          "text": "架构模式",
+          "link": "/views/编程思想/架构模式/"
+        },
+        {
+          "text": "程序设计",
+          "link": "/views/编程思想/程序设计/"
+        },
+        {
+          "text": "编程范型",
+          "link": "/views/编程思想/编程范型/"
+        },
+        {
+          "text": "设计模式",
+          "link": "/views/编程思想/设计模式/"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/编程思想/ECMAScript标准": [
+      {
+        "title": "ECMAScript标准",
+        "children": [
+          {
+            "title": "ES10",
+            "path": "/views/编程思想/ECMAScript标准/ES10"
+          },
+          {
+            "title": "ES2020",
+            "path": "/views/编程思想/ECMAScript标准/ES2020"
+          },
+          {
+            "title": "ES2021",
+            "path": "/views/编程思想/ECMAScript标准/ES2021"
+          },
+          {
+            "title": "ES2022",
+            "path": "/views/编程思想/ECMAScript标准/ES2022"
+          },
+          {
+            "title": "ES2023",
+            "path": "/views/编程思想/ECMAScript标准/ES2023"
+          },
+          {
+            "title": "ES5",
+            "path": "/views/编程思想/ECMAScript标准/ES5"
+          },
+          {
+            "title": "ES6",
+            "path": "/views/编程思想/ECMAScript标准/ES6"
+          },
+          {
+            "title": "ES7",
+            "path": "/views/编程思想/ECMAScript标准/ES7"
+          },
+          {
+            "title": "ES8",
+            "path": "/views/编程思想/ECMAScript标准/ES8"
+          },
+          {
+            "title": "ES9",
+            "path": "/views/编程思想/ECMAScript标准/ES9"
+          }
+        ]
+      }
+    ],
+    "/views/编程思想/架构模式": [
+      {
+        "title": "架构模式",
+        "children": [
+          {
+            "title": "Code Behind",
+            "path": "/views/编程思想/架构模式/Code Behind"
+          },
+          {
+            "title": "Code Blocks",
+            "path": "/views/编程思想/架构模式/Code Blocks"
+          },
+          {
+            "title": "Flux",
+            "path": "/views/编程思想/架构模式/Flux"
+          },
+          {
+            "title": "MVC",
+            "path": "/views/编程思想/架构模式/MVC"
+          },
+          {
+            "title": "MVP",
+            "path": "/views/编程思想/架构模式/MVP"
+          },
+          {
+            "title": "MVVM",
+            "path": "/views/编程思想/架构模式/MVVM"
+          },
+          {
+            "title": "Script",
+            "path": "/views/编程思想/架构模式/Script"
+          }
+        ]
+      }
+    ],
+    "/views/编程思想/程序设计": [
+      {
+        "title": "程序设计",
+        "children": [
+          {
+            "title": "结构化程序",
+            "path": "/views/编程思想/程序设计/结构化程序"
+          },
+          {
+            "title": "面向对象程序",
+            "path": "/views/编程思想/程序设计/面向对象程序"
+          }
+        ]
+      }
+    ],
+    "/views/编程思想/编程范型": [
+      {
+        "title": "编程范型",
+        "children": [
+          {
+            "title": "函数式编程",
+            "path": "/views/编程思想/编程范型/函数式编程"
+          },
+          {
+            "title": "响应式编程",
+            "path": "/views/编程思想/编程范型/响应式编程"
+          },
+          {
+            "title": "模块化规范",
+            "path": "/views/编程思想/编程范型/模块化规范"
+          },
+          {
+            "title": "面向切面编程（AOP）",
+            "path": "/views/编程思想/编程范型/面向切面编程（AOP）"
+          },
+          {
+            "title": "面向对象编程（OOP）",
+            "path": "/views/编程思想/编程范型/面向对象编程（OOP）"
+          }
+        ]
+      }
+    ],
+    "/views/编程思想/设计模式": [
+      {
+        "title": "设计模式",
+        "children": [
+          {
+            "title": "创建型设计模式",
+            "path": "/views/编程思想/设计模式/创建型设计模式"
+          },
+          {
+            "title": "结构型设计模式",
+            "path": "/views/编程思想/设计模式/结构型设计模式"
+          },
+          {
+            "title": "行为设计模式",
+            "children": [
+              {
+                "title": "命令模式",
+                "path": "/views/编程思想/设计模式/行为设计模式/命令模式"
+              },
+              {
+                "title": "策略模式",
+                "path": "/views/编程思想/设计模式/行为设计模式/策略模式"
+              },
+              {
+                "title": "观察者模式",
+                "path": "/views/编程思想/设计模式/行为设计模式/观察者模式"
+              }
+            ]
+          },
+          {
+            "title": "行为设计模式",
+            "path": "/views/编程思想/设计模式/行为设计模式"
+          }
+        ]
+      }
+    ]
+  }
+}

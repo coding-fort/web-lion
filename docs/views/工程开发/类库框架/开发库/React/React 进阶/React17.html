@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React17</title>
+    <!-- 引入开发版本 -->
+    <script crossorigin src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
+    <!-- 引入Babel在线转换器（仅用于不支持ES6语法的浏览器） -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+
+<body>
+    <!-- 容器 -->
+    <div id="root"></div>
+    <!-- jsx语法 -->
+    <script type="text/babel">
+        // 创建组件
+        class App extends React.Component {
+            state = {
+                a: 0,
+                b: 0,
+                c: 0
+            }
+            // 该写法挂载到propotype上，所以需要bind(this)
+            _handleAdd() {
+                console.log(this.state.a);
+            }
+            // 该写法挂载到实例上，所以不需要bind(this)
+            handleAdd = () => {
+                // 异步程序
+                this.setState({ a: this.state.a + 1 })
+                console.log('add:', this.state.a); // 0
+                // 异步程序2
+                this.setState((state) => {
+                    return {
+                        b: state.b + 1
+                    }
+                })
+                console.log('add2:', this.state.b); // 0
+                // 获取改变后值
+                this.setState({ c: this.state.c + 1 }, () => {
+                    console.log('add3:', this.state.c); // 1
+                })
+            }
+            // 宏任务与微任务中的体现
+            handleAdd = () => {
+                this.setState({ a: this.state.a + 1 })
+                console.log('add:', this.state.a); // 0
+
+                Promise.resolve().then(() => {
+                    // 会触发页面渲染
+                    this.setState({ b: this.state.b + 1 })
+                    console.log('add:', this.state.b); // 1
+                })
+                setTimeout(() => {
+                    // 会触发页面渲染
+                    this.setState({ c: this.state.c + 1 })
+                    console.log('add:', this.state.c); // 1
+                }, 0)
+            }
+
+            render() {
+                console.log('render...')
+                return (
+                    <div>
+                        <h1>Hello React 17</h1>
+                        <h2>{this.state.a}</h2>
+                        <h2>{this.state.b}</h2>
+                        <h2>{this.state.c}</h2>
+                        <button onClick={this.handleAdd}>Add</button>
+                    </div>
+
+                )
+            }
+        }
+        // 渲染组件到页面
+        ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+</body>
+
+</html>

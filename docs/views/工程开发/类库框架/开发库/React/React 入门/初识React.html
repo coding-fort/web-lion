@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 引入开发版本 -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- 引入Babel在线转换器（仅用于不支持ES6语法的浏览器） -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+
+<body>
+    <!-- 容器 -->
+    <div id="root"></div>
+    <script type="text/babel">
+        // 1. 创建虚拟DOM
+        const vDom = <h1>Hello React {new Date().toLocaleTimeString()}</h1>;
+        const vDom2 = React.createElement("h1", null, "Hello React", new Date().toLocaleTimeString());
+        // 2. 渲染虚拟DOM到页面，只会执行一次
+        ReactDOM.render(vDom, document.getElementById("root"));
+        // 3. 渲染修改后的虚拟DOM到页面，会执行多次
+        setInterval(() => {
+            const vDom = <h1>Hello React {new Date().toLocaleTimeString()}</h1>;
+            ReactDOM.render(vDom2, document.getElementById("root"));
+        }, 1000);
+    </script>
+</body>
+
+</html>

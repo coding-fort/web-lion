@@ -1,0 +1,168 @@
+{
+  "nav": [
+    {
+      "text": "架构基础",
+      "items": [
+        {
+          "text": "Node",
+          "link": "/views/架构基础/Node/readme.md"
+        },
+        {
+          "text": "SSG",
+          "link": "/views/架构基础/SSG/readme.md"
+        },
+        {
+          "text": "SSR",
+          "link": "/views/架构基础/SSR/readme.md"
+        },
+        {
+          "text": "数据库",
+          "link": "/views/架构基础/数据库/readme.md"
+        },
+        {
+          "text": "数据缓存",
+          "link": "/views/架构基础/数据缓存/readme.md"
+        },
+        {
+          "text": "编程语言",
+          "link": "/views/架构基础/编程语言/readme.md"
+        },
+        {
+          "text": "网页服务器",
+          "link": "/views/架构基础/网页服务器/readme.md"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/架构基础/Node": [
+      {
+        "text": "Node",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Egg",
+            "link": "/views/架构基础/Node/Egg"
+          },
+          {
+            "text": "Express",
+            "link": "/views/架构基础/Node/Express"
+          },
+          {
+            "text": "Koa",
+            "link": "/views/架构基础/Node/Koa"
+          }
+        ]
+      }
+    ],
+    "/views/架构基础/SSG": [
+      {
+        "text": "SSG",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/架构基础/SSR": [
+      {
+        "text": "SSR",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/架构基础/数据库": [
+      {
+        "text": "数据库",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "NoSQL",
+            "items": [
+              {
+                "text": "CouchDB",
+                "link": "/views/架构基础/数据库/NoSQL/CouchDB"
+              },
+              {
+                "text": "Hbase",
+                "link": "/views/架构基础/数据库/NoSQL/Hbase"
+              },
+              {
+                "text": "MongoDB",
+                "link": "/views/架构基础/数据库/NoSQL/MongoDB"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "SQL",
+            "items": [
+              {
+                "text": "DB2",
+                "link": "/views/架构基础/数据库/SQL/DB2"
+              },
+              {
+                "text": "MySQL",
+                "link": "/views/架构基础/数据库/SQL/MySQL"
+              },
+              {
+                "text": "Oracle",
+                "link": "/views/架构基础/数据库/SQL/Oracle"
+              },
+              {
+                "text": "PostgreSQL",
+                "link": "/views/架构基础/数据库/SQL/PostgreSQL"
+              },
+              {
+                "text": "SQL Server",
+                "link": "/views/架构基础/数据库/SQL/SQL Server"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/架构基础/数据缓存": [
+      {
+        "text": "数据缓存",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Memcached",
+            "link": "/views/架构基础/数据缓存/Memcached"
+          },
+          {
+            "text": "Redis",
+            "link": "/views/架构基础/数据缓存/Redis"
+          }
+        ]
+      }
+    ],
+    "/views/架构基础/编程语言": [
+      {
+        "text": "编程语言",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/架构基础/网页服务器": [
+      {
+        "text": "网页服务器",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Apache",
+            "link": "/views/架构基础/网页服务器/Apache"
+          },
+          {
+            "text": "Nginx",
+            "link": "/views/架构基础/网页服务器/Nginx"
+          },
+          {
+            "text": "Tomcat",
+            "link": "/views/架构基础/网页服务器/Tomcat"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "nav": [
+    {
+      "text": "社区发展",
+      "items": [
+        {
+          "text": "Less code & No code.md",
+          "link": "/views/社区发展/Less code & No code.md/readme.md"
+        },
+        {
+          "text": "SSR.md",
+          "link": "/views/社区发展/SSR.md/readme.md"
+        },
+        {
+          "text": "Serverless.md",
+          "link": "/views/社区发展/Serverless.md/readme.md"
+        },
+        {
+          "text": "WebAssembly.md",
+          "link": "/views/社区发展/WebAssembly.md/readme.md"
+        },
+        {
+          "text": "大前端.md",
+          "link": "/views/社区发展/大前端.md/readme.md"
+        },
+        {
+          "text": "微服务.md",
+          "link": "/views/社区发展/微服务.md/readme.md"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/社区发展/Less code & No code.md": [
+      {
+        "text": "Less code & No code.md",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/社区发展/SSR.md": [
+      {
+        "text": "SSR.md",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/社区发展/Serverless.md": [
+      {
+        "text": "Serverless.md",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/社区发展/WebAssembly.md": [
+      {
+        "text": "WebAssembly.md",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/社区发展/大前端.md": [
+      {
+        "text": "大前端.md",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/社区发展/微服务.md": [
+      {
+        "text": "微服务.md",
+        "collapsed": false,
+        "items": []
+      }
+    ]
+  }
+}

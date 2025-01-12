@@ -1,0 +1,777 @@
+{
+  "nav": [
+    {
+      "text": "工程开发",
+      "items": [
+        {
+          "text": "CI CD",
+          "link": "/views/工程开发/CI CD/readme.md"
+        },
+        {
+          "text": "CSS 工程化",
+          "link": "/views/工程开发/CSS 工程化/readme.md"
+        },
+        {
+          "text": "JS 工程化",
+          "link": "/views/工程开发/JS 工程化/readme.md"
+        },
+        {
+          "text": "代码质量",
+          "link": "/views/工程开发/代码质量/readme.md"
+        },
+        {
+          "text": "依赖管理",
+          "link": "/views/工程开发/依赖管理/readme.md"
+        },
+        {
+          "text": "构建工具",
+          "link": "/views/工程开发/构建工具/readme.md"
+        },
+        {
+          "text": "模块化",
+          "link": "/views/工程开发/模块化/readme.md"
+        },
+        {
+          "text": "版本管理",
+          "link": "/views/工程开发/版本管理/readme.md"
+        },
+        {
+          "text": "类库框架",
+          "link": "/views/工程开发/类库框架/readme.md"
+        },
+        {
+          "text": "语言增强",
+          "link": "/views/工程开发/语言增强/readme.md"
+        },
+        {
+          "text": "转换器",
+          "link": "/views/工程开发/转换器/readme.md"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/工程开发/CI CD": [
+      {
+        "text": "CI CD",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Git web hook",
+            "link": "/views/工程开发/CI CD/Git web hook"
+          },
+          {
+            "text": "Jenkins",
+            "link": "/views/工程开发/CI CD/Jenkins"
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/CSS 工程化": [
+      {
+        "text": "CSS 工程化",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "CSS Module",
+            "link": "/views/工程开发/CSS 工程化/CSS Module"
+          },
+          {
+            "text": "Less",
+            "link": "/views/工程开发/CSS 工程化/Less"
+          },
+          {
+            "text": "PostCSS",
+            "link": "/views/工程开发/CSS 工程化/PostCSS"
+          },
+          {
+            "text": "Sass",
+            "link": "/views/工程开发/CSS 工程化/Sass"
+          },
+          {
+            "text": "Stylus",
+            "link": "/views/工程开发/CSS 工程化/Stylus"
+          },
+          {
+            "text": "自动厂商前缀",
+            "link": "/views/工程开发/CSS 工程化/自动厂商前缀"
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/JS 工程化": [
+      {
+        "text": "JS 工程化",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Babel",
+            "link": "/views/工程开发/JS 工程化/Babel"
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/代码质量": [
+      {
+        "text": "代码质量",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "E2E_测试",
+            "items": [
+              {
+                "text": "Cypress",
+                "link": "/views/工程开发/代码质量/E2E_测试/Cypress"
+              },
+              {
+                "text": "Nightwatch",
+                "link": "/views/工程开发/代码质量/E2E_测试/Nightwatch"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "E2E测试",
+            "items": [
+              {
+                "text": "Cypress",
+                "link": "/views/工程开发/代码质量/E2E测试/Cypress"
+              },
+              {
+                "text": "Nightwatch",
+                "link": "/views/工程开发/代码质量/E2E测试/Nightwatch"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "单元测试",
+            "items": [
+              {
+                "text": "Chai Expect should",
+                "link": "/views/工程开发/代码质量/单元测试/Chai Expect should"
+              },
+              {
+                "text": "Chai,Expect,should",
+                "link": "/views/工程开发/代码质量/单元测试/Chai,Expect,should"
+              },
+              {
+                "text": "Istanbul",
+                "link": "/views/工程开发/代码质量/单元测试/Istanbul"
+              },
+              {
+                "text": "Karma",
+                "link": "/views/工程开发/代码质量/单元测试/Karma"
+              },
+              {
+                "text": "Sinon",
+                "link": "/views/工程开发/代码质量/单元测试/Sinon"
+              },
+              {
+                "text": "Unit Mocha QUnit Jasmine Jest",
+                "link": "/views/工程开发/代码质量/单元测试/Unit Mocha QUnit Jasmine Jest"
+              },
+              {
+                "text": "Unit,Mocha,QUnit,Jasmine,Jest",
+                "link": "/views/工程开发/代码质量/单元测试/Unit,Mocha,QUnit,Jasmine,Jest"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "质量检测",
+            "items": [
+              {
+                "text": "JSLint JSHint TSLint ESLint",
+                "link": "/views/工程开发/代码质量/质量检测/JSLint JSHint TSLint ESLint"
+              },
+              {
+                "text": "JSLint,JSHint,TSLint,ESLint",
+                "link": "/views/工程开发/代码质量/质量检测/JSLint,JSHint,TSLint,ESLint"
+              },
+              {
+                "text": "Sonar",
+                "link": "/views/工程开发/代码质量/质量检测/Sonar"
+              },
+              {
+                "text": "StyleLint",
+                "link": "/views/工程开发/代码质量/质量检测/StyleLint"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/依赖管理": [
+      {
+        "text": "依赖管理",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Lema",
+            "link": "/views/工程开发/依赖管理/Lema"
+          },
+          {
+            "text": "Yarn",
+            "link": "/views/工程开发/依赖管理/Yarn"
+          },
+          {
+            "text": "npm",
+            "link": "/views/工程开发/依赖管理/npm"
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/构建工具": [
+      {
+        "text": "构建工具",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Grunt",
+            "link": "/views/工程开发/构建工具/Grunt"
+          },
+          {
+            "text": "Gulp",
+            "link": "/views/工程开发/构建工具/Gulp"
+          },
+          {
+            "text": "Rollup",
+            "link": "/views/工程开发/构建工具/Rollup"
+          },
+          {
+            "text": "Vite",
+            "link": "/views/工程开发/构建工具/Vite"
+          },
+          {
+            "text": "Webpack 相关",
+            "items": [
+              {
+                "text": "webpack 版本",
+                "link": "/views/工程开发/构建工具/Webpack 相关/webpack 版本"
+              },
+              {
+                "text": "作用域提升",
+                "link": "/views/工程开发/构建工具/Webpack 相关/作用域提升"
+              },
+              {
+                "text": "性能优化",
+                "link": "/views/工程开发/构建工具/Webpack 相关/性能优化"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "Webpack",
+            "link": "/views/工程开发/构建工具/Webpack"
+          },
+          {
+            "text": "构建工具对比",
+            "link": "/views/工程开发/构建工具/构建工具对比"
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/模块化": [
+      {
+        "text": "模块化",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "CommonJS",
+            "link": "/views/工程开发/模块化/CommonJS"
+          },
+          {
+            "text": "ES Module",
+            "link": "/views/工程开发/模块化/ES Module"
+          },
+          {
+            "text": "ESLint",
+            "link": "/views/工程开发/模块化/ESLint"
+          },
+          {
+            "text": "RequireJS",
+            "link": "/views/工程开发/模块化/RequireJS"
+          },
+          {
+            "text": "SeaJS",
+            "link": "/views/工程开发/模块化/SeaJS"
+          },
+          {
+            "text": "包管理",
+            "items": [
+              {
+                "text": "Npm",
+                "link": "/views/工程开发/模块化/包管理/Npm"
+              },
+              {
+                "text": "Npx",
+                "link": "/views/工程开发/模块化/包管理/Npx"
+              },
+              {
+                "text": "Yarn",
+                "link": "/views/工程开发/模块化/包管理/Yarn"
+              },
+              {
+                "text": "cnpm",
+                "link": "/views/工程开发/模块化/包管理/cnpm"
+              },
+              {
+                "text": "curl",
+                "link": "/views/工程开发/模块化/包管理/curl"
+              },
+              {
+                "text": "npm与yarn对比",
+                "link": "/views/工程开发/模块化/包管理/npm与yarn对比"
+              },
+              {
+                "text": "nvm",
+                "link": "/views/工程开发/模块化/包管理/nvm"
+              },
+              {
+                "text": "package_json",
+                "link": "/views/工程开发/模块化/包管理/package_json"
+              },
+              {
+                "text": "pnpm",
+                "link": "/views/工程开发/模块化/包管理/pnpm"
+              },
+              {
+                "text": "wget",
+                "link": "/views/工程开发/模块化/包管理/wget"
+              },
+              {
+                "text": "包管理器",
+                "link": "/views/工程开发/模块化/包管理/包管理器"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "模块联邦",
+            "link": "/views/工程开发/模块化/模块联邦"
+          },
+          {
+            "text": "浏览器端模块化难题",
+            "link": "/views/工程开发/模块化/浏览器端模块化难题"
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/版本管理": [
+      {
+        "text": "版本管理",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Git",
+            "link": "/views/工程开发/版本管理/Git"
+          },
+          {
+            "text": "Svn",
+            "link": "/views/工程开发/版本管理/Svn"
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/类库框架": [
+      {
+        "text": "类库框架",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "工具库",
+            "items": [
+              {
+                "text": "Axios",
+                "link": "/views/工程开发/类库框架/工具库/Axios"
+              },
+              {
+                "text": "BootStrap",
+                "link": "/views/工程开发/类库框架/工具库/BootStrap"
+              },
+              {
+                "text": "Dumi-组件文档研发工具",
+                "link": "/views/工程开发/类库框架/工具库/Dumi-组件文档研发工具"
+              },
+              {
+                "text": "JQuery",
+                "link": "/views/工程开发/类库框架/工具库/JQuery"
+              },
+              {
+                "text": "Lodash",
+                "link": "/views/工程开发/类库框架/工具库/Lodash"
+              },
+              {
+                "text": "Prototype",
+                "link": "/views/工程开发/类库框架/工具库/Prototype"
+              },
+              {
+                "text": "RxJS",
+                "link": "/views/工程开发/类库框架/工具库/RxJS"
+              },
+              {
+                "text": "Underscore",
+                "link": "/views/工程开发/类库框架/工具库/Underscore"
+              },
+              {
+                "text": "VuePress-Vue 驱动的静态网站生成器",
+                "link": "/views/工程开发/类库框架/工具库/VuePress-Vue 驱动的静态网站生成器"
+              },
+              {
+                "text": "Zepto",
+                "link": "/views/工程开发/类库框架/工具库/Zepto"
+              },
+              {
+                "text": "moment",
+                "link": "/views/工程开发/类库框架/工具库/moment"
+              },
+              {
+                "text": "创建自定义组件库",
+                "link": "/views/工程开发/类库框架/工具库/创建自定义组件库"
+              },
+              {
+                "text": "前端工具",
+                "link": "/views/工程开发/类库框架/工具库/前端工具"
+              },
+              {
+                "text": "搭建前端脚手架",
+                "link": "/views/工程开发/类库框架/工具库/搭建前端脚手架"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "开发库",
+            "items": [
+              {
+                "text": "Ant Design",
+                "items": [
+                  {
+                    "text": "Ant Design Pro",
+                    "link": "/views/工程开发/类库框架/开发库/Ant Design/Ant Design Pro"
+                  },
+                  {
+                    "text": "Ant Design",
+                    "link": "/views/工程开发/类库框架/开发库/Ant Design/Ant Design"
+                  },
+                  {
+                    "text": "Ant Design概述",
+                    "link": "/views/工程开发/类库框架/开发库/Ant Design/Ant Design概述"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "React",
+                "items": [
+                  {
+                    "text": "React 入门",
+                    "items": [
+                      {
+                        "text": "JSX 语法",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 入门/JSX 语法"
+                      },
+                      {
+                        "text": "State 管理",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 入门/State 管理"
+                      },
+                      {
+                        "text": "事件处理",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 入门/事件处理"
+                      },
+                      {
+                        "text": "生命周期方法",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 入门/生命周期方法"
+                      },
+                      {
+                        "text": "组件和Props",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 入门/组件和Props"
+                      },
+                      {
+                        "text": "组件通信",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 入门/组件通信"
+                      },
+                      {
+                        "text": "表单",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 入门/表单"
+                      },
+                      {
+                        "text": "路由",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 入门/路由"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "React 进阶",
+                    "items": [
+                      {
+                        "text": "FunctionAsAChildren",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 进阶/FunctionAsAChildren"
+                      },
+                      {
+                        "text": "React Hooks",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 进阶/React Hooks"
+                      },
+                      {
+                        "text": "Redux",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 进阶/Redux"
+                      },
+                      {
+                        "text": "_Redux",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 进阶/_Redux"
+                      },
+                      {
+                        "text": "性能优化",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 进阶/性能优化"
+                      },
+                      {
+                        "text": "数据传递",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 进阶/数据传递"
+                      },
+                      {
+                        "text": "版本迭代",
+                        "link": "/views/工程开发/类库框架/开发库/React/React 进阶/版本迭代"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "React 高级",
+                    "items": [],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "React-router",
+                    "link": "/views/工程开发/类库框架/开发库/React/React-router"
+                  },
+                  {
+                    "text": "Redux",
+                    "link": "/views/工程开发/类库框架/开发库/React/Redux"
+                  },
+                  {
+                    "text": "create-react-app",
+                    "link": "/views/工程开发/类库框架/开发库/React/create-react-app"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "Vue",
+                "items": [
+                  {
+                    "text": "Element UI",
+                    "link": "/views/工程开发/类库框架/开发库/Vue/Element UI"
+                  },
+                  {
+                    "text": "Vue JSX",
+                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue JSX"
+                  },
+                  {
+                    "text": "Vue 常用集成库",
+                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue 常用集成库"
+                  },
+                  {
+                    "text": "Vue 数据劫持",
+                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue 数据劫持"
+                  },
+                  {
+                    "text": "Vue 测试",
+                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue 测试"
+                  },
+                  {
+                    "text": "Vue-cli 介绍",
+                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue-cli 介绍"
+                  },
+                  {
+                    "text": "Vue-cli 搭建项目",
+                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue-cli 搭建项目"
+                  },
+                  {
+                    "text": "Vue-router",
+                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue-router"
+                  },
+                  {
+                    "text": "Vue",
+                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue"
+                  },
+                  {
+                    "text": "Vue2",
+                    "items": [
+                      {
+                        "text": "Vue基础",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue基础"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "Vue3",
+                    "items": [],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "Vuex",
+                    "link": "/views/工程开发/类库框架/开发库/Vue/Vuex"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "微信小程序",
+                "items": [
+                  {
+                    "text": "[功能] api+slider 实现音乐播放",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/[功能] api+slider 实现音乐播放"
+                  },
+                  {
+                    "text": "[功能] 使用云存储资源",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/[功能] 使用云存储资源"
+                  },
+                  {
+                    "text": "[功能] 播放音乐",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/[功能] 播放音乐"
+                  },
+                  {
+                    "text": "[问题] swiper-item 不会随内容自动撑开",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/[问题] swiper-item 不会随内容自动撑开"
+                  },
+                  {
+                    "text": "[问题] 修改小程序logo 及名称",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/[问题] 修改小程序logo 及名称"
+                  },
+                  {
+                    "text": "[问题] 页面底部滚动后出现白条",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/[问题] 页面底部滚动后出现白条"
+                  },
+                  {
+                    "text": "小程序组件",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/小程序组件"
+                  },
+                  {
+                    "text": "小程序项目相关",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/小程序项目相关"
+                  },
+                  {
+                    "text": "开发基础",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/开发基础"
+                  },
+                  {
+                    "text": "开发进阶",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/开发进阶"
+                  },
+                  {
+                    "text": "数据传递",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/数据传递"
+                  },
+                  {
+                    "text": "滚动视图-scrollView",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/滚动视图-scrollView"
+                  },
+                  {
+                    "text": "生命周期",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/生命周期"
+                  },
+                  {
+                    "text": "监听全局共享数据",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/监听全局共享数据"
+                  },
+                  {
+                    "text": "轮播控件-swiper",
+                    "link": "/views/工程开发/类库框架/开发库/微信小程序/轮播控件-swiper"
+                  }
+                ],
+                "collapsed": false
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "测试库",
+            "items": [
+              {
+                "text": "Jest",
+                "link": "/views/工程开发/类库框架/测试库/Jest"
+              },
+              {
+                "text": "Vitest",
+                "link": "/views/工程开发/类库框架/测试库/Vitest"
+              },
+              {
+                "text": "Vue Test Utils",
+                "link": "/views/工程开发/类库框架/测试库/Vue Test Utils"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/语言增强": [
+      {
+        "text": "语言增强",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "CSS",
+            "items": [
+              {
+                "text": "Post css",
+                "link": "/views/工程开发/语言增强/CSS/Post css"
+              },
+              {
+                "text": "Sass(Scss)",
+                "link": "/views/工程开发/语言增强/CSS/Sass(Scss)"
+              },
+              {
+                "text": "Stylus",
+                "link": "/views/工程开发/语言增强/CSS/Stylus"
+              },
+              {
+                "text": "less",
+                "link": "/views/工程开发/语言增强/CSS/less"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "JavaScript",
+            "items": [
+              {
+                "text": "CoffeeScript",
+                "link": "/views/工程开发/语言增强/JavaScript/CoffeeScript"
+              },
+              {
+                "text": "Flow",
+                "link": "/views/工程开发/语言增强/JavaScript/Flow"
+              },
+              {
+                "text": "TypeScript",
+                "link": "/views/工程开发/语言增强/JavaScript/TypeScript"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/转换器": [
+      {
+        "text": "转换器",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Babel",
+            "link": "/views/工程开发/转换器/Babel"
+          },
+          {
+            "text": "Traceur",
+            "link": "/views/工程开发/转换器/Traceur"
+          }
+        ]
+      }
+    ]
+  }
+}

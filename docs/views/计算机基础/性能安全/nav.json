@@ -1,0 +1,119 @@
+{
+  "nav": [
+    {
+      "text": "性能安全",
+      "items": [
+        {
+          "text": "安全",
+          "link": "/views/性能安全/安全/"
+        },
+        {
+          "text": "性能",
+          "link": "/views/性能安全/性能/"
+        },
+        {
+          "text": "浏览器",
+          "link": "/views/性能安全/浏览器/"
+        },
+        {
+          "text": "网络通信",
+          "link": "/views/性能安全/网络通信/"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/性能安全/安全": [
+      {
+        "title": "安全",
+        "children": [
+          {
+            "title": "CSP",
+            "path": "/views/性能安全/安全/CSP"
+          },
+          {
+            "title": "CSRF",
+            "path": "/views/性能安全/安全/CSRF"
+          },
+          {
+            "title": "SOP",
+            "path": "/views/性能安全/安全/SOP"
+          },
+          {
+            "title": "SQL 注入",
+            "path": "/views/性能安全/安全/SQL 注入"
+          },
+          {
+            "title": "XSS",
+            "path": "/views/性能安全/安全/XSS"
+          },
+          {
+            "title": "接口加密",
+            "path": "/views/性能安全/安全/接口加密"
+          }
+        ]
+      }
+    ],
+    "/views/性能安全/性能": [
+      {
+        "title": "性能",
+        "children": [
+          {
+            "title": "性能指标",
+            "path": "/views/性能安全/性能/性能指标"
+          },
+          {
+            "title": "评估工具",
+            "path": "/views/性能安全/性能/评估工具"
+          }
+        ]
+      }
+    ],
+    "/views/性能安全/浏览器": [
+      {
+        "title": "浏览器",
+        "children": [
+          {
+            "title": "Chrome(Blink)",
+            "path": "/views/性能安全/浏览器/Chrome(Blink)"
+          },
+          {
+            "title": "Edge(EdgeHTML)",
+            "path": "/views/性能安全/浏览器/Edge(EdgeHTML)"
+          },
+          {
+            "title": "Firefox(Gecko)",
+            "path": "/views/性能安全/浏览器/Firefox(Gecko)"
+          },
+          {
+            "title": "IE(Trident)",
+            "path": "/views/性能安全/浏览器/IE(Trident)"
+          },
+          {
+            "title": "Opera(Blink)",
+            "path": "/views/性能安全/浏览器/Opera(Blink)"
+          },
+          {
+            "title": "Safari(WebKit)",
+            "path": "/views/性能安全/浏览器/Safari(WebKit)"
+          }
+        ]
+      }
+    ],
+    "/views/性能安全/网络通信": [
+      {
+        "title": "网络通信",
+        "children": [
+          {
+            "title": "API 风格",
+            "path": "/views/性能安全/网络通信/API 风格"
+          },
+          {
+            "title": "通信协议",
+            "path": "/views/性能安全/网络通信/通信协议"
+          }
+        ]
+      }
+    ]
+  }
+}

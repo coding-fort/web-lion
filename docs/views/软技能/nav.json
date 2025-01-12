@@ -1,0 +1,307 @@
+{
+  "nav": [
+    {
+      "text": "软技能",
+      "items": [
+        {
+          "text": "企业管理",
+          "link": "/views/软技能/企业管理/readme.md"
+        },
+        {
+          "text": "工作流程",
+          "link": "/views/软技能/工作流程/readme.md"
+        },
+        {
+          "text": "技术能力",
+          "link": "/views/软技能/技术能力/readme.md"
+        },
+        {
+          "text": "面试题",
+          "link": "/views/软技能/面试题/readme.md"
+        },
+        {
+          "text": "项目管理",
+          "link": "/views/软技能/项目管理/readme.md"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/软技能/企业管理": [
+      {
+        "text": "企业管理",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "道法术器",
+            "link": "/views/软技能/企业管理/道法术器"
+          }
+        ]
+      }
+    ],
+    "/views/软技能/工作流程": [
+      {
+        "text": "工作流程",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "SOP 消化新技术或编程思路",
+            "link": "/views/软技能/工作流程/SOP 消化新技术或编程思路"
+          },
+          {
+            "text": "标准操作程序（SOP）",
+            "link": "/views/软技能/工作流程/标准操作程序（SOP）"
+          }
+        ]
+      }
+    ],
+    "/views/软技能/技术能力": [
+      {
+        "text": "技术能力",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "学习能力",
+            "items": [
+              {
+                "text": "思维认知",
+                "link": "/views/软技能/技术能力/学习能力/思维认知"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "技术能力",
+            "items": [
+              {
+                "text": "技术能力",
+                "link": "/views/软技能/技术能力/技术能力/技术能力"
+              },
+              {
+                "text": "架构设计能力",
+                "link": "/views/软技能/技术能力/技术能力/架构设计能力"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/软技能/面试题": [
+      {
+        "text": "面试题",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Vue 相关",
+            "items": [
+              {
+                "text": "01_生命周期",
+                "link": "/views/软技能/面试题/Vue 相关/01_生命周期"
+              },
+              {
+                "text": "02_双向数据绑定",
+                "link": "/views/软技能/面试题/Vue 相关/02_双向数据绑定"
+              },
+              {
+                "text": "03_组件通信方式",
+                "link": "/views/软技能/面试题/Vue 相关/03_组件通信方式"
+              },
+              {
+                "text": "04_路由守卫",
+                "link": "/views/软技能/面试题/Vue 相关/04_路由守卫"
+              },
+              {
+                "text": "05_computed 和 watch 的区别",
+                "link": "/views/软技能/面试题/Vue 相关/05_computed 和 watch 的区别"
+              },
+              {
+                "text": "06_diff 算法",
+                "link": "/views/软技能/面试题/Vue 相关/06_diff 算法"
+              },
+              {
+                "text": "07_异步组件",
+                "link": "/views/软技能/面试题/Vue 相关/07_异步组件"
+              },
+              {
+                "text": "08_SSR（服务器端渲染）",
+                "link": "/views/软技能/面试题/Vue 相关/08_SSR（服务器端渲染）"
+              },
+              {
+                "text": "09_插件系统",
+                "link": "/views/软技能/面试题/Vue 相关/09_插件系统"
+              },
+              {
+                "text": "10_过渡动画",
+                "link": "/views/软技能/面试题/Vue 相关/10_过渡动画"
+              },
+              {
+                "text": "11_错误处理",
+                "link": "/views/软技能/面试题/Vue 相关/11_错误处理"
+              },
+              {
+                "text": "12_keep-alive 组件",
+                "link": "/views/软技能/面试题/Vue 相关/12_keep-alive 组件"
+              },
+              {
+                "text": "13_自定义指令",
+                "link": "/views/软技能/面试题/Vue 相关/13_自定义指令"
+              },
+              {
+                "text": "14_性能优化",
+                "link": "/views/软技能/面试题/Vue 相关/14_性能优化"
+              },
+              {
+                "text": "Vue",
+                "link": "/views/软技能/面试题/Vue 相关/Vue"
+              },
+              {
+                "text": "[面试15] 说说你对Vue2 与 Vue3 的区别的理解",
+                "link": "/views/软技能/面试题/Vue 相关/[面试15] 说说你对Vue2 与 Vue3 的区别的理解"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "Vue",
+            "link": "/views/软技能/面试题/Vue"
+          },
+          {
+            "text": "Webpack 相关",
+            "items": [
+              {
+                "text": "1_概念",
+                "link": "/views/软技能/面试题/Webpack 相关/1_概念"
+              },
+              {
+                "text": "2_webpack的常用loader",
+                "link": "/views/软技能/面试题/Webpack 相关/2_webpack的常用loader"
+              },
+              {
+                "text": "3_webpack的常用plugin",
+                "link": "/views/软技能/面试题/Webpack 相关/3_webpack的常用plugin"
+              },
+              {
+                "text": "4_如何利用webpack来优化前端性能",
+                "link": "/views/软技能/面试题/Webpack 相关/4_如何利用webpack来优化前端性能"
+              },
+              {
+                "text": "5_Webpack如何配置压缩代码",
+                "link": "/views/软技能/面试题/Webpack 相关/5_Webpack如何配置压缩代码"
+              },
+              {
+                "text": "6_webpack的热更新原理",
+                "link": "/views/软技能/面试题/Webpack 相关/6_webpack的热更新原理"
+              },
+              {
+                "text": "7_webpack配置",
+                "link": "/views/软技能/面试题/Webpack 相关/7_webpack配置"
+              },
+              {
+                "text": "8_介绍一下webpack scope hoisting",
+                "link": "/views/软技能/面试题/Webpack 相关/8_介绍一下webpack scope hoisting"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "Webpack",
+            "link": "/views/软技能/面试题/Webpack"
+          },
+          {
+            "text": "模块化",
+            "items": [
+              {
+                "text": "1_CommonJS 与ES Module 区别",
+                "link": "/views/软技能/面试题/模块化/1_CommonJS 与ES Module 区别"
+              },
+              {
+                "text": "2_ES Module export 与export default 区别",
+                "link": "/views/软技能/面试题/模块化/2_ES Module export 与export default 区别"
+              },
+              {
+                "text": "3_代码题",
+                "link": "/views/软技能/面试题/模块化/3_代码题"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "面试目录",
+            "link": "/views/软技能/面试题/面试目录"
+          }
+        ]
+      }
+    ],
+    "/views/软技能/项目管理": [
+      {
+        "text": "项目管理",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "团队管理",
+            "items": [
+              {
+                "text": "人员管理",
+                "link": "/views/软技能/项目管理/团队管理/人员管理"
+              },
+              {
+                "text": "团队协作",
+                "link": "/views/软技能/项目管理/团队管理/团队协作"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "文档管理",
+            "items": [
+              {
+                "text": "文档管理",
+                "link": "/views/软技能/项目管理/文档管理/文档管理"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "项目管理",
+            "items": [
+              {
+                "text": "软件开发生命周期",
+                "link": "/views/软技能/项目管理/项目管理/软件开发生命周期"
+              },
+              {
+                "text": "项目复盘",
+                "link": "/views/软技能/项目管理/项目管理/项目复盘"
+              },
+              {
+                "text": "项目总结",
+                "link": "/views/软技能/项目管理/项目管理/项目总结"
+              },
+              {
+                "text": "项目沟通",
+                "link": "/views/软技能/项目管理/项目管理/项目沟通"
+              },
+              {
+                "text": "项目监控",
+                "link": "/views/软技能/项目管理/项目管理/项目监控"
+              },
+              {
+                "text": "项目计划",
+                "link": "/views/软技能/项目管理/项目管理/项目计划"
+              },
+              {
+                "text": "项目进度",
+                "link": "/views/软技能/项目管理/项目管理/项目进度"
+              },
+              {
+                "text": "项目风险",
+                "link": "/views/软技能/项目管理/项目管理/项目风险"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ]
+  }
+}
