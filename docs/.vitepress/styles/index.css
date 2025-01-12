@@ -6,33 +6,33 @@
   --priColor: #409eff;
   --infoBgColor: #e9e9eb;
   --sucBgColor: #f0f9eb;
-  --errBgColor: #fef0f0;
+  --err-bg-color: #fef0f0;
   --warnBgColor: #fdf6ec;
   --priBgColor: #ecf5ff;
 }
 
 info,
 infob {
-  color: --infoColor;
+  color: var(--infoColor);
 }
 suc,
 sucb {
-  color: --sucColor;
+  color: var(--sucColor);
 }
 
 err,
 errb {
-  color: --errColor;
+  color: var(--errColor);
 }
 
 warn,
 warnb {
-  color: --warnColor;
+  color: var(--warnColor);
 }
 
 pri,
 prib {
-  color: --priColor;
+  color: var(--priColor);
 }
 
 infob,
@@ -71,33 +71,33 @@ bwpr {
 bqs,
 bws,
 bwsr {
-  background-color: --sucBgColor;
-  border-color: --sucColor;
-  color: --sucColor;
+  background-color: var(--sucBgColor);
+  border-color: var(--sucColor);
+  color: var(--sucColor);
 }
 
 bqe,
 bwe,
 bwer {
-  background-color: --errBgColor;
-  border-color: --errColor;
-  color: --errColor;
+  background-color: var(--err-bg-color);
+  border-color: var(--errColor);
+  color: var(--errColor);
 }
 
 bqw,
 bww,
 bwwr {
-  background-color: --warnBgColor;
-  border-color: --warnColor;
-  color: --warnColor;
+  background-color: var(--warnBgColor);
+  border-color: var(--warnColor);
+  color: var(--warnColor);
 }
 
 bqp,
 bwp,
 bwpr {
-  background-color: --priBgColor;
-  border-color: --priColor;
-  color: --priColor;
+  background-color: var(--priBgColor);
+  border-color: var(--priColor);
+  color: var(--priColor);
 }
 
 bws::before,
@@ -137,7 +137,7 @@ bwpr::before {
 }
 
 rt {
-  color: --sucColor;
+  color: var(--sucColor);
   font-size: 14px;
 }
 
@@ -149,8 +149,8 @@ rt {
 
 */
 itv {
-  background-color: --errBgColor;
-  border-left: 0.2rem solid --errColor;
+  background-color: var(--err-bg-color);
+  border-left: 0.2rem solid var(--errColor);
   color: #cd8e8e;
   display: block;
   font-size: 1rem;
@@ -160,7 +160,7 @@ itv {
 }
 
 itv itq {
-  color: --errColor;
+  color: var(--errColor);
   display: block;
   font-weight: bold;
 }
@@ -170,7 +170,7 @@ itv itq::before {
 }
 
 itv itq::after {
-  background-color: --errColor;
+  background-color: var(--errColor);
   content: "";
   display: block;
   height: 1px;
@@ -179,7 +179,7 @@ itv itq::after {
 }
 
 itv ita {
-  color: --priColor;
+  color: var(--priColor);
   display: block;
 }
 

@@ -22,10 +22,15 @@ import codeDemoNavConfig from "../views/实战示例/nav.json";
 export default defineConfig({
   head: [["link", { rel: "icon", href: "/assets/images/favicon.ico" }]],
   title: "Web Lion",
-  description: "Web Lion",
+  description: "前端狮子",
   base: "/web-lion/",
   themeConfig: {
+    // logo: "/assets/images/index.png",
     outlineTitle: "本页目录", // 设置页面大纲标题为中文
+    docFooter: {
+      prev: "上一篇",
+      next: "下一篇",
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       ...navConfig.nav,
@@ -50,18 +55,19 @@ export default defineConfig({
       ...codeDemoNavConfig.sidebar,
     },
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://gitee.com/basic-fort/web-lion" },
     ],
     search: {
       provider: "local",
     },
   },
-  locales: {
-    "/": {
-      label: "简体中文",
-      lang: "zh-CN",
-      title: "文档站点",
-      description: "这是一个中文文档站点",
-    },
-  },
+  lang: "zh-CN",
+  // locales: {
+  //   "/": {
+  //     label: "简体中文",
+  //     lang: "zh-CN",
+  //     title: "文档站点",
+  //     description: "这是一个中文文档站点",
+  //   },
+  // },
 });

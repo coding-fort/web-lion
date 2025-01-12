@@ -416,6 +416,10 @@
                 "link": "/views/工程开发/类库框架/工具库/Underscore"
               },
               {
+                "text": "VitePress",
+                "link": "/views/工程开发/类库框架/工具库/VitePress"
+              },
+              {
                 "text": "VuePress-Vue 驱动的静态网站生成器",
                 "link": "/views/工程开发/类库框架/工具库/VuePress-Vue 驱动的静态网站生成器"
               },
