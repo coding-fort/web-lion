@@ -21,9 +21,9 @@ import codeDemoNavConfig from "../views/实战示例/nav.json";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [["link", { rel: "icon", href: "/assets/images/favicon.ico" }]],
-  title: "CODING FORT | 前端知识框架",
-  description: "前端知识框架",
-  base: "/coding-fort-vp/",
+  title: "Web Lion",
+  description: "Web Lion",
+  base: "/web-lion/",
   themeConfig: {
     outlineTitle: "本页目录", // 设置页面大纲标题为中文
     // https://vitepress.dev/reference/default-theme-config
