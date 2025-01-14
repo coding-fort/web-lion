@@ -566,44 +566,82 @@
                 "text": "Vue",
                 "items": [
                   {
-                    "text": "Element UI",
-                    "link": "/views/工程开发/类库框架/开发库/Vue/Element UI"
-                  },
-                  {
-                    "text": "Vue JSX",
-                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue JSX"
-                  },
-                  {
-                    "text": "Vue 常用集成库",
-                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue 常用集成库"
-                  },
-                  {
-                    "text": "Vue 数据劫持",
-                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue 数据劫持"
-                  },
-                  {
-                    "text": "Vue 测试",
-                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue 测试"
-                  },
-                  {
-                    "text": "Vue-cli 介绍",
-                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue-cli 介绍"
-                  },
-                  {
-                    "text": "Vue-cli 搭建项目",
-                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue-cli 搭建项目"
-                  },
-                  {
-                    "text": "Vue-router",
-                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue-router"
-                  },
-                  {
-                    "text": "Vue",
-                    "link": "/views/工程开发/类库框架/开发库/Vue/Vue"
+                    "text": "Vue Router",
+                    "items": [
+                      {
+                        "text": "Vue Router",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue Router/Vue Router"
+                      }
+                    ],
+                    "collapsed": false
                   },
                   {
                     "text": "Vue2",
                     "items": [
+                      {
+                        "text": "Vue Diff 算法",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue Diff 算法"
+                      },
+                      {
+                        "text": "Vue JSX",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue JSX"
+                      },
+                      {
+                        "text": "Vue 实例成员",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue 实例成员"
+                      },
+                      {
+                        "text": "Vue 指令",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue 指令"
+                      },
+                      {
+                        "text": "Vue 插槽",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue 插槽"
+                      },
+                      {
+                        "text": "Vue 数据劫持",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue 数据劫持"
+                      },
+                      {
+                        "text": "Vue 模板语法",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue 模板语法"
+                      },
+                      {
+                        "text": "Vue 混入",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue 混入"
+                      },
+                      {
+                        "text": "Vue 生命周期",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue 生命周期"
+                      },
+                      {
+                        "text": "Vue 监听属性",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue 监听属性"
+                      },
+                      {
+                        "text": "Vue 组件",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue 组件"
+                      },
+                      {
+                        "text": "Vue 虚拟DOM",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue 虚拟DOM"
+                      },
+                      {
+                        "text": "Vue 计算属性",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue 计算属性"
+                      },
+                      {
+                        "text": "Vue 过滤属性",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue 过滤属性"
+                      },
+                      {
+                        "text": "Vue 通信",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue 通信"
+                      },
+                      {
+                        "text": "Vue 预编译",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue 预编译"
+                      },
                       {
                         "text": "Vue基础",
                         "link": "/views/工程开发/类库框架/开发库/Vue/Vue2/Vue基础"
@@ -618,7 +656,93 @@
                   },
                   {
                     "text": "Vuex",
-                    "link": "/views/工程开发/类库框架/开发库/Vue/Vuex"
+                    "items": [
+                      {
+                        "text": "Vuex",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vuex/Vuex"
+                      },
+                      {
+                        "text": "命名空间",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/Vuex/命名空间"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "工程化",
+                    "items": [
+                      {
+                        "text": "Element UI",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/工程化/Element UI"
+                      },
+                      {
+                        "text": "Vue 常用集成库",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/工程化/Vue 常用集成库"
+                      },
+                      {
+                        "text": "Vue 项目目录结构",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/工程化/Vue 项目目录结构"
+                      },
+                      {
+                        "text": "Vue-cli 介绍",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/工程化/Vue-cli 介绍"
+                      },
+                      {
+                        "text": "Vue-cli 搭建项目",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/工程化/Vue-cli 搭建项目"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "异常记录",
+                    "items": [],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "测试",
+                    "items": [
+                      {
+                        "text": "Vue 测试",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/测试/Vue 测试"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "规范",
+                    "items": [
+                      {
+                        "text": "[规范] 单元测试规范",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/规范/[规范] 单元测试规范"
+                      },
+                      {
+                        "text": "[规范] 端到端测试规范",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/规范/[规范] 端到端测试规范"
+                      },
+                      {
+                        "text": "[规范] 组件使用说明",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/规范/[规范] 组件使用说明"
+                      },
+                      {
+                        "text": "[规范] 组件测试体系",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/规范/[规范] 组件测试体系"
+                      },
+                      {
+                        "text": "[规范] 组件测试说明",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/规范/[规范] 组件测试说明"
+                      },
+                      {
+                        "text": "[规范] 集成测试规范",
+                        "link": "/views/工程开发/类库框架/开发库/Vue/规范/[规范] 集成测试规范"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "面试题",
+                    "items": [],
+                    "collapsed": false
                   }
                 ],
                 "collapsed": false
