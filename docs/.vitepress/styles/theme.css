@@ -5,3 +5,8 @@
   /* --vp-button-brand-bg: #f7b628; */
   /* --vp-c-brand-1: #f7b628; */
 }
+
+pre code {
+  /* white-space: pre-wrap !important; /* 这会使得代码块内的文本自动换行 */
+  /* word-wrap: break-word !important; /* 这会使得长单词在行尾断开 */
+}

@@ -87,7 +87,7 @@ async function writeStringToFileSync(filePath, content) {
   await createFileIfNotExistsSync(filePath);
   try {
     fs.writeFileSync(filePath, content, "utf8");
-    console.log(`Successfully wrote to ${filePath}`);
+    // console.log(`Successfully wrote to ${filePath}`);
   } catch (error) {
     console.error("Error writing to file:", error);
   }
