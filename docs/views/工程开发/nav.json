@@ -479,6 +479,25 @@
                 "text": "React",
                 "items": [
                   {
+                    "text": "React V16",
+                    "items": [
+                      {
+                        "text": "JSX",
+                        "link": "/views/工程开发/类库框架/开发库/React/React V16/JSX"
+                      },
+                      {
+                        "text": "React 简介",
+                        "link": "/views/工程开发/类库框架/开发库/React/React V16/React 简介"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "React V18",
+                    "items": [],
+                    "collapsed": false
+                  },
+                  {
                     "text": "React 入门",
                     "items": [
                       {
@@ -566,6 +585,16 @@
                   {
                     "text": "create-react-app",
                     "link": "/views/工程开发/类库框架/开发库/React/create-react-app"
+                  },
+                  {
+                    "text": "工程化",
+                    "items": [
+                      {
+                        "text": "create-react-app",
+                        "link": "/views/工程开发/类库框架/开发库/React/工程化/create-react-app"
+                      }
+                    ],
+                    "collapsed": false
                   }
                 ],
                 "collapsed": false

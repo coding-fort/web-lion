@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React CDN Example</title>
+    <!-- React 核心库，与宿主环境无关 -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <!-- 依赖核心库，将核心功能与页面结合 -->
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // 创建元素
+      var h1 = React.createElement("h1", { title: "h1 tag" }, "Hello React!");
+      ReactDOM.render(h1, document.getElementById("root"));
+    </script>
+  </body>
+</html>
