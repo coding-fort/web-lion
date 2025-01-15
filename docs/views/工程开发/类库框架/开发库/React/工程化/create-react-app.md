@@ -74,4 +74,3 @@ npm run eject
 
 有关 `create-react-app` 更详细的信息，包括如何添加样式、路由、状态管理库等，请参阅官方文档：[Create React App Documentation](https://create-react-app.dev/docs/getting-started)
 
-以上就是关于 `create-react-app` 的基本介绍。如果你有更多具体的问题或需要进一步的帮助，请随时提问！
