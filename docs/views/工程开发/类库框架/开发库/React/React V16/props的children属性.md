@@ -1,4 +1,4 @@
-# props[children]
+# props.children
 
 `props.children` 是 React 中一个特殊的 prop，它允许父组件向子组件传递内容。这个特性使得组件可以像 HTML 元素一样被嵌套使用，并且能够包含任意的 JSX 内容（如文本、其他组件或元素）。通过 `props.children`，你可以创建可复用且灵活的组件，这些组件可以根据传入的内容动态地调整其行为和渲染输出。
 

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[React] 表单上下文应用</title>
+    <!-- React 核心库，与宿主环境无关 -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <!-- 依赖核心库，将核心功能与页面结合 -->
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <!-- babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/prop-types@15.6/prop-types.js"></script>
+
+    <style></style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- 创建Context 上下文 -->
+    <script>
+      const ctx = React.createContext();
+      const Provider = ctx.Provider;
+    </script>
+    <!-- input/button 组件 -->
+    <script type="text/babel">
+      // 输入框组件
+      class FormInput extends React.Component {
+        // 当你为类组件设置 static contextType 时，React 会自动将该 Context 的当前值赋给组件实例的 this.context 属性。
+        static contextType = ctx;
+        static defaultProps = {
+          type: "text",
+        };
+        static propTypes = {
+          name: PropTypes.string.isRequired,
+          type: PropTypes.string,
+        };
+        handleChange = (e) => {
+          this.context.setForm(this.props.name, e.target.value);
+        };
+        render() {
+          return (
+            <input
+              type={this.props.type}
+              name={this.props.name}
+              value={this.context.form[this.props.name] || ""}
+              onChange={this.handleChange}
+            />
+          );
+        }
+      }
+      // 提交按钮
+      class FormButton extends React.Component {
+        static contextType = ctx;
+        render() {
+          return (
+            <button
+              onClick={() => {
+                this.context.submit();
+              }}
+            >
+              {this.props.children}
+            </button>
+          );
+        }
+      }
+    </script>
+    <!-- form 组件 -->
+    <script type="text/babel">
+      class Form extends React.Component {
+        static propTypes = {
+          children: PropTypes.node.isRequired,
+          onSubmit: PropTypes.func,
+        };
+        state = {
+          form: {},
+          setForm: (name, value) => {
+            this.setState({
+              form: { ...this.state.form, [name]: value },
+            });
+          },
+          submit: () => {
+            this.props.onSubmit && this.props.onSubmit(this.state.form);
+          },
+        };
+        render() {
+          return (
+            <div>
+              <Provider value={this.state}>{this.props.children}</Provider>
+            </div>
+          );
+        }
+      }
+
+      Form.Input = FormInput;
+      Form.Button = FormButton;
+    </script>
+    <script type="text/babel">
+      function Test() {
+        const [form, setForm] = React.useState({});
+        const handleSubmit = (form) => {
+          console.log("handleSubmit:", form);
+          setForm(form);
+        };
+        return (
+          <div className="form-container">
+            <Form onSubmit={handleSubmit}>
+              <div>
+                姓名：
+                <Form.Input name="loginName" />
+              </div>
+              <div>
+                密码：
+                <Form.Input name="loginPwd" type="password" />
+              </div>
+              <div>
+                <Form.Button>提交</Form.Button>
+              </div>
+            </Form>
+            <div>
+              <p>表单提交数据：</p>
+              <p>{JSON.stringify(form)}</p>
+            </div>
+          </div>
+        );
+      }
+
+      ReactDOM.render(<Test />, document.getElementById("root"));
+    </script>
+  </body>
+</html>

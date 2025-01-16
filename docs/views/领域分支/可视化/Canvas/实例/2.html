@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        canvas {
+            /* border: 1px solid #000; */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -200px;
+            margin-top: -200px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        /**
+         * 绘制时钟
+         */
+        function drawClock() {
+            const canvas = document.createElement('canvas');
+            canvas.width = 400;
+            canvas.height = 400;
+            document.body.appendChild(canvas);
+            const ctx = canvas.getContext('2d');
+            ctx.translate(200, 200);
+            // 绘制表盘
+            ctx.save();
+            ctx.strokeStyle = '#ccc';
+            ctx.beginPath();
+            ctx.arc(0, 0, 200, 0, Math.PI * 2);
+            ctx.stroke();
+            ctx.restore();
+            // 绘制大刻度
+            ctx.save();
+            for (let i = 0; i < 12; i++) {
+                ctx.beginPath();
+                ctx.strokeStyle = '#555';
+                ctx.lineWidth = 8;
+                ctx.moveTo(0, 200);
+                ctx.lineTo(0, 180);
+                ctx.stroke();
+                ctx.rotate(Math.PI * 2 / 12);
+            }
+            ctx.restore();
+            // 绘制小刻度
+            ctx.save();
+            ctx.strokeStyle = '#555';
+            ctx.lineWidth = 4;
+            for (let i = 0; i < 60; i++) {
+                if (i % 5 !== 0) {
+                    ctx.beginPath();
+                    ctx.moveTo(0, 200);
+                    ctx.lineTo(0, 190);
+                    ctx.stroke();
+                }
+                ctx.rotate(Math.PI * 2 / 60);
+            }
+            ctx.restore();
+
+            // 绘制大刻度文本
+            ctx.save();
+            ctx.font = '20px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            const r = 165;
+            const a = Math.PI * 2 / 12;
+            for (let i = 0; i < 12; i++) {
+                let text = i == 0 ? 12 : i;
+                let y = -r * Math.cos(a * i);
+                let x = r * Math.sin(a * i);
+                ctx.fillText(text, x, y);
+            }
+            ctx.restore();
+        }
+        /**
+         * 绘制时针、分针、秒针
+         */
+        function drawLine() {
+            const canvas = document.createElement('canvas');
+            canvas.width = 400;
+            canvas.height = 400;
+            document.body.appendChild(canvas);
+            const ctx = canvas.getContext('2d');
+            ctx.translate(200, 200);
+            // 绘制时针、分针、秒针
+            function draw() {
+                ctx.clearRect(-200, -200, canvas.width, canvas.height);
+                const now = new Date();
+                const h = now.getHours() % 12;
+                const m = now.getMinutes();
+                const s = now.getSeconds();
+                // console.log(h, m, s);
+                const h_angle = (Math.PI * 2 / 3600 / 12) * (h * 3600 + m * 60 + s);
+                const m_angle = (Math.PI * 2 / 3600) * (m * 60 + s);
+                const s_angle = Math.PI * 2 / 60 * s;
+                // 绘制时针
+                ctx.save();
+                ctx.beginPath();
+                ctx.rotate(h_angle);
+                ctx.moveTo(-5, 15);
+                ctx.lineTo(-5, -100);
+                ctx.quadraticCurveTo(-20, -100, 0, -130);
+                ctx.quadraticCurveTo(20, -100, 5, -100);
+                ctx.lineTo(5, 15);
+                ctx.closePath();
+                ctx.fill();
+                ctx.restore();
+                // 绘制分针
+                ctx.save();
+                ctx.beginPath();
+                ctx.rotate(m_angle);
+                ctx.moveTo(0, 20);
+                ctx.lineTo(0, -160);
+                ctx.lineWidth = 6;
+                ctx.strokeStyle = '#ccc';
+                ctx.stroke();
+                ctx.restore();
+                // 绘制秒针
+                ctx.save();
+                ctx.beginPath();
+                ctx.rotate(s_angle);
+                ctx.moveTo(0, 25);
+                ctx.lineTo(0, -190);
+                ctx.lineWidth = 2;
+                ctx.strokeStyle = '#f00';
+                ctx.stroke();
+                ctx.restore();
+                // 绘制圆心
+                ctx.save();
+                ctx.beginPath();
+                ctx.fillStyle = '#000';
+                ctx.arc(0, 0, 10, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
+
+                setTimeout(draw, 1000);
+            }
+            //
+            draw();
+        }
+
+        drawClock();
+        drawLine();
+    </script>
+</body>
+
+</html>

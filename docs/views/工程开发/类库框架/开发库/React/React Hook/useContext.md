@@ -91,8 +91,7 @@ interface ThemeContextType {
 }
 
 // 创建上下文，默认值为空对象
-const ThemeContext =
-  (createContext < ThemeContextType) | (undefined > undefined);
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 // 自定义 Hook 以简化对上下文的访问
 const useTheme = () => {

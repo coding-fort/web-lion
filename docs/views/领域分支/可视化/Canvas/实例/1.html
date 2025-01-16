@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      canvas.clock {
+        /* border: 1px solid #000; */
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        margin-left: -200px;
+        margin-top: -200px;
+      }
+
+      canvas:not(.clock) {
+        border: 1px solid #ccc;
+        background-color: #888;
+      }
+
+      canvas:not(.clock):not(.firework) {
+        position: absolute;
+        top: 50%;
+        right: 25%;
+        margin-right: -200px;
+        margin-top: -200px;
+        background-color: unset;
+        /* border: 1px solid #ccc; */
+      }
+
+      canvas:not(.clock):not(.firework).board {
+        /* background-color: #ffffff; */
+      }
+    </style>
+  </head>
+
+  <body>
+    <script>
+      (() => {
+        /**
+         * 绘制时钟
+         */
+        function drawClock() {
+          const canvas = document.createElement("canvas");
+          canvas.className = "clock";
+          canvas.width = 400;
+          canvas.height = 400;
+          document.body.appendChild(canvas);
+          const ctx = canvas.getContext("2d");
+          ctx.translate(200, 200);
+          // 绘制表盘
+          ctx.save();
+          ctx.fillStyle = "#fff";
+          ctx.beginPath();
+          ctx.arc(0, 0, 200, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.restore();
+          // 绘制大刻度
+          ctx.save();
+          for (let i = 0; i < 12; i++) {
+            ctx.beginPath();
+            ctx.strokeStyle = "#555";
+            ctx.lineWidth = 8;
+            ctx.moveTo(0, 200);
+            ctx.lineTo(0, 180);
+            ctx.stroke();
+            ctx.rotate((Math.PI * 2) / 12);
+          }
+          ctx.restore();
+          // 绘制小刻度
+          ctx.save();
+          ctx.strokeStyle = "#555";
+          ctx.lineWidth = 4;
+          for (let i = 0; i < 60; i++) {
+            if (i % 5 !== 0) {
+              ctx.beginPath();
+              ctx.moveTo(0, 200);
+              ctx.lineTo(0, 190);
+              ctx.stroke();
+            }
+            ctx.rotate((Math.PI * 2) / 60);
+          }
+          ctx.restore();
+
+          // 绘制大刻度文本
+          ctx.save();
+          ctx.font = "20px Arial";
+          ctx.textAlign = "center";
+          ctx.textBaseline = "middle";
+          const r = 165;
+          const a = (Math.PI * 2) / 12;
+          for (let i = 0; i < 12; i++) {
+            let text = i == 0 ? 12 : i;
+            let y = -r * Math.cos(a * i);
+            let x = r * Math.sin(a * i);
+            ctx.fillText(text, x, y);
+          }
+        }
+        /**
+         * 绘制时针、分针、秒针
+         */
+        function drawLine() {
+          const canvas = document.createElement("canvas");
+          canvas.className = "clock";
+          canvas.width = 400;
+          canvas.height = 400;
+          document.body.appendChild(canvas);
+          const ctx = canvas.getContext("2d");
+          ctx.translate(200, 200);
+          // 绘制时针、分针、秒针
+          function draw() {
+            ctx.clearRect(-200, -200, canvas.width, canvas.height);
+            const now = new Date();
+            const h = now.getHours() % 12;
+            const m = now.getMinutes();
+            const s = now.getSeconds();
+            // console.log(h, m, s);
+            const h_angle =
+              ((Math.PI * 2) / 3600 / 12) * (h * 3600 + m * 60 + s);
+            const m_angle = ((Math.PI * 2) / 3600) * (m * 60 + s);
+            const s_angle = ((Math.PI * 2) / 60) * s;
+            // 绘制时针
+            ctx.save();
+            ctx.beginPath();
+            ctx.rotate(h_angle);
+            ctx.moveTo(-5, 15);
+            ctx.lineTo(-5, -100);
+            ctx.quadraticCurveTo(-20, -100, 0, -130);
+            ctx.quadraticCurveTo(20, -100, 5, -100);
+            ctx.lineTo(5, 15);
+            ctx.closePath();
+            ctx.fill();
+            ctx.restore();
+            // 绘制分针
+            ctx.save();
+            ctx.beginPath();
+            ctx.rotate(m_angle);
+            ctx.moveTo(0, 20);
+            ctx.lineTo(0, -160);
+            ctx.lineWidth = 6;
+            ctx.strokeStyle = "#ccc";
+            ctx.stroke();
+            ctx.restore();
+            // 绘制秒针
+            ctx.save();
+            ctx.beginPath();
+            ctx.rotate(s_angle);
+            ctx.moveTo(0, 25);
+            ctx.lineTo(0, -190);
+            ctx.lineWidth = 2;
+            ctx.strokeStyle = "#f00";
+            ctx.stroke();
+            ctx.restore();
+            // 绘制圆心
+            ctx.save();
+            ctx.beginPath();
+            ctx.fillStyle = "#000";
+            ctx.arc(0, 0, 10, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.restore();
+
+            setTimeout(draw, 1000);
+          }
+          //
+          draw();
+        }
+        drawClock();
+        drawLine();
+      })();
+    </script>
+    <script>
+      (() => {
+        const canvas = document.createElement("canvas");
+        canvas.width = 1400;
+        canvas.height = 800;
+        canvas.className = "firework";
+        document.body.appendChild(canvas);
+        const ctx = canvas.getContext("2d");
+        ctx.translate(0, canvas.height);
+        ctx.scale(1, -1);
+
+        // 烟花
+        class Firework {
+          constructor(x, y) {
+            this.x = x;
+            this.y = y;
+            this.r = 6;
+            this.opacity = 1;
+            this.count = 400; // 粒子效果组元素数量
+            this.particles = []; // 粒子效果组
+          }
+          // 绘制
+          draw() {
+            this.opacity = this.opacity < 0.2 ? 0.2 : this.opacity;
+            for (let i = 0; i < 100; i++) {
+              let ball = new Ball(
+                this.x,
+                this.y - i,
+                this.r - i / 20,
+                `rgba(255, 250, 200, ${this.opacity - i / 100})`
+              );
+              ball.draw();
+            }
+          }
+          // 爆炸
+          bomb() {
+            if (this.particles.length == 0) {
+              const hd = (Math.PI * 2) / this.count;
+              // const color = `rgba(${Math.random() * 256}, ${Math.random() * 256}, ${Math.random() * 256}, 0.8)`;
+              const color = `hsl(${Math.random() * 360}, 50%, 70%)`;
+              for (let i = 0; i < this.count; i++) {
+                const rand = Math.random() * 3 + 2;
+                const dirx = Math.cos(hd * i) * (Math.random() * rand);
+                const diry = Math.sin(hd * i) * (Math.random() * rand);
+                let particle = new Particle(
+                  this.x,
+                  this.y,
+                  dirx,
+                  diry,
+                  color,
+                  i % 2 == 0
+                );
+                this.particles.push(particle);
+                particle.draw();
+              }
+            } else {
+              this.particles.forEach((particle) => {
+                particle.update();
+              });
+            }
+          }
+        }
+        // 球
+        class Ball {
+          constructor(x, y, r, color) {
+            this.x = x;
+            this.y = y;
+            this.r = r;
+            this.color = color;
+          }
+          draw() {
+            ctx.save();
+            ctx.beginPath();
+            ctx.fillStyle = this.color;
+            ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.restore();
+          }
+        }
+        // 爆炸粒子（单个）
+        class Particle {
+          constructor(x, y, dirx, diry, color, type) {
+            this.x = x;
+            this.y = y;
+            this.r = 2;
+            this.dirx = dirx;
+            this.diry = diry;
+            this.color = color;
+            this.type = type;
+          }
+          draw() {
+            if (this.type) {
+              ctx.save();
+              ctx.beginPath();
+              ctx.fillStyle = this.color;
+              ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+              ctx.fill();
+              ctx.restore();
+            }
+            this.type = !this.type;
+          }
+          update() {
+            this.x += this.dirx;
+            this.y += this.diry;
+            this.dirx *= 0.99;
+            this.diry *= 0.98;
+            this.draw();
+          }
+        }
+
+        // 烟火
+        const fireworkArray = [];
+        const bombArray = [];
+        let sum = 0;
+        // let firework = new Firework(100, 100);
+        // firework.draw();
+        // firework.bomb();
+        // console.log(firework.particles)
+        //
+        function move() {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          if (sum % 50 == 0) {
+            const x = (Math.random() * canvas.width * 3) / 4 + canvas.width / 8;
+            const y = Math.random() * 100;
+            fireworkArray.push(new Firework(x, y));
+          }
+          fireworkArray.forEach((item) => {
+            item.draw();
+            item.y += 4;
+            item.opacity -= 0.02;
+          });
+          // 烟花爆炸
+          if (fireworkArray.length == 4) {
+            const fire = fireworkArray.shift();
+            bombArray.push(fire);
+          }
+          bombArray.forEach((item) => {
+            item.bomb();
+          });
+          if (bombArray.length == 4) {
+            bombArray.shift();
+          }
+          sum++;
+          requestAnimationFrame(move);
+        }
+        move();
+      })();
+    </script>
+    <script>
+      // 绘制贪吃蛇
+      const canvas1 = document.createElement("canvas");
+      const canvas2 = document.createElement("canvas");
+
+      const ctx1 = canvas1.getContext("2d");
+      const ctx2 = canvas2.getContext("2d");
+
+      function initCanvas(canvas) {
+        canvas.width = 400;
+        canvas.height = 400;
+        document.body.appendChild(canvas);
+      }
+      initCanvas(canvas1);
+      initCanvas(canvas2);
+      const cell = 20;
+      const grid = {}; // 格子标记
+      let food = null;
+      function initGrid() {
+        for (let i = 0; i < 20; i++) {
+          for (let j = 0; j < 20; j++) {
+            grid[`${i * cell}-${j * cell}`] = 0;
+          }
+        }
+      }
+      initGrid();
+      // 绘制棋盘
+      function drawChessboard(canvas, ctx) {
+        ctx.save();
+        ctx.fillStyle = "#fff";
+        ctx.fillRect(0, 0, 400, 400);
+        //
+        ctx.strokeStyle = "#000";
+        for (let i = 0; i < canvas.width / cell; i++) {
+          ctx.beginPath();
+          ctx.moveTo(i * cell, 0);
+          ctx.lineTo(i * cell, canvas.height);
+          ctx.stroke();
+
+          ctx.beginPath();
+          ctx.moveTo(0, i * cell);
+          ctx.lineTo(canvas.width, i * cell);
+          ctx.stroke();
+        }
+        ctx.restore();
+      }
+      //
+      class Rect {
+        constructor(canvas, ctx, x, y, color, type) {
+          this.x = x;
+          this.y = y;
+          this.oldX = x;
+          this.oldY = y;
+          this.w = cell;
+          this.h = cell;
+          this.color = color;
+          this.type = type; // 1 = snake, 2 = food
+          this.canvas = canvas;
+          this.ctx = ctx;
+        }
+        draw() {
+          grid[`${this.oldX}-${this.oldY}`] = 0;
+          grid[`${this.x}-${this.y}`] = this.type;
+          this.ctx.clearRect(this.oldX, this.oldY, this.w, this.h);
+          this.oldX = this.x;
+          this.oldY = this.y;
+          this.ctx.save();
+          this.ctx.fillStyle = this.color;
+          this.ctx.fillRect(this.x, this.y, this.w, this.h);
+          this.ctx.restore();
+        }
+      }
+      class Snake {
+        constructor(canvas, ctx, x, y, dir = "ArrowRight") {
+          this.x = x * cell;
+          this.y = y * cell;
+          this.dir = dir;
+          this.canvas = canvas;
+          this.ctx = ctx;
+          this.head = new Rect(canvas, ctx, this.x, this.y, "red", 1);
+          this.body = [];
+        }
+        draw() {
+          this.head.draw();
+          this.body.forEach((rect) => {
+            rect.draw();
+          });
+        }
+        move() {
+          switch (this.dir) {
+            case "ArrowRight":
+              this.head.x += cell;
+              break;
+            case "ArrowDown":
+              this.head.y += cell;
+              break;
+            case "ArrowLeft":
+              this.head.x -= cell;
+              break;
+            case "ArrowUp":
+              this.head.y -= cell;
+              break;
+          }
+          if (this.isOver()) {
+            alert("game over");
+            startGame();
+            return;
+          }
+          // 吃到食物
+          if (this.isEat()) {
+            const rect = new Rect(
+              this.canvas,
+              this.ctx,
+              this.head.oldX,
+              this.head.oldY,
+              "#fac",
+              1
+            );
+            this.body.unshift(rect);
+            food = drawFood(this.canvas, this.ctx);
+          } else {
+            if (this.body.length > 0) {
+              const last = this.body.pop();
+              last.x = this.head.oldX;
+              last.y = this.head.oldY;
+              this.body.unshift(last);
+            }
+          }
+          this.draw();
+          setTimeout(this.move.bind(this), 200);
+        }
+        isOver() {
+          return (
+            this.head.x < 0 ||
+            this.head.x >= this.canvas.width ||
+            this.head.y < 0 ||
+            this.head.y >= this.canvas.height ||
+            grid[`${this.head.x}-${this.head.y}`] == 1
+          );
+        }
+        // 判断是否吃到食物
+        isEat() {
+          return this.head.x == food?.x && this.head.y == food?.y;
+        }
+      }
+      // 绘制蛇
+      function drawSnake(canvas, ctx) {
+        let snake = new Snake(canvas, ctx, 10, 10);
+        snake.draw();
+        snake.move();
+        return snake;
+      }
+      // 控制蛇
+      function controlSnake(snake) {
+        document.onkeydown = function (e) {
+          // console.log(e.code);
+          // 反向冲突
+          if (
+            (snake.dir == "ArrowRight" && e.code == "ArrowLeft") ||
+            (snake.dir == "ArrowLeft" && e.code == "ArrowRight") ||
+            (snake.dir == "ArrowDown" && e.code == "ArrowUp") ||
+            (snake.dir == "ArrowUp" && e.code == "ArrowDown")
+          ) {
+            return;
+          }
+          if (
+            ["ArrowRight", "ArrowDown", "ArrowLeft", "ArrowUp"].includes(e.code)
+          )
+            snake.dir = e.code;
+        };
+      }
+      // 随机生成食物
+      function drawFood(canvas, ctx) {
+        while (true) {
+          const x = Math.floor(Math.random() * (canvas.width / cell)) * cell;
+          const y = Math.floor(Math.random() * (canvas.height / cell)) * cell;
+          if (grid[`${x}-${y}`] == 0) {
+            let food = new Rect(canvas, ctx, x, y, "#00f", 2);
+            food.draw();
+            return food;
+            break;
+          }
+        }
+      }
+      // 优化交互
+      function startGame() {
+        ctx1.clearRect(0, 0, canvas1.width, canvas1.height);
+        ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
+        initGrid();
+        drawChessboard(canvas1, ctx1);
+        document.onkeydown = function (e) {
+          console.log(e.code);
+          if (e.code == "Space") {
+            const snake = drawSnake(canvas2, ctx2);
+            controlSnake(snake);
+            food = drawFood(canvas2, ctx2);
+          }
+        };
+      }
+      startGame();
+    </script>
+  </body>
+</html>

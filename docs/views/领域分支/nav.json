@@ -56,6 +56,11 @@
               {
                 "text": "HighCharts",
                 "link": "/views/领域分支/可视化/Canvas/HighCharts"
+              },
+              {
+                "text": "实例",
+                "items": [],
+                "collapsed": false
               }
             ],
             "collapsed": false
