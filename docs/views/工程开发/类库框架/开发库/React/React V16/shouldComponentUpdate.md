@@ -57,6 +57,8 @@ class MyComponent extends React.Component {
 
 5. **性能优化**：虽然 `shouldComponentUpdate` 可以帮助优化性能，但它并不是万能的。过度使用可能导致代码难以理解和维护。始终权衡利弊，确保优化措施确实带来了显著的好处。
 
+6. **forceUpdate**：使用`forceUpdate` 时不会触发`shouldComponentUpdate`。
+
 ## 替代方案
 
 随着 React Hooks 的引入，对于函数组件来说，`useMemo` 和 `useCallback` 提供了类似的优化机制。此外，`React.memo` 可以用来包裹函数组件，类似于 `PureComponent` 对类组件的作用。

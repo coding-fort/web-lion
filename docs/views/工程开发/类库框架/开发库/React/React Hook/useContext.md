@@ -1,4 +1,4 @@
-# useContext
+# useContext：订阅上下文
 
 `useContext` 是 React 提供的一个 Hook，用于在函数组件中订阅 React 的上下文（Context）。它允许你访问由 `React.createContext` 创建的 Context 对象中的值，并且可以在不使用 props 传递的情况下，在组件树中共享这些值。这有助于减少“props drilling”的问题，即避免将 props 从父组件一层层向下传递到深层嵌套的子组件。
 

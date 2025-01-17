@@ -29,3 +29,10 @@ class MyComponent extends React.Component {
   }
 }
 ```
+
+## 注意事项
+
+1. `forceUpdate` 是一个非常低效的方法，因为它会触发整个组件树的重新渲染，包括所有子组件。因此，它应该只在 absolutely necessary 的情况下使用，并且应该谨慎使用。
+2. `forceUpdate` 不会触发 `shouldComponentUpdate` 生命周期方法，这意味着它不会检查组件是否需要重新渲染。因此，如果你的组件依赖于 `shouldComponentUpdate` 的返回值，那么 `forceUpdate` 可能会破坏你的逻辑。
+3. `forceUpdate` 类组件使用。
+4. 在函数组件中，你可以使用 `useState` 或 `useReducer` 来实现类似的功能。例如：`const [,forceUpdate] = useState({});`。

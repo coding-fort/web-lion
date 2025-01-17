@@ -1,4 +1,4 @@
-# useCallback
+# useCallback：优化性能
 
 `useCallback` 是 React 提供的一个 Hook，它用于记忆化（memoize）函数。通过 `useCallback`，你可以避免在每次渲染时都创建新的回调函数，这有助于减少不必要的重新渲染和性能优化，特别是在子组件是通过 `React.memo`、`useMemo` 或者其他形式的记忆化技术进行优化的情况下。
 
