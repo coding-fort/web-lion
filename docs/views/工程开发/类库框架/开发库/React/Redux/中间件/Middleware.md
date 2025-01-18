@@ -1,4 +1,4 @@
-# Middleware
+# Middleware：增强 dispatch 函数
 
 在 Redux 中，**中间件（Middleware）** 是一个强大的工具，它允许你在 action 被 dispatch 到 reducer 之前或之后执行额外的逻辑。中间件可以用来处理各种任务，如日志记录、异步操作、路由管理等。通过使用中间件，你可以增强 Redux 的功能，而不需要修改核心逻辑。
 
@@ -29,14 +29,11 @@ npm install redux-thunk
 然后配置你的 store：
 
 ```javascript
-import { createStore, applyMiddleware } from 'redux';
-import thunk from 'redux-thunk';
-import rootReducer from './reducers';
+import { createStore, applyMiddleware } from "redux";
+import thunk from "redux-thunk";
+import rootReducer from "./reducers";
 
-const store = createStore(
-  rootReducer,
-  applyMiddleware(thunk)
-);
+const store = createStore(rootReducer, applyMiddleware(thunk));
 ```
 
 使用示例：
@@ -44,16 +41,14 @@ const store = createStore(
 ```javascript
 // 异步 action creator
 function fetchUser(id) {
-  return function(dispatch) {
-    dispatch({ type: 'FETCH_USER_REQUEST' });
-    
+  return function (dispatch) {
+    dispatch({ type: "FETCH_USER_REQUEST" });
+
     return fetch(`https://api.example.com/users/${id}`)
-      .then(response => response.json())
-      .then(user =>
-        dispatch({ type: 'FETCH_USER_SUCCESS', payload: user })
-      )
-      .catch(error =>
-        dispatch({ type: 'FETCH_USER_FAILURE', payload: error })
+      .then((response) => response.json())
+      .then((user) => dispatch({ type: "FETCH_USER_SUCCESS", payload: user }))
+      .catch((error) =>
+        dispatch({ type: "FETCH_USER_FAILURE", payload: error })
       );
   };
 }
@@ -70,16 +65,13 @@ npm install redux-saga
 配置 store：
 
 ```javascript
-import createSagaMiddleware from 'redux-saga';
-import { createStore, applyMiddleware } from 'redux';
-import rootReducer from './reducers';
-import rootSaga from './sagas';
+import createSagaMiddleware from "redux-saga";
+import { createStore, applyMiddleware } from "redux";
+import rootReducer from "./reducers";
+import rootSaga from "./sagas";
 
 const sagaMiddleware = createSagaMiddleware();
-const store = createStore(
-  rootReducer,
-  applyMiddleware(sagaMiddleware)
-);
+const store = createStore(rootReducer, applyMiddleware(sagaMiddleware));
 
 sagaMiddleware.run(rootSaga);
 ```
@@ -87,20 +79,23 @@ sagaMiddleware.run(rootSaga);
 使用示例：
 
 ```javascript
-import { takeLatest, call, put } from 'redux-saga/effects';
+import { takeLatest, call, put } from "redux-saga/effects";
 
 function* fetchUser(action) {
   try {
-    const user = yield call(fetch, `https://api.example.com/users/${action.payload.id}`);
+    const user = yield call(
+      fetch,
+      `https://api.example.com/users/${action.payload.id}`
+    );
     const response = yield user.json();
-    yield put({ type: 'FETCH_USER_SUCCESS', payload: response });
+    yield put({ type: "FETCH_USER_SUCCESS", payload: response });
   } catch (error) {
-    yield put({ type: 'FETCH_USER_FAILURE', payload: error });
+    yield put({ type: "FETCH_USER_FAILURE", payload: error });
   }
 }
 
 function* watchFetchUser() {
-  yield takeLatest('FETCH_USER_REQUEST', fetchUser);
+  yield takeLatest("FETCH_USER_REQUEST", fetchUser);
 }
 
 export default function* rootSaga() {
@@ -122,14 +117,11 @@ npm install redux-logger
 配置 store：
 
 ```javascript
-import { createStore, applyMiddleware } from 'redux';
-import logger from 'redux-logger';
-import rootReducer from './reducers';
+import { createStore, applyMiddleware } from "redux";
+import logger from "redux-logger";
+import rootReducer from "./reducers";
 
-const store = createStore(
-  rootReducer,
-  applyMiddleware(logger)
-);
+const store = createStore(rootReducer, applyMiddleware(logger));
 ```
 
 ### 4. 自定义中间件
@@ -137,18 +129,15 @@ const store = createStore(
 你还可以创建自己的中间件来满足特定的需求。自定义中间件本质上是一个函数，它接收 `store.dispatch` 和 `store.getState` 作为参数，并返回一个新的 dispatch 方法。
 
 ```javascript
-const myCustomMiddleware = storeAPI => next => action => {
-  console.log('This action happened:', action);
-  
+const myCustomMiddleware = (storeAPI) => (next) => (action) => {
+  console.log("This action happened:", action);
+
   // Pass the action to the next middleware or reducer
   return next(action);
 };
 
 // 在创建 store 时应用自定义中间件
-const store = createStore(
-  rootReducer,
-  applyMiddleware(myCustomMiddleware)
-);
+const store = createStore(rootReducer, applyMiddleware(myCustomMiddleware));
 ```
 
 ## 中间件的工作原理
@@ -156,15 +145,18 @@ const store = createStore(
 每个中间件都遵循类似的签名：
 
 ```javascript
-middleware = ({ dispatch, getState }) => next => action => {
-  // 执行一些预处理逻辑
-  
-  const result = next(action); // 将 action 传递给下一个中间件或 reducer
-  
-  // 执行一些后处理逻辑
-  
-  return result;
-};
+middleware =
+  ({ dispatch, getState }) =>
+  (next) =>
+  (action) => {
+    // 执行一些预处理逻辑
+
+    const result = next(action); // 将 action 传递给下一个中间件或 reducer
+
+    // 执行一些后处理逻辑
+
+    return result;
+  };
 ```
 
 - `({ dispatch, getState })`：这是中间件工厂函数，它接收 store 的两个方法作为参数。

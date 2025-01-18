@@ -1,4 +1,4 @@
-# redux-thunk（允许 dispatch 函数而不是 plain actions）
+# redux-thunk（允许action 是函数）
 
 `redux-thunk` 是 Redux 中最常用的中间件之一，它允许你编写返回函数而不是普通对象的 action creators。这种 thunk 函数可以包含异步逻辑，并且可以根据需要延迟 dispatch actions。这使得处理像 API 请求这样的异步操作变得更加简单和直观。
 

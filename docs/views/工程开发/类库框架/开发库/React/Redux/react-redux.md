@@ -122,6 +122,157 @@ export default connect(mapStateToProps, mapDispatchToProps)(Counter);
 
 在这个例子中，`mapStateToProps` 将 Redux store 中的状态映射到组件的 props，而 `mapDispatchToProps` 则将 action creators 映射为可以直接调用的方法。
 
+## 与 redux 区别
+
+`Redux` 和 `react-redux` 是两个不同的库，它们在功能和用途上有明显的区别。理解这两者之间的差异有助于更好地利用它们来构建高效的应用程序。
+
+### Redux
+
+**定义**：`Redux` 是一个用于管理应用程序状态的 JavaScript 库，它可以与任何视图层结合使用，但最常与 React 一起使用。它提供了一种集中管理和更新应用状态的方法。
+
+**核心概念**：
+
+- **Store**：保存整个应用的状态树。
+- **Action**：描述发生了什么的对象，通常包含一个 `type` 字段和其他 payload 数据。
+- **Reducer**：纯函数，接收当前状态和 action，并返回新的状态。
+- **Middleware**：可以扩展 Redux 的能力，如处理异步操作、日志记录等。
+
+**职责**：`Redux` 负责状态管理逻辑，包括如何创建 store、如何 dispatch actions、如何编写 reducers 等。
+
+**安装**：
+
+```bash
+npm install redux
+# 或者
+yarn add redux
+```
+
+### react-redux
+
+**定义**：`react-redux` 是专门为 React 设计的官方 Redux 绑定库。它的作用是将 React 组件与 Redux store 连接起来，使得组件可以访问 state 和 dispatch actions。
+
+**核心功能**：
+
+- **Provider**：允许整个应用树下的所有组件访问 Redux store。
+- **connect**：高阶组件（HOC），用于将 React 组件连接到 Redux store。
+- **Hooks (`useSelector` 和 `useDispatch`)**：使函数组件可以直接访问 Redux store。
+
+**职责**：`react-redux` 主要关注于如何将 Redux store 与 React 组件集成，而不是管理状态本身。它提供了工具来简化从组件中读取 state 和 dispatch actions 的过程。
+
+**安装**：
+
+```bash
+npm install react-redux
+# 或者
+yarn add react-redux
+```
+
+### 区别总结
+
+| 特性             | Redux                                                              | react-redux                                 |
+| ---------------- | ------------------------------------------------------------------ | ------------------------------------------- |
+| **主要职责**     | 管理应用状态，定义如何创建 store、dispatch actions 和编写 reducers | 将 React 组件与 Redux store 集成            |
+| **核心概念**     | Store, Action, Reducer, Middleware                                 | Provider, connect, useSelector, useDispatch |
+| **适用范围**     | 可以与任何视图层结合使用                                           | 专为 React 应用设计                         |
+| **安装命令**     | `npm install redux`                                                | `npm install react-redux`                   |
+| **状态访问方式** | 通过订阅 store 来手动获取最新状态                                  | 使用 Hooks 或 HOC 自动连接组件和 store      |
+| **派发 Actions** | 手动调用 `store.dispatch(action)`                                  | 使用 `useDispatch` 或 `connect`             |
+
+### 实际应用中的关系
+
+在实际开发中，`Redux` 和 `react-redux` 通常是配合使用的。你使用 `Redux` 来设置和管理全局状态，而 `react-redux` 则帮助你在 React 组件中方便地访问这些状态和 dispatch actions。例如：
+
+1. **创建 Store**：使用 `redux` 创建并配置 store。
+2. **提供 Store**：使用 `react-redux` 的 `Provider` 组件将 store 提供给整个应用。
+3. **连接组件**：使用 `react-redux` 的 `connect` 或 Hooks API 在组件中访问 state 和 dispatch actions。
+
+### 示例代码
+
+#### 创建 Store (Redux)
+
+```javascript
+import { createStore } from "redux";
+import rootReducer from "./reducers";
+
+const store = createStore(rootReducer);
+
+export default store;
+```
+
+#### 提供 Store (react-redux)
+
+```javascript
+import React from "react";
+import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
+import store from "./store";
+import App from "./App";
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);
+```
+
+#### 访问 State 和 Dispatch Actions (react-redux)
+
+使用 `connect`：
+
+```javascript
+import React from "react";
+import { connect } from "react-redux";
+import { increment, decrement } from "./actions";
+
+function Counter({ count, increment, decrement }) {
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={increment}>Increment</button>
+      <button onClick={decrement}>Decrement</button>
+    </div>
+  );
+}
+
+const mapStateToProps = (state) => ({
+  count: state.count,
+});
+
+const mapDispatchToProps = {
+  increment,
+  decrement,
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Counter);
+```
+
+使用 Hooks：
+
+```javascript
+import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { increment, decrement } from "./actions";
+
+function Counter() {
+  const count = useSelector((state) => state.count);
+  const dispatch = useDispatch();
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => dispatch(increment())}>Increment</button>
+      <button onClick={() => dispatch(decrement())}>Decrement</button>
+    </div>
+  );
+}
+
+export default Counter;
+```
+
+- **`Redux`**：专注于状态管理，定义了如何创建 store、dispatch actions 和编写 reducers。
+- **`react-redux`**：专注于将 Redux store 与 React 组件集成，提供了便捷的方式让组件访问 state 和 dispatch actions。
+
 ## 总结
 
 `react-redux` 提供了一套简单而强大的工具来管理 React 应用的状态。通过使用 `Provider`、`useSelector` 和 `useDispatch` Hooks，你可以轻松地将 Redux store 集成到你的 React 应用中，并保持代码的清晰性和可维护性。
