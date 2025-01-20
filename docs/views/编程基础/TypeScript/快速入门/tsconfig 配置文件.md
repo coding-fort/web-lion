@@ -10,6 +10,7 @@
     "target": "ES6", // 设置编译后JavaScript的目标版本，如 ES3, ES5, ES6/ES2015, ES2016, ES2017, ES2018, ES2019, ES2020, ES2021, ES2022, 或 ESNext
     "module": "commonjs", // 指定模块代码生成的类型，如 none, commonjs, amd, system, umd, es6/es2015, es2020, es2022, 或 ESNext
     "strict": true, // 启用所有严格的类型检查选项
+    "noImplicitAny": true, // 启用隐式 any 类型检查
     "esModuleInterop": true, // 允许从 CommonJS 和 AMD 模块导入 ES 模块
     "skipLibCheck": true, // 跳过声明文件的类型检查
     "forceConsistentCasingInFileNames": true, // 强制文件名大小写一致性

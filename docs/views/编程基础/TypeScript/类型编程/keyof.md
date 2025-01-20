@@ -14,6 +14,8 @@ interface Person {
 }
 
 type PersonKeys = keyof Person; // "name" | "age" | "address"
+type PersonKeys2 = keyof Person & {}; // "name" | "age" | "address"
+// 两种写法效果一样，区别在于，在vscode 中第二种可以鼠标hover 看到所有的key
 ```
 
 在这个例子中，`keyof Person` 返回了一个由 `Person` 接口的所有键组成的联合类型 `"name" | "age" | "address"`。
