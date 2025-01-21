@@ -214,7 +214,40 @@
           },
           {
             "text": "工程化",
-            "items": [],
+            "items": [
+              {
+                "text": "TS 模块解析策略",
+                "link": "/views/编程基础/TypeScript/工程化/TS 模块解析策略"
+              },
+              {
+                "text": "global 全局声明文件",
+                "link": "/views/编程基础/TypeScript/工程化/global 全局声明文件"
+              },
+              {
+                "text": "webpack 配置",
+                "link": "/views/编程基础/TypeScript/工程化/webpack 配置"
+              },
+              {
+                "text": "三斜线指令",
+                "link": "/views/编程基础/TypeScript/工程化/三斜线指令"
+              },
+              {
+                "text": "命名空间",
+                "link": "/views/编程基础/TypeScript/工程化/命名空间"
+              },
+              {
+                "text": "声明合并",
+                "link": "/views/编程基础/TypeScript/工程化/声明合并"
+              },
+              {
+                "text": "模块化",
+                "link": "/views/编程基础/TypeScript/工程化/模块化"
+              },
+              {
+                "text": "类型声明文件",
+                "link": "/views/编程基础/TypeScript/工程化/类型声明文件"
+              }
+            ],
             "collapsed": false
           },
           {
@@ -341,12 +374,28 @@
             "text": "类和接口",
             "items": [
               {
+                "text": "this 关键字",
+                "link": "/views/编程基础/TypeScript/类和接口/this 关键字"
+              },
+              {
                 "text": "名义类型",
                 "link": "/views/编程基础/TypeScript/类和接口/名义类型"
               },
               {
+                "text": "存取器属性",
+                "link": "/views/编程基础/TypeScript/类和接口/存取器属性"
+              },
+              {
+                "text": "抽象类",
+                "link": "/views/编程基础/TypeScript/类和接口/抽象类"
+              },
+              {
                 "text": "接口",
                 "link": "/views/编程基础/TypeScript/类和接口/接口"
+              },
+              {
+                "text": "混入",
+                "link": "/views/编程基础/TypeScript/类和接口/混入"
               },
               {
                 "text": "类",
@@ -357,8 +406,24 @@
                 "link": "/views/编程基础/TypeScript/类和接口/类型别名"
               },
               {
+                "text": "类的泛型",
+                "link": "/views/编程基础/TypeScript/类和接口/类的泛型"
+              },
+              {
+                "text": "类的继承",
+                "link": "/views/编程基础/TypeScript/类和接口/类的继承"
+              },
+              {
                 "text": "结构化类型",
                 "link": "/views/编程基础/TypeScript/类和接口/结构化类型"
+              },
+              {
+                "text": "访问修饰符",
+                "link": "/views/编程基础/TypeScript/类和接口/访问修饰符"
+              },
+              {
+                "text": "静态成员",
+                "link": "/views/编程基础/TypeScript/类和接口/静态成员"
               }
             ],
             "collapsed": false
@@ -469,10 +534,6 @@
                 "link": "/views/编程基础/TypeScript/类型编程/分布式条件特性"
               },
               {
-                "text": "命名空间",
-                "link": "/views/编程基础/TypeScript/类型编程/命名空间"
-              },
-              {
                 "text": "声明文件",
                 "link": "/views/编程基础/TypeScript/类型编程/声明文件"
               },
@@ -486,6 +547,10 @@
                   {
                     "text": "keyof",
                     "link": "/views/编程基础/TypeScript/类型编程/实例/keyof"
+                  },
+                  {
+                    "text": "this",
+                    "link": "/views/编程基础/TypeScript/类型编程/实例/this"
                   },
                   {
                     "text": "typeof",
@@ -502,6 +567,10 @@
                   {
                     "text": "条件类型",
                     "link": "/views/编程基础/TypeScript/类型编程/实例/条件类型"
+                  },
+                  {
+                    "text": "构造函数参数类型",
+                    "link": "/views/编程基础/TypeScript/类型编程/实例/构造函数参数类型"
                   },
                   {
                     "text": "模板字符串类型",
@@ -580,6 +649,18 @@
           {
             "text": "装饰器",
             "items": [
+              {
+                "text": "class-transformer",
+                "link": "/views/编程基础/TypeScript/装饰器/class-transformer"
+              },
+              {
+                "text": "class-validator",
+                "link": "/views/编程基础/TypeScript/装饰器/class-validator"
+              },
+              {
+                "text": "reflect-metadata",
+                "link": "/views/编程基础/TypeScript/装饰器/reflect-metadata"
+              },
               {
                 "text": "装饰器",
                 "link": "/views/编程基础/TypeScript/装饰器/装饰器"

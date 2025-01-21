@@ -279,8 +279,16 @@
         "collapsed": false,
         "items": [
           {
+            "text": "CommonJS 模块查找策略",
+            "link": "/views/工程开发/模块化/CommonJS 模块查找策略"
+          },
+          {
             "text": "CommonJS",
             "link": "/views/工程开发/模块化/CommonJS"
+          },
+          {
+            "text": "ES Module 模块查找策略",
+            "link": "/views/工程开发/模块化/ES Module 模块查找策略"
           },
           {
             "text": "ES Module",
@@ -351,6 +359,10 @@
           {
             "text": "模块联邦",
             "link": "/views/工程开发/模块化/模块联邦"
+          },
+          {
+            "text": "模块解析策略",
+            "link": "/views/工程开发/模块化/模块解析策略"
           },
           {
             "text": "浏览器端模块化难题",
