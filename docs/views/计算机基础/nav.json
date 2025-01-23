@@ -245,7 +245,12 @@
       {
         "text": "计算机网络",
         "collapsed": false,
-        "items": []
+        "items": [
+          {
+            "text": "网络",
+            "link": "/views/计算机基础/计算机网络/网络"
+          }
+        ]
       }
     ]
   }

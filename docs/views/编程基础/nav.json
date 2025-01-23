@@ -87,8 +87,16 @@
             "collapsed": false
           },
           {
+            "text": "WebAPI",
+            "link": "/views/编程基础/JavaScript/WebAPI"
+          },
+          {
             "text": "constructor、__proto__、prototype",
             "link": "/views/编程基础/JavaScript/constructor、__proto__、prototype"
+          },
+          {
+            "text": "js",
+            "link": "/views/编程基础/JavaScript/js"
           },
           {
             "text": "事件",

@@ -1,1 +1,1 @@
-# JQuery.md
+# HighCharts

@@ -188,3 +188,24 @@ itv ita::before {
   display: block;
   font-weight: bold;
 }
+
+bmask {
+  color: #888;
+  display: block;
+  height: 100px;
+  overflow: scroll;
+}
+
+bmask::before {
+  color: #000;
+  content: "[分析阶段] ";
+  display: block;
+  font-weight: bold;
+}
+
+bmask::after {
+  color: #f55;
+  content: "[分析结束]";
+  display: block;
+  font-weight: bold;
+}

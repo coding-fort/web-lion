@@ -41,16 +41,48 @@
         "collapsed": false,
         "items": [
           {
-            "text": "Egg",
-            "link": "/views/架构基础/Node/Egg"
+            "text": "EventEmitter",
+            "link": "/views/架构基础/Node/EventEmitter"
           },
           {
-            "text": "Express",
-            "link": "/views/架构基础/Node/Express"
+            "text": "Node 概述",
+            "link": "/views/架构基础/Node/Node 概述"
           },
           {
-            "text": "Koa",
-            "link": "/views/架构基础/Node/Koa"
+            "text": "http 模块",
+            "link": "/views/架构基础/Node/http 模块"
+          },
+          {
+            "text": "https 模块",
+            "link": "/views/架构基础/Node/https 模块"
+          },
+          {
+            "text": "net 模块",
+            "link": "/views/架构基础/Node/net 模块"
+          },
+          {
+            "text": "事件循环",
+            "link": "/views/架构基础/Node/事件循环"
+          },
+          {
+            "text": "全局对象",
+            "link": "/views/架构基础/Node/全局对象"
+          },
+          {
+            "text": "基本内置模块",
+            "link": "/views/架构基础/Node/基本内置模块"
+          },
+          {
+            "text": "文件IO",
+            "link": "/views/架构基础/Node/文件IO"
+          },
+          {
+            "text": "模块化",
+            "link": "/views/架构基础/Node/模块化"
+          },
+          {
+            "text": "生命周期",
+            "link": "/views/架构基础/Node/生命周期"
           }
         ]
       }
