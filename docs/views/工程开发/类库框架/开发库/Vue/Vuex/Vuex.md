@@ -49,8 +49,8 @@ export default new Vuex.Store({
     },
   },
   actions: {
-    increment({ commit }) {
-      commit("increment");
+    increment({ commit }, payload) {
+      commit("increment", payload);
     },
   },
   getters: {

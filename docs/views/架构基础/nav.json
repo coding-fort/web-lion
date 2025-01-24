@@ -98,7 +98,46 @@
       {
         "text": "SSR",
         "collapsed": false,
-        "items": []
+        "items": [
+          {
+            "text": "React SSR",
+            "link": "/views/架构基础/SSR/React SSR"
+          },
+          {
+            "text": "SSR 概述",
+            "link": "/views/架构基础/SSR/SSR 概述"
+          },
+          {
+            "text": "Vue SSR",
+            "items": [
+              {
+                "text": "SSR 环境搭建",
+                "link": "/views/架构基础/SSR/Vue SSR/SSR 环境搭建"
+              },
+              {
+                "text": "Vue SSR",
+                "link": "/views/架构基础/SSR/Vue SSR/Vue SSR"
+              },
+              {
+                "text": "数据预取",
+                "link": "/views/架构基础/SSR/Vue SSR/数据预取"
+              },
+              {
+                "text": "路由处理",
+                "link": "/views/架构基础/SSR/Vue SSR/路由处理"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "基本API",
+            "link": "/views/架构基础/SSR/基本API"
+          },
+          {
+            "text": "服务端与客户端",
+            "link": "/views/架构基础/SSR/服务端与客户端"
+          }
+        ]
       }
     ],
     "/views/架构基础/数据库": [
