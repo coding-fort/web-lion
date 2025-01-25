@@ -73,6 +73,16 @@
             "link": "/views/架构基础/Node/基本内置模块"
           },
           {
+            "text": "常用库",
+            "items": [
+              {
+                "text": "express",
+                "link": "/views/架构基础/Node/常用库/express"
+              }
+            ],
+            "collapsed": false
+          },
+          {
             "text": "文件IO",
             "link": "/views/架构基础/Node/文件IO"
           },
@@ -101,6 +111,20 @@
         "items": [
           {
             "text": "React SSR",
+            "items": [
+              {
+                "text": "CSR与SSR",
+                "link": "/views/架构基础/SSR/React SSR/CSR与SSR"
+              },
+              {
+                "text": "渲染组件",
+                "link": "/views/架构基础/SSR/React SSR/渲染组件"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "React SSR",
             "link": "/views/架构基础/SSR/React SSR"
           },
           {
@@ -111,12 +135,54 @@
             "text": "Vue SSR",
             "items": [
               {
+                "text": "NuxtJS",
+                "items": [
+                  {
+                    "text": "Nuxt 布局",
+                    "link": "/views/架构基础/SSR/Vue SSR/NuxtJS/Nuxt 布局"
+                  },
+                  {
+                    "text": "Nuxt 路由",
+                    "link": "/views/架构基础/SSR/Vue SSR/NuxtJS/Nuxt 路由"
+                  },
+                  {
+                    "text": "Nuxt 静态化",
+                    "link": "/views/架构基础/SSR/Vue SSR/NuxtJS/Nuxt 静态化"
+                  },
+                  {
+                    "text": "NuxtJS",
+                    "link": "/views/架构基础/SSR/Vue SSR/NuxtJS/NuxtJS"
+                  },
+                  {
+                    "text": "vuex 应用",
+                    "link": "/views/架构基础/SSR/Vue SSR/NuxtJS/vuex 应用"
+                  },
+                  {
+                    "text": "引入Element-ui",
+                    "link": "/views/架构基础/SSR/Vue SSR/NuxtJS/引入Element-ui"
+                  },
+                  {
+                    "text": "引入Vuetify",
+                    "link": "/views/架构基础/SSR/Vue SSR/NuxtJS/引入Vuetify"
+                  },
+                  {
+                    "text": "鉴权应用",
+                    "link": "/views/架构基础/SSR/Vue SSR/NuxtJS/鉴权应用"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
                 "text": "SSR 环境搭建",
                 "link": "/views/架构基础/SSR/Vue SSR/SSR 环境搭建"
               },
               {
                 "text": "Vue SSR",
                 "link": "/views/架构基础/SSR/Vue SSR/Vue SSR"
+              },
+              {
+                "text": "vue-cli 构建SSR",
+                "link": "/views/架构基础/SSR/Vue SSR/vue-cli 构建SSR"
               },
               {
                 "text": "数据预取",
