@@ -76,6 +76,10 @@
             "text": "常用库",
             "items": [
               {
+                "text": "connect-history-api-fallback",
+                "link": "/views/架构基础/Node/常用库/connect-history-api-fallback"
+              },
+              {
                 "text": "express",
                 "link": "/views/架构基础/Node/常用库/express"
               }
@@ -117,6 +121,72 @@
                 "link": "/views/架构基础/SSR/React SSR/CSR与SSR"
               },
               {
+                "text": "NextJS",
+                "items": [
+                  {
+                    "text": "NextJS 概述",
+                    "link": "/views/架构基础/SSR/React SSR/NextJS/NextJS 概述"
+                  },
+                  {
+                    "text": "api 代理",
+                    "link": "/views/架构基础/SSR/React SSR/NextJS/api 代理"
+                  },
+                  {
+                    "text": "cookie和header转换",
+                    "link": "/views/架构基础/SSR/React SSR/NextJS/cookie和header转换"
+                  },
+                  {
+                    "text": "使用redux",
+                    "link": "/views/架构基础/SSR/React SSR/NextJS/使用redux"
+                  },
+                  {
+                    "text": "动态路由静态化",
+                    "link": "/views/架构基础/SSR/React SSR/NextJS/动态路由静态化"
+                  },
+                  {
+                    "text": "引入样式",
+                    "link": "/views/架构基础/SSR/React SSR/NextJS/引入样式"
+                  },
+                  {
+                    "text": "数据静态化",
+                    "link": "/views/架构基础/SSR/React SSR/NextJS/数据静态化"
+                  },
+                  {
+                    "text": "模板",
+                    "link": "/views/架构基础/SSR/React SSR/NextJS/模板"
+                  },
+                  {
+                    "text": "自定义页面",
+                    "link": "/views/架构基础/SSR/React SSR/NextJS/自定义页面"
+                  },
+                  {
+                    "text": "请求数据",
+                    "link": "/views/架构基础/SSR/React SSR/NextJS/请求数据"
+                  },
+                  {
+                    "text": "路由",
+                    "link": "/views/架构基础/SSR/React SSR/NextJS/路由"
+                  },
+                  {
+                    "text": "静态化",
+                    "link": "/views/架构基础/SSR/React SSR/NextJS/静态化"
+                  },
+                  {
+                    "text": "静态资源",
+                    "link": "/views/架构基础/SSR/React SSR/NextJS/静态资源"
+                  },
+                  {
+                    "text": "页面信息",
+                    "link": "/views/架构基础/SSR/React SSR/NextJS/页面信息"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "staticContext",
+                "link": "/views/架构基础/SSR/React SSR/staticContext"
+              },
+              {
                 "text": "使用Redux",
                 "link": "/views/架构基础/SSR/React SSR/使用Redux"
               },
@@ -131,6 +201,10 @@
               {
                 "text": "引入样式",
                 "link": "/views/架构基础/SSR/React SSR/引入样式"
+              },
+              {
+                "text": "数据通信",
+                "link": "/views/架构基础/SSR/React SSR/数据通信"
               },
               {
                 "text": "渲染组件",
@@ -218,6 +292,10 @@
           {
             "text": "服务端与客户端",
             "link": "/views/架构基础/SSR/服务端与客户端"
+          },
+          {
+            "text": "静态资源服务器",
+            "link": "/views/架构基础/SSR/静态资源服务器"
           }
         ]
       }
