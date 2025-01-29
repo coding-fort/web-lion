@@ -69,7 +69,73 @@
               },
               {
                 "text": "ES6",
-                "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6"
+                "items": [
+                  {
+                    "text": "ES Next",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/ES Next"
+                  },
+                  {
+                    "text": "ES6",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/ES6"
+                  },
+                  {
+                    "text": "Fetch API",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/Fetch API"
+                  },
+                  {
+                    "text": "Symbol",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/Symbol"
+                  },
+                  {
+                    "text": "代理",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/代理"
+                  },
+                  {
+                    "text": "函数",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/函数"
+                  },
+                  {
+                    "text": "反射",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/反射"
+                  },
+                  {
+                    "text": "块级作用域",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/块级作用域"
+                  },
+                  {
+                    "text": "字符串与正则表达式",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/字符串与正则表达式"
+                  },
+                  {
+                    "text": "对象",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/对象"
+                  },
+                  {
+                    "text": "属性描述符与存取器",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/属性描述符与存取器"
+                  },
+                  {
+                    "text": "异步处理",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/异步处理"
+                  },
+                  {
+                    "text": "数组",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/数组"
+                  },
+                  {
+                    "text": "解构",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/解构"
+                  },
+                  {
+                    "text": "迭代器与生成器",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/迭代器与生成器"
+                  },
+                  {
+                    "text": "集合",
+                    "link": "/views/编程基础/JavaScript/ECMAScript标准/ES6/集合"
+                  }
+                ],
+                "collapsed": false
               },
               {
                 "text": "ES7",
@@ -87,6 +153,32 @@
             "collapsed": false
           },
           {
+            "text": "Promise",
+            "items": [
+              {
+                "text": "Promise基础",
+                "link": "/views/编程基础/JavaScript/Promise/Promise基础"
+              },
+              {
+                "text": "async与await",
+                "link": "/views/编程基础/JavaScript/Promise/async与await"
+              },
+              {
+                "text": "手写Promise",
+                "link": "/views/编程基础/JavaScript/Promise/手写Promise"
+              },
+              {
+                "text": "链式调用",
+                "link": "/views/编程基础/JavaScript/Promise/链式调用"
+              },
+              {
+                "text": "静态方法",
+                "link": "/views/编程基础/JavaScript/Promise/静态方法"
+              }
+            ],
+            "collapsed": false
+          },
+          {
             "text": "WebAPI",
             "link": "/views/编程基础/JavaScript/WebAPI"
           },
@@ -95,8 +187,8 @@
             "link": "/views/编程基础/JavaScript/constructor、__proto__、prototype"
           },
           {
-            "text": "js",
-            "link": "/views/编程基础/JavaScript/js"
+            "text": "js 概述",
+            "link": "/views/编程基础/JavaScript/js 概述"
           },
           {
             "text": "事件",
@@ -147,12 +239,34 @@
             "link": "/views/编程基础/JavaScript/构造函数"
           },
           {
-            "text": "正则",
-            "link": "/views/编程基础/JavaScript/正则"
+            "text": "正则表达式",
+            "items": [
+              {
+                "text": "入门",
+                "link": "/views/编程基础/JavaScript/正则表达式/入门"
+              },
+              {
+                "text": "概述",
+                "link": "/views/编程基础/JavaScript/正则表达式/概述"
+              },
+              {
+                "text": "进阶",
+                "link": "/views/编程基础/JavaScript/正则表达式/进阶"
+              },
+              {
+                "text": "高级",
+                "link": "/views/编程基础/JavaScript/正则表达式/高级"
+              }
+            ],
+            "collapsed": false
           },
           {
             "text": "浏览器渲染原理",
             "link": "/views/编程基础/JavaScript/浏览器渲染原理"
+          },
+          {
+            "text": "浏览器进程模型",
+            "link": "/views/编程基础/JavaScript/浏览器进程模型"
           },
           {
             "text": "立即执行函数",
