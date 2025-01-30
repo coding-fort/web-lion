@@ -82,6 +82,10 @@
               {
                 "text": "express",
                 "link": "/views/架构基础/Node/常用库/express"
+              },
+              {
+                "text": "qs",
+                "link": "/views/架构基础/Node/常用库/qs"
               }
             ],
             "collapsed": false

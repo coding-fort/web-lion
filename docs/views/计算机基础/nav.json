@@ -251,6 +251,56 @@
             "link": "/views/计算机基础/计算机网络/JWT"
           },
           {
+            "text": "OAuth",
+            "items": [
+              {
+                "text": "GitHub 授权登陆",
+                "link": "/views/计算机基础/计算机网络/OAuth/GitHub 授权登陆"
+              },
+              {
+                "text": "OAuth",
+                "link": "/views/计算机基础/计算机网络/OAuth/OAuth"
+              },
+              {
+                "text": "OAuth2",
+                "link": "/views/计算机基础/计算机网络/OAuth/OAuth2"
+              },
+              {
+                "text": "凭证授权模式",
+                "link": "/views/计算机基础/计算机网络/OAuth/凭证授权模式"
+              },
+              {
+                "text": "密码授权模式",
+                "link": "/views/计算机基础/计算机网络/OAuth/密码授权模式"
+              },
+              {
+                "text": "微信授权登陆",
+                "link": "/views/计算机基础/计算机网络/OAuth/微信授权登陆"
+              },
+              {
+                "text": "授权机制设计",
+                "link": "/views/计算机基础/计算机网络/OAuth/授权机制设计"
+              },
+              {
+                "text": "授权码模式",
+                "link": "/views/计算机基础/计算机网络/OAuth/授权码模式"
+              },
+              {
+                "text": "授权类型",
+                "link": "/views/计算机基础/计算机网络/OAuth/授权类型"
+              },
+              {
+                "text": "支付宝支付功能",
+                "link": "/views/计算机基础/计算机网络/OAuth/支付宝支付功能"
+              },
+              {
+                "text": "隐藏授权模式",
+                "link": "/views/计算机基础/计算机网络/OAuth/隐藏授权模式"
+              }
+            ],
+            "collapsed": false
+          },
+          {
             "text": "TCP 协议",
             "link": "/views/计算机基础/计算机网络/TCP 协议"
           },

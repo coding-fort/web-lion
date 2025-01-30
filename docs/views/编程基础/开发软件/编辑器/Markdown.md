@@ -1,189 +1,101 @@
 # Markdown
 
-# 目录
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<!-- END doctoc -->
-
-- [基本用法](#%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95)
-  - [标题](#%E6%A0%87%E9%A2%98)
-  - [段落](#%E6%AE%B5%E8%90%BD)
-  - [换行](#%E6%8D%A2%E8%A1%8C)
-  - [着重](#%E7%9D%80%E9%87%8D)
-    - [- 粗体](#--%E7%B2%97%E4%BD%93)
-    - [- 斜体](#--%E6%96%9C%E4%BD%93)
-    - [- 粗斜体](#--%E7%B2%97%E6%96%9C%E4%BD%93)
-  - [块引用](#%E5%9D%97%E5%BC%95%E7%94%A8)
-    - [- 多段落块引用](#--%E5%A4%9A%E6%AE%B5%E8%90%BD%E5%9D%97%E5%BC%95%E7%94%A8)
-    - [- 嵌套块引用](#--%E5%B5%8C%E5%A5%97%E5%9D%97%E5%BC%95%E7%94%A8)
-  - [清单](#%E6%B8%85%E5%8D%95)
-  - [代码](#%E4%BB%A3%E7%A0%81)
-  - [水平线](#%E6%B0%B4%E5%B9%B3%E7%BA%BF)
-  - [链接](#%E9%93%BE%E6%8E%A5)
-  - [图片](#%E5%9B%BE%E7%89%87)
-  - [转义字符](#%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6)
-- [扩展用法](#%E6%89%A9%E5%B1%95%E7%94%A8%E6%B3%95)
-  - [表格](#%E8%A1%A8%E6%A0%BC)
-  - [脚注](#%E8%84%9A%E6%B3%A8)
-  - [生成目录](#%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95)
-    - [1. 手动生成目录](#1-%E6%89%8B%E5%8A%A8%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95)
-    - [2. 自动生成目录](#2-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95)
-    - [3. npm 语法生成](#3-npm-%E8%AF%AD%E6%B3%95%E7%94%9F%E6%88%90)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 **Markdown**是一种轻量级的标记语言，可用于将格式设置元素添加到纯文本文档中。
 
 [Markdown 中文网](http://markdown.p2hp.com/index.html)
 
-## 基本用法
+Markdown 是一种轻量级的标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成结构化的 HTML（超文本标记语言）文档。下面是一些基本语法和部分扩展语法的介绍：
 
-### 标题
+## 基本语法
 
-### 段落
+1. **标题**：在行首加上 `#` 号，`#` 的数量表示标题的级别。
 
-### 换行
+   ```
+   # 一级标题
+   ## 二级标题
+   ### 三级标题
+   ```
 
-### 着重
+2. **段落与换行**：新行直接书写即可形成新的段落；若要在一行内强制换行，则在行尾添加两个空格后回车。
 
-#### - 粗体
+3. **强调**：
 
-要加粗文本，请在单词或短语的前后添加两个星号或下划线。要加粗一个单词的中部以强调，请在字母周围添加两个星号，且各空格之间不加空格。
+   - 斜体：用一个星号或下划线包裹文字 `*斜体*` 或 `_斜体_`
+   - 粗体：用两个星号或下划线包裹文字 `**粗体**` 或 `__粗体__`
+   - 粗斜体：用三个星号或下划线包裹文字 `***粗斜体***` 或 `___粗斜体___`
 
-> 示例：<br> > `I just love **bold text**. 或 I just love __bold text__.`<br><br>
-> 呈现的输出如下所示：<br>
-> I just love **bold text**. <br>
-> I just love **bold text**. <br>
+4. **列表**：
 
-#### - 斜体
+   - 无序列表：使用星号、加号或减号作为列表标记
+     ```
+     * 项目1
+     + 项目2
+     - 项目3
+     ```
+   - 有序列表：使用数字并加上一个英文句点
+     ```
+     1. 第一项
+     2. 第二项
+     ```
 
-要加粗文本，请在单词或短语的前后添加一个星号或下划线。要加粗一个单词的中部以强调，请在字母周围添加两个星号，且各空格之间不加空格。
+5. **链接与图片**：
 
-> 示例：<br> > `I just love *bold text*. 或 I just love _bold text_.`<br><br>
-> 呈现的输出如下所示：<br>
-> I just love _bold text_. <br>
-> I just love _bold text_. <br>
+   - 链接：`[链接文字](URL)`
+   - 图片：`![替代文字](图片URL)`
+     > - 中括号中的文本为`<img>` <prib>alt</prib> 属性。
+     > - 小括号引号中的文本为`<img>` <prib>title</prib> 属性。
 
-#### - 粗斜体
+6. **引用**：以 `>` 符号开头的段落代表引用内容
 
-要加粗文本，请在单词或短语的前后添加三个星号或下划线。要加粗一个单词的中部以强调，请在字母周围添加两个星号，且各空格之间不加空格。
+   ```
+   > 这是一个引用。
+   ```
 
-> 示例：<br> > `I just love ***bold text***. 或 I just love ___bold text___.`<br><br>
-> 呈现的输出如下所示：<br>
-> I just love **_bold text_**. <br>
-> I just love **_bold text_**. <br>
+7. **代码**：
 
-### 块引用
+   - 行内代码：用反引号 ` 包裹代码
+   - 多行代码块：每一行至少缩进四个空格或者一个制表符，或者使用三个反引号 `开始和结束代码块，并可指定语言类型如`python
 
-要创建 blockquote，请>在段落前面添加一个。
-
-> 示例：<br> > `> Dorothy followed her through many of the beautiful rooms in her castle.`<br><br>
-> 呈现的输出如下所示：<br>
->
-> > Dorothy followed her through many of the beautiful rooms in her castle. <br>
-
-#### - 多段落块引用
-
-块引用可以包含多个段落。>在段落之间的空白行上添加一个。
-
-> 示例：<br>
->
-> <p> > Dorothy followed her through many of the beautiful rooms in her castle. </p>
-> <p> > </p>
-> <p> > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
->
-> <p>呈现的输出如下所示：</p>
->
-> > Dorothy followed her through many of the beautiful rooms in her castle.
-> >
-> > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood. <br>
-
-#### - 嵌套块引用
-
-块引用可以嵌套。>>在要嵌套的段落前面添加一个。
-
-> 示例：<br>
->
-> <p>>> Dorothy followed her through many of the beautiful rooms in her castle.</p>
-> 呈现的输出如下所示：<br>
->
-> > > Dorothy followed her through many of the beautiful rooms in her castle. <br>
-
-### 清单
-
-### 代码
-
-### 水平线
+8. **水平线**：水平线
 
 要创建水平线\*\*\*，请单独在一行上使用三个或更多的星号（），破折号（---）或下划线（\_\_\_）。
 
-> 示例:<br/>
->
-> ---
->
-> ---
+## 扩展语法
 
-### 链接
+不同的 Markdown 解析器支持不同的扩展语法，以下是几种常见的扩展：
 
-要创建链接，请将链接文本括在方括号（例如[Duck Duck Go]）中，然后立即在 URL 后面加上括号（例如(https://duckduckgo.com)）中的URL 。
+1. **表格**：通过管道符号 `|` 和破折号 `-` 创建表格。
 
-> 示例：<br>
->
-> <p>我最喜欢的搜索引擎是[Duck Duck Go](https://duckduckgo.com).</p>
->
-> 呈现的输出如下所示：<br>
->
-> 我最喜欢的搜索引擎是[Duck Duck Go](https://duckduckgo.com)。
+   ```
+   | 列1 | 列2 | 列3 |
+   | --- | --- | --- |
+   | 单元格1 | 单元格2 | 单元格3 |
+   ```
 
-<bqe>
-在Markdown中，标题转换为HTML锚点时，确实会将标题文字转换为小写并用连字符连接，但这个过程中也会去除或替换掉非字母和连字符字符，包括数字。然而，实际上，数字并不会被移除，它们通常会被保留下来成为锚点的一部分。<br/>
-例如，在标题中使用数字，例如“1. 标题”，则生成的HTML锚点为“1-标题”。具体可以查看页面元素的<prib>id 标识</prib>；
-</bqe>
+2. **任务列表**：通过 `- [ ]` 或 `- [x]` 创建待办事项列表，后者表示已完成的任务。
 
-### 图片
+   ```
+   - [ ] 任务1
+   - [x] 任务2
+   ```
 
-要添加图像，请添加感叹号（!），然后在括号中添加替代文本，并在括号中添加图像资源的路径或 URL。您可以选择在括号中的 URL 之后添加标题。
+3. **脚注**：通过 `[^脚注标识符]` 插入脚注，并在文末定义脚注内容。
 
-> 示例：<br>
->
-> <p>![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/index.png "Philadelphia's Magic Gardens")</p>
->
-> - 中括号中的文本为`<img>` <prib>alt</prib> 属性。
-> - 小括号引号中的文本为`<img>` <prib>title</prib> 属性。
->
-> 呈现的输出如下所示：<br>
->
-> ![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/index.png "Philadelphia's Magic Gardens")
+   ```
+   这里有一个脚注[^1]。
 
-### 转义字符
+   [^1]: 这是脚注的内容。
+   ```
 
-## 扩展用法
+4. **定义列表**：一些解析器支持定义列表，通常形式如下：
+   ```
+   定义术语
+   : 定义描述
+   ```
 
-### 表格
+## CSS 应用方式
 
-要添加表，请使用三个或多个连字符（---）创建每列的标题，并使用管道（|）分隔每列。您可以选择在表的任一端添加管道。
-
-> 请尝试使用 [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)。使用图形界面构建表，然后将生成的 Markdown 格式的文本复制到文件中。
-
-> 示例：<br>
->
-> <p>| Syntax      | Description |</p>
-> <p>| ----------- | ----------- |</p>
-> <p>| Header      | Title       |</p>
-> <p>| Paragraph   | Text        |</p>
->
-> 呈现的输出如下所示：<br>
-> | Syntax | Description |
-> | ----------- | ----------- |
-> | Header | Title |
-> | Paragraph | Text |
-
-### 脚注
-
-### CSS 应用方式
-
-#### 1. 内联样式
+### 1. 内联样式
 
 直接在 Markdown 元素中使用 HTML 的 style 属性来应用 CSS 样式。
 
@@ -191,7 +103,7 @@
 <span style="color: red;">红色文字</span>
 ```
 
-#### 2. 嵌入式样式
+### 2. 嵌入式样式
 
 在 Markdown 文件的顶部或底部插入\<style>标签，并在其中定义 CSS 规则。
 
@@ -203,7 +115,7 @@
 </style>
 ```
 
-#### 3. 外部引用样式
+### 3. 外部引用样式
 
 链接到外部 CSS 文件，这在多个 Markdown 文件共享相同样式时尤其有用。
 
@@ -211,9 +123,9 @@
 <link rel="stylesheet" href="path/to/style.css" />
 ```
 
-### 生成目录
+## 生成目录
 
-#### 1. 手动生成目录
+### 1. 手动生成目录
 
 生成章节目录，我们只需要使用链接语法，将标题集中组合在一个列表中即可。
 
@@ -242,7 +154,7 @@
 这里是第二章的内容...
 ```
 
-#### 2. 自动生成目录
+### 2. 自动生成目录
 
 但通过上边的方式生成目录，我们很容易发现问题所在，目录少的时候没问题，当目录多的时候就有些繁琐了，我们需要整理维护所有的章节组成这颗导航树。
 
@@ -286,7 +198,7 @@
 
 请注意，不是所有的 Markdown 处理器都支持自动生成目录，因此需要具体查看 Markdown 处理器的文档以了解它们是否支持这个功能。
 
-#### 3. npm 语法生成
+### 3. npm 语法生成
 
 - <h3>doctoc</h3>
 
