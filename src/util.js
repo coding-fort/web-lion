@@ -72,7 +72,7 @@ function readAllDirectoriesAndFiles(dirPath) {
     const entries = fs.readdirSync(_dirPath, { withFileTypes: true });
     for (const entry of entries) {
       const filePath = path.join(_dirPath, entry.name);
-      let isReadme = isReadmeFile(entry.name);
+      // let isReadme = isReadmeFile(entry.name);
       if (entry.isDirectory()) {
         const subEntries = readAllDirectoriesAndFiles(filePath);
         results.push({
@@ -80,17 +80,16 @@ function readAllDirectoriesAndFiles(dirPath) {
           name: entry.name,
           children: subEntries,
         });
-      } else if (entry.name.toLowerCase().indexOf("md") > 0 && !isReadme) {
+      } else if (entry.name.toLowerCase().indexOf("md") > 0) {
         results.push({
           // path: filePath,
           name: entry.name,
           // children: [],
         });
       }
-      if (isReadme) {
-        // console.log("entry.name:", entry.name);
-        removeFile(filePath);
-      }
+      // if (isReadme) {
+      //   removeFile(filePath);
+      // }
     }
   } catch (error) {
     console.error("Error reading directory:", error);
