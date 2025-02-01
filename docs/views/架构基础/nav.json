@@ -116,6 +116,10 @@
               {
                 "text": "创建一个VitePress插件",
                 "link": "/views/架构基础/SSG/VitePress/创建一个VitePress插件"
+              },
+              {
+                "text": "部署 VitePress 站点",
+                "link": "/views/架构基础/SSG/VitePress/部署 VitePress 站点"
               }
             ],
             "collapsed": false
