@@ -1,4 +1,4 @@
-# SSG（Static Site Generator，静态站点生成器）
+# SSG（Static Site Generator，静态站点生成器） 
 
 SSG（Static Site Generator，静态站点生成器）是一种构建网站的技术，它主要用于生成静态 HTML 文件，这些文件可以在服务器上直接提供给客户端浏览器而无需服务器端的动态处理。SSG 的主要优势在于性能、可伸缩性和安全性。
 

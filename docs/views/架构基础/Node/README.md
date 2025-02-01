@@ -1,4 +1,4 @@
-# Node
+# Node 
 
 Node.js 是一个开放源代码、跨平台的 JavaScript 运行环境，它允许开发者在服务器端运行 JavaScript 代码。Node.js 的设计初衷是为了解决网络应用中的高并发问题，它使用了 Google Chrome 浏览器中的 V8 JavaScript 引擎来执行 JavaScript 代码。Node.js 的特点是事件驱动、非阻塞 I/O 模型，这使得它非常适合开发实时交互的应用程序，如聊天应用、在线游戏等。
 

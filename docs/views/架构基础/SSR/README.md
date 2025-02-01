@@ -1,4 +1,4 @@
-# SSR（Server-Side Rendering，服务器端渲染）
+# SSR（Server-Side Rendering，服务器端渲染） 
 
 SSR 是 "Server-Side Rendering"（服务器端渲染）的缩写。这是一种网页渲染技术，在这种技术中，网页的初始 HTML 是在服务器上生成并发送给客户端浏览器的。这与传统的客户端渲染（Client-Side Rendering, CSR）不同，在 CSR 中，HTML 是在浏览器中由 JavaScript 动态生成的。
 
