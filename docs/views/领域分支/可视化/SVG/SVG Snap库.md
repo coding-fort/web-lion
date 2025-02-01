@@ -1,7 +1,8 @@
 # SVG Snap 库
 
 一个 svg 的 api 库，提供了更简便的方式来创建、操作、动画 svg 图形。
-官网：[snapsvg.io](snapsvg.io)
+
+官网：[snapsvg.io](http://snapsvg.io/)
 
 ## 创建画布 Pager
 
