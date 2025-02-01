@@ -6,8 +6,8 @@ hero:
   text: "Web Lion"
   tagline: 构建坚实的前端编程基础，探索最新的技术趋势
   image:
-    # src: ./assets/images/web-lion logo.png
-    src: ./assets/images/logo.svg
+    # src: /assets/images/web-lion logo.png
+    src: /assets/images/logo.svg
     alt: Web Lion Logo
   actions:
 

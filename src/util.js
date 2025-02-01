@@ -63,6 +63,7 @@ const readDir = (dirPath) => {
 /**
  * 读取当前目录下所有文件名称
  * @param {*} dirPath
+ * @param {*} level：递归层级
  * @returns
  */
 function readAllDirectoriesAndFiles(dirPath) {
@@ -72,11 +73,10 @@ function readAllDirectoriesAndFiles(dirPath) {
     const entries = fs.readdirSync(_dirPath, { withFileTypes: true });
     for (const entry of entries) {
       const filePath = path.join(_dirPath, entry.name);
-      // let isReadme = isReadmeFile(entry.name);
+      // addReadmeFileIfSecondLevel(filePath, entry.name);
       if (entry.isDirectory()) {
         const subEntries = readAllDirectoriesAndFiles(filePath);
         results.push({
-          // path: filePath,
           name: entry.name,
           children: subEntries,
         });
@@ -84,9 +84,9 @@ function readAllDirectoriesAndFiles(dirPath) {
         results.push({
           // path: filePath,
           name: entry.name,
-          // children: [],
         });
       }
+      // 移除readme 文件
       // if (isReadme) {
       //   removeFile(filePath);
       // }
@@ -98,8 +98,46 @@ function readAllDirectoriesAndFiles(dirPath) {
   return results.length > 0 ? results : [];
 }
 
+/**
+ * 判断是否为readme 文件
+ * @param {*} fileName
+ * @returns
+ */
 function isReadmeFile(fileName) {
   return fileName.toLowerCase().indexOf("readme") > -1;
+}
+
+/**
+ * 判断是否为二级目录
+ */
+function isSecondLevelDirectory(filePath) {
+  let startStr = "views/";
+  let _filePath = filePath.substring(
+    filePath.indexOf(startStr) + startStr.length
+  );
+  let dirs = _filePath.split("/");
+  return dirs.length === 2;
+}
+
+/**
+ * 添加readme 文件
+ */
+function addReadmeFile(filePath, content = "# README") {
+  const readmeFilePath = path.join(filePath, "readme.md");
+  if (!fs.existsSync(readmeFilePath)) {
+    fs.writeFileSync(readmeFilePath, content, "utf8");
+    console.log(`Successfully created readme.md file at ${readmeFilePath}`);
+  }
+}
+
+/**
+ * 如果是二级目录，则新增readme.md 文件
+ */
+function addReadmeFileIfSecondLevel(filePath, fileName) {
+  if (fileName.indexOf(".") > -1) return;
+  if (isSecondLevelDirectory(filePath)) {
+    addReadmeFile(filePath, `# ${fileName}`);
+  }
 }
 
 /**
