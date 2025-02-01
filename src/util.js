@@ -20,6 +20,22 @@ const readFile = (filePath) => {
     });
   });
 };
+/**
+ * 删除文件
+ * @param {*} filePath
+ * @returns
+ */
+const removeFile = (filePath) => {
+  return new Promise((resolve, reject) => {
+    fs.unlink(filePath, (err) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve();
+      }
+    });
+  });
+};
 
 /**
  * 读取当前目录下所有文件名称
@@ -56,6 +72,7 @@ function readAllDirectoriesAndFiles(dirPath) {
     const entries = fs.readdirSync(_dirPath, { withFileTypes: true });
     for (const entry of entries) {
       const filePath = path.join(_dirPath, entry.name);
+      let isReadme = isReadmeFile(entry.name);
       if (entry.isDirectory()) {
         const subEntries = readAllDirectoriesAndFiles(filePath);
         results.push({
@@ -63,12 +80,16 @@ function readAllDirectoriesAndFiles(dirPath) {
           name: entry.name,
           children: subEntries,
         });
-      } else if (entry.name.toLowerCase().indexOf("md") > 0) {
+      } else if (entry.name.toLowerCase().indexOf("md") > 0 && !isReadme) {
         results.push({
           // path: filePath,
           name: entry.name,
           // children: [],
         });
+      }
+      if (isReadme) {
+        // console.log("entry.name:", entry.name);
+        removeFile(filePath);
       }
     }
   } catch (error) {
@@ -76,6 +97,10 @@ function readAllDirectoriesAndFiles(dirPath) {
   }
   // console.log([results]);
   return results.length > 0 ? results : [];
+}
+
+function isReadmeFile(fileName) {
+  return fileName.toLowerCase().indexOf("readme") > -1;
 }
 
 /**
@@ -190,6 +215,11 @@ function generateNavInfo(dirInfo) {
     let _temp = [];
     if (children?.length > 0) {
       _temp = children
+        .map((item) => {
+          // if(item.name?.toLowerCase().indexOf("readme") > -1)
+          // console.log('item:', item.name);
+          return item;
+        })
         .filter((item) => item.name?.toLowerCase().indexOf("readme") == -1)
         .map((item) => {
           let name = item.name.split(".")[0];
