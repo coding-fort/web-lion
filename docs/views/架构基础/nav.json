@@ -109,7 +109,18 @@
       {
         "text": "SSG",
         "collapsed": false,
-        "items": []
+        "items": [
+          {
+            "text": "VitePress",
+            "items": [
+              {
+                "text": "创建一个VitePress插件",
+                "link": "/views/架构基础/SSG/VitePress/创建一个VitePress插件"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
       }
     ],
     "/views/架构基础/SSR": [
