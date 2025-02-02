@@ -26,7 +26,7 @@ export default defineConfig({
   ],
   title: "Web Lion",
   description: "前端探路狮",
-  base: "/web-lion/",
+  base: "/",
   themeConfig: {
     siteTitle: "Web Lion",
     logo: "/logo2.svg",
