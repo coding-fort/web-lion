@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 
-import navConfig from "./public/nav.config.json";
+import navConfig from "../public/nav.config.json";
 // 编程基础
 import codingBasicNavConfig from "../views/编程基础/nav.json";
 // 工程开发
@@ -20,16 +20,24 @@ import codeDemoNavConfig from "../views/实战示例/nav.json";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [["link", { rel: "icon", href: "/assets/images/favicon.ico" }]],
+  head: [
+    ["link", { rel: "stylesheet", href: "/styles/index.css" }],
+    ["link", { rel: "icon", href: "./favicon.ico" }],
+  ],
   title: "Web Lion",
-  description: "前端狮子",
+  description: "前端探路狮",
   base: "/web-lion/",
   themeConfig: {
-    // logo: "/assets/images/index.png",
+    siteTitle: "Web Lion",
+    logo: "/logo2.svg",
     outlineTitle: "本页目录", // 设置页面大纲标题为中文
     docFooter: {
       prev: "上一篇",
       next: "下一篇",
+    },
+    footer: {
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2025-present Void Wind",
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -60,6 +68,7 @@ export default defineConfig({
     search: {
       provider: "local",
     },
+    // siteTitle: false,
   },
   lang: "zh-CN",
   // locales: {

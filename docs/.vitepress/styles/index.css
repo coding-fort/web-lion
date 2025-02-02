@@ -209,3 +209,7 @@ bmask::after {
   display: block;
   font-weight: bold;
 }
+.title span {
+  color: var(--priColor);
+  font-size: 20px;
+}

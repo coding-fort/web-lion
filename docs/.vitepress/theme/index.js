@@ -3,4 +3,6 @@ import DefaultTheme from "vitepress/theme";
 import "../styles/index.css";
 import "../styles/theme.css";
 
-export default DefaultTheme;
+export default {
+  ...DefaultTheme,
+};
