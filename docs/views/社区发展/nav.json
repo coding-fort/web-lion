@@ -2,8 +2,84 @@
   "nav": [
     {
       "text": "社区发展",
-      "items": []
+      "items": [
+        {
+          "text": "技术书籍",
+          "link": "/views/社区发展/技术书籍/readme.md"
+        },
+        {
+          "text": "技术社区",
+          "link": "/views/社区发展/技术社区/readme.md"
+        }
+      ]
     }
   ],
-  "sidebar": {}
+  "sidebar": {
+    "/views/社区发展/技术书籍": [
+      {
+        "text": "技术书籍",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "《JavaScript高级程序设计》",
+            "items": [
+              {
+                "text": "第4版",
+                "link": "/views/社区发展/技术书籍/《JavaScript高级程序设计》/第4版"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/社区发展/技术社区": [
+      {
+        "text": "技术社区",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "CSDN",
+            "items": [
+              {
+                "text": "CSDN",
+                "link": "/views/社区发展/技术社区/CSDN/CSDN"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "Gitee",
+            "items": [
+              {
+                "text": "Gitee",
+                "link": "/views/社区发展/技术社区/Gitee/Gitee"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "Github",
+            "items": [
+              {
+                "text": "Github",
+                "link": "/views/社区发展/技术社区/Github/Github"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "掘金社区",
+            "items": [
+              {
+                "text": "掘金社区",
+                "link": "/views/社区发展/技术社区/掘金社区/掘金社区"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ]
+  }
 }

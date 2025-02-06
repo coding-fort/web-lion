@@ -100,12 +100,20 @@
             "text": "技术环节",
             "items": [
               {
+                "text": "HR 面试",
+                "link": "/views/软技能/求职之道/技术环节/HR 面试"
+              },
+              {
                 "text": "亮难点知识面试讲解",
                 "link": "/views/软技能/求职之道/技术环节/亮难点知识面试讲解"
               },
               {
                 "text": "技术重点",
                 "link": "/views/软技能/求职之道/技术环节/技术重点"
+              },
+              {
+                "text": "技术面试",
+                "link": "/views/软技能/求职之道/技术环节/技术面试"
               },
               {
                 "text": "项目面试准备",
@@ -144,6 +152,42 @@
               {
                 "text": "四、项目亮难点",
                 "link": "/views/软技能/求职之道/非技术环节/四、项目亮难点"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "面试题",
+            "items": [
+              {
+                "text": "Promise",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "React 相关",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "Vue 相关",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "事件循环",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "原型与原型链",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "浏览器渲染原理",
+                "items": [],
+                "collapsed": false
               }
             ],
             "collapsed": false
