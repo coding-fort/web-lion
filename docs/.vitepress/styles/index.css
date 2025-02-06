@@ -213,3 +213,17 @@ bmask::after {
   color: var(--priColor);
   font-size: 20px;
 }
+
+ans {
+  color: #f7f7f7;
+  display: block;
+  font-size: 12px;
+}
+ans::before {
+  color: #e7e7e7;
+  content: "[输出]";
+}
+
+ans.show {
+  color: #999;
+}

@@ -18,6 +18,8 @@ import communityDevelopmentNavConfig from "../views/社区发展/nav.json";
 // 实战示例
 import codeDemoNavConfig from "../views/实战示例/nav.json";
 
+import viteCustomConfig from "./vitepress.config";
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [
@@ -71,6 +73,7 @@ export default defineConfig({
     // siteTitle: false,
   },
   lang: "zh-CN",
+  vite: { ...viteCustomConfig },
   // locales: {
   //   "/": {
   //     label: "简体中文",

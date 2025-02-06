@@ -28,6 +28,10 @@
           "link": "/views/编程基础/开发软件/readme.md"
         },
         {
+          "text": "浏览器",
+          "link": "/views/编程基础/浏览器/readme.md"
+        },
+        {
           "text": "编程思想",
           "link": "/views/编程基础/编程思想/readme.md"
         },
@@ -267,14 +271,6 @@
               }
             ],
             "collapsed": false
-          },
-          {
-            "text": "浏览器渲染原理",
-            "link": "/views/编程基础/JavaScript/浏览器渲染原理"
-          },
-          {
-            "text": "浏览器进程模型",
-            "link": "/views/编程基础/JavaScript/浏览器进程模型"
           },
           {
             "text": "立即执行函数",
@@ -1067,6 +1063,34 @@
               }
             ],
             "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/编程基础/浏览器": [
+      {
+        "text": "浏览器",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "事件循环",
+            "link": "/views/编程基础/浏览器/事件循环"
+          },
+          {
+            "text": "浏览器渲染原理",
+            "link": "/views/编程基础/浏览器/浏览器渲染原理"
+          },
+          {
+            "text": "浏览器渲染流程",
+            "link": "/views/编程基础/浏览器/浏览器渲染流程"
+          },
+          {
+            "text": "浏览器进程模型",
+            "link": "/views/编程基础/浏览器/浏览器进程模型"
+          },
+          {
+            "text": "面试题",
+            "link": "/views/编程基础/浏览器/面试题"
           }
         ]
       }
