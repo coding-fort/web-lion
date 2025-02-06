@@ -807,16 +807,48 @@
         "collapsed": false,
         "items": [
           {
+            "text": "box-sizing",
+            "link": "/views/编程基础/css/box-sizing"
+          },
+          {
+            "text": "css3",
+            "link": "/views/编程基础/css/css3"
+          },
+          {
+            "text": "position",
+            "link": "/views/编程基础/css/position"
+          },
+          {
             "text": "select",
             "link": "/views/编程基础/css/select"
+          },
+          {
+            "text": "元素尺寸",
+            "link": "/views/编程基础/css/元素尺寸"
           },
           {
             "text": "多级样式布局",
             "link": "/views/编程基础/css/多级样式布局"
           },
           {
+            "text": "弹性盒子布局",
+            "link": "/views/编程基础/css/弹性盒子布局"
+          },
+          {
+            "text": "文档流",
+            "link": "/views/编程基础/css/文档流"
+          },
+          {
             "text": "盒模型",
             "link": "/views/编程基础/css/盒模型"
+          },
+          {
+            "text": "网格布局",
+            "link": "/views/编程基础/css/网格布局"
+          },
+          {
+            "text": "选择器",
+            "link": "/views/编程基础/css/选择器"
           },
           {
             "text": "页面布局样式",
