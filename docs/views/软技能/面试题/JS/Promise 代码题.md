@@ -146,6 +146,9 @@ Promise { &lt;pending> }<br/>
 Promise.resolve(1).then(2).then(Promise.resolve(3)).then(console.log);
 ```
 
+<ans>1</ans>
+<ans>then 中必须传入一个回调函数，否则可以忽略</ans>
+
 ## 8. 下面代码的输出结果是什么
 
 ```js
@@ -179,6 +182,17 @@ a = new Promise(async (resolve, reject) => {
 console.log("end");
 ```
 
+<ans><br/>
+promise1 <br/>
+undefined <br/>
+end <br/>
+promise2 <br/>
+promise3 <br/>
+promise4 <br/>
+Promise{ &lt;pending> } <br/>
+after1 <br/>
+</ans>
+
 ## 9. 下面代码的输出结果是什么
 
 ```js
@@ -207,3 +221,14 @@ new Promise(function (resolve) {
 });
 console.log("script end");
 ```
+
+<ans><br/>
+script start <br/>
+async1 start <br/>
+async2 <br/>
+promise1 <br/>
+script end <br/>
+async1 end <br/>
+promise2 <br/>
+setTimeout
+</ans>
