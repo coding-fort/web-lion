@@ -260,6 +260,73 @@
               {
                 "text": "[面试15] 说说你对Vue2 与 Vue3 的区别的理解",
                 "link": "/views/软技能/面试题/Vue 相关/[面试15] 说说你对Vue2 与 Vue3 的区别的理解"
+              },
+              {
+                "text": "使用相关",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "原理相关",
+                "items": [
+                  {
+                    "text": "Vue2 双端diff 算法",
+                    "link": "/views/软技能/面试题/Vue 相关/原理相关/Vue2 双端diff 算法"
+                  },
+                  {
+                    "text": "Vue2 响应式",
+                    "link": "/views/软技能/面试题/Vue 相关/原理相关/Vue2 响应式"
+                  },
+                  {
+                    "text": "Vue3 响应式",
+                    "link": "/views/软技能/面试题/Vue 相关/原理相关/Vue3 响应式"
+                  },
+                  {
+                    "text": "Vue3 快速diff 算法",
+                    "link": "/views/软技能/面试题/Vue 相关/原理相关/Vue3 快速diff 算法"
+                  },
+                  {
+                    "text": "Vue3 相比Vue2 有什么新的变化",
+                    "link": "/views/软技能/面试题/Vue 相关/原理相关/Vue3 相比Vue2 有什么新的变化"
+                  },
+                  {
+                    "text": "Vue3 运行机制",
+                    "link": "/views/软技能/面试题/Vue 相关/原理相关/Vue3 运行机制"
+                  },
+                  {
+                    "text": "computed 面试题",
+                    "link": "/views/软技能/面试题/Vue 相关/原理相关/computed 面试题"
+                  },
+                  {
+                    "text": "nextTick 实现原理",
+                    "link": "/views/软技能/面试题/Vue 相关/原理相关/nextTick 实现原理"
+                  },
+                  {
+                    "text": "watch 面试题",
+                    "link": "/views/软技能/面试题/Vue 相关/原理相关/watch 面试题"
+                  },
+                  {
+                    "text": "事件绑定与更新",
+                    "link": "/views/软技能/面试题/Vue 相关/原理相关/事件绑定与更新"
+                  },
+                  {
+                    "text": "代码题",
+                    "link": "/views/软技能/面试题/Vue 相关/原理相关/代码题"
+                  },
+                  {
+                    "text": "最长递增子序列",
+                    "link": "/views/软技能/面试题/Vue 相关/原理相关/最长递增子序列"
+                  },
+                  {
+                    "text": "模板编译器实现原理",
+                    "link": "/views/软技能/面试题/Vue 相关/原理相关/模板编译器实现原理"
+                  },
+                  {
+                    "text": "渲染器核心功能",
+                    "link": "/views/软技能/面试题/Vue 相关/原理相关/渲染器核心功能"
+                  }
+                ],
+                "collapsed": false
               }
             ],
             "collapsed": false
