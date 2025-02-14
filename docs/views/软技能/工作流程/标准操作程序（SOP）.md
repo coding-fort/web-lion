@@ -1,6 +1,6 @@
 # 标准操作程序（SOP）
 
-<h2 class="title">所谓<span>高效生产力</span>，有一半都是靠<span>建立SOP</span>来实现的。</h2>
+<h2 class="sop-title">所谓<span>高效生产力</span>，有一半都是靠<span>建立SOP</span>来实现的。</h2>
 
 ## SOP 是什么
 
@@ -138,15 +138,15 @@ SOP 可以按照任务或操作的类型进行分类：
     body {
         /* color: red; */
     }
-    .title {
+    .sop-title {
         color:#395b8c;
     }
-    .title span {
+    .sop-title span {
         color: #3c77cd; 
         font-size: 38px; 
         font-weight: bold;
     }
-    .title span+span {
+    .sop-title span+span {
         font-size: unset;
     }
     /*  */

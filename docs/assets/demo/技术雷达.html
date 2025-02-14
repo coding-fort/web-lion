@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>前端技术雷达</title>
+    <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+    <script src="../lib/plotly.js"></script>
+</head>
+<body>
+<div id="radarPlot" style="width: 600px; height: 600px;"></div>
+<script>
+    var data = [{
+        type: 'scatterpolar',
+        r: [5, 3, 2, 4], // 这里用数字代表每个技术在各自类别中的得分或优先级
+        theta: ['框架与库', '工具', '方法论', '服务与平台'],
+        fill: 'toself'
+    }];
+
+    var layout = {
+        polar: {
+            radialaxis: {
+                visible: true,
+                range: [0, 5]
+            }
+        },
+        showlegend: false
+    };
+
+    Plotly.newPlot('radarPlot', data, layout);
+</script>
+</body>
+</html>
