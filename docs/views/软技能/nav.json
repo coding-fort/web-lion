@@ -49,10 +49,6 @@
         "collapsed": false,
         "items": [
           {
-            "text": "SOP 消化新技术或编程思路",
-            "link": "/views/软技能/工作流程/SOP 消化新技术或编程思路"
-          },
-          {
             "text": "前端开发SOP",
             "link": "/views/软技能/工作流程/前端开发SOP"
           },
@@ -67,6 +63,10 @@
           {
             "text": "标准操作程序（SOP）",
             "link": "/views/软技能/工作流程/标准操作程序（SOP）"
+          },
+          {
+            "text": "消化新技术SOP",
+            "link": "/views/软技能/工作流程/消化新技术SOP"
           }
         ]
       }
