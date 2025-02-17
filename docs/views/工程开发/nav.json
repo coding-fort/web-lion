@@ -358,8 +358,28 @@
             "text": "Webpack 相关",
             "items": [
               {
+                "text": "Gzip 压缩",
+                "link": "/views/工程开发/构建工具/Webpack 相关/Gzip 压缩"
+              },
+              {
+                "text": "cache 配置项",
+                "link": "/views/工程开发/构建工具/Webpack 相关/cache 配置项"
+              },
+              {
+                "text": "optimization 配置项",
+                "link": "/views/工程开发/构建工具/Webpack 相关/optimization 配置项"
+              },
+              {
+                "text": "performance 配置项",
+                "link": "/views/工程开发/构建工具/Webpack 相关/performance 配置项"
+              },
+              {
                 "text": "webpack 版本",
                 "link": "/views/工程开发/构建工具/Webpack 相关/webpack 版本"
+              },
+              {
+                "text": "代码拆分",
+                "link": "/views/工程开发/构建工具/Webpack 相关/代码拆分"
               },
               {
                 "text": "作用域提升",
@@ -368,6 +388,18 @@
               {
                 "text": "性能优化",
                 "link": "/views/工程开发/构建工具/Webpack 相关/性能优化"
+              },
+              {
+                "text": "拆包原则",
+                "link": "/views/工程开发/构建工具/Webpack 相关/拆包原则"
+              },
+              {
+                "text": "模块解析规则优化",
+                "link": "/views/工程开发/构建工具/Webpack 相关/模块解析规则优化"
+              },
+              {
+                "text": "魔术注释",
+                "link": "/views/工程开发/构建工具/Webpack 相关/魔术注释"
               }
             ],
             "collapsed": false
