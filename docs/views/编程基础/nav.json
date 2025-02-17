@@ -247,6 +247,10 @@
             "link": "/views/编程基础/JavaScript/异步"
           },
           {
+            "text": "时间空间复杂度",
+            "link": "/views/编程基础/JavaScript/时间空间复杂度"
+          },
+          {
             "text": "构造函数",
             "link": "/views/编程基础/JavaScript/构造函数"
           },
