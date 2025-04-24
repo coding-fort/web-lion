@@ -1,0 +1,85 @@
+{
+  "nav": [
+    {
+      "text": "社区资源",
+      "items": [
+        {
+          "text": "学习资源",
+          "link": "/views/社区资源/学习资源/readme.md"
+        },
+        {
+          "text": "社区生态",
+          "link": "/views/社区资源/社区生态/readme.md"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/社区资源/学习资源": [
+      {
+        "text": "学习资源",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "《JavaScript高级程序设计》",
+            "items": [
+              {
+                "text": "第4版",
+                "link": "/views/社区资源/学习资源/《JavaScript高级程序设计》/第4版"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/社区资源/社区生态": [
+      {
+        "text": "社区生态",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "CSDN",
+            "items": [
+              {
+                "text": "CSDN",
+                "link": "/views/社区资源/社区生态/CSDN/CSDN"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "Gitee",
+            "items": [
+              {
+                "text": "Gitee",
+                "link": "/views/社区资源/社区生态/Gitee/Gitee"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "Github",
+            "items": [
+              {
+                "text": "Github",
+                "link": "/views/社区资源/社区生态/Github/Github"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "掘金社区",
+            "items": [
+              {
+                "text": "掘金社区",
+                "link": "/views/社区资源/社区生态/掘金社区/掘金社区"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ]
+  }
+}

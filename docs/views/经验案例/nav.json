@@ -1,0 +1,73 @@
+{
+  "nav": [
+    {
+      "text": "经验案例",
+      "items": [
+        {
+          "text": "全栈架构案例",
+          "link": "/views/经验案例/全栈架构案例/readme.md"
+        },
+        {
+          "text": "前端架构案例",
+          "link": "/views/经验案例/前端架构案例/readme.md"
+        },
+        {
+          "text": "后端架构案例",
+          "link": "/views/经验案例/后端架构案例/readme.md"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/经验案例/全栈架构案例": [
+      {
+        "text": "全栈架构案例",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/经验案例/前端架构案例": [
+      {
+        "text": "前端架构案例",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "功能代码",
+            "items": [
+              {
+                "text": "文件下载",
+                "link": "/views/经验案例/前端架构案例/功能代码/文件下载"
+              },
+              {
+                "text": "防抖节流",
+                "link": "/views/经验案例/前端架构案例/功能代码/防抖节流"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "实战代码",
+            "items": [
+              {
+                "text": "扑克牌",
+                "link": "/views/经验案例/前端架构案例/实战代码/扑克牌"
+              },
+              {
+                "text": "歌词滚动效果",
+                "link": "/views/经验案例/前端架构案例/实战代码/歌词滚动效果"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/经验案例/后端架构案例": [
+      {
+        "text": "后端架构案例",
+        "collapsed": false,
+        "items": []
+      }
+    ]
+  }
+}

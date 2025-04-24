@@ -1,0 +1,44 @@
+{
+  "nav": [
+    {
+      "text": "前沿技术",
+      "items": [
+        {
+          "text": "后端技术创新",
+          "link": "/views/前沿技术/后端技术创新/readme.md"
+        },
+        {
+          "text": "新兴前端技术",
+          "link": "/views/前沿技术/新兴前端技术/readme.md"
+        },
+        {
+          "text": "运维技术演进",
+          "link": "/views/前沿技术/运维技术演进/readme.md"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/前沿技术/后端技术创新": [
+      {
+        "text": "后端技术创新",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/前沿技术/新兴前端技术": [
+      {
+        "text": "新兴前端技术",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/前沿技术/运维技术演进": [
+      {
+        "text": "运维技术演进",
+        "collapsed": false,
+        "items": []
+      }
+    ]
+  }
+}

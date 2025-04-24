@@ -1,0 +1,44 @@
+{
+  "nav": [
+    {
+      "text": "后端架构",
+      "items": [
+        {
+          "text": "分布式与微服务架构",
+          "link": "/views/后端架构/分布式与微服务架构/readme.md"
+        },
+        {
+          "text": "后端性能与安全",
+          "link": "/views/后端架构/后端性能与安全/readme.md"
+        },
+        {
+          "text": "后端框架深度实践",
+          "link": "/views/后端架构/后端框架深度实践/readme.md"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/后端架构/分布式与微服务架构": [
+      {
+        "text": "分布式与微服务架构",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/后端架构/后端性能与安全": [
+      {
+        "text": "后端性能与安全",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/后端架构/后端框架深度实践": [
+      {
+        "text": "后端框架深度实践",
+        "collapsed": false,
+        "items": []
+      }
+    ]
+  }
+}
