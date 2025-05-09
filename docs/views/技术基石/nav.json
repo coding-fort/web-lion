@@ -198,6 +198,10 @@
                 "text": "CSS",
                 "items": [
                   {
+                    "text": "00 CSS 核心框架",
+                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/00 CSS 核心框架"
+                  },
+                  {
                     "text": "BFC",
                     "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/BFC"
                   },
@@ -264,16 +268,12 @@
                 "text": "HTML",
                 "items": [
                   {
-                    "text": "dom",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/HTML/dom"
+                    "text": "00 HTML 知识框架",
+                    "link": "/views/技术基石/编程语言基础/前端语言核心/HTML/00 HTML 知识框架"
                   },
                   {
-                    "text": "element",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/HTML/element"
-                  },
-                  {
-                    "text": "format",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/HTML/format"
+                    "text": "文档声明",
+                    "link": "/views/技术基石/编程语言基础/前端语言核心/HTML/文档声明"
                   }
                 ],
                 "collapsed": false
@@ -281,6 +281,10 @@
               {
                 "text": "JavaScript",
                 "items": [
+                  {
+                    "text": "00 Javascript 知识框架",
+                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/00 Javascript 知识框架"
+                  },
                   {
                     "text": "ECMAScript标准",
                     "items": [
@@ -491,20 +495,24 @@
                     "text": "正则表达式",
                     "items": [
                       {
-                        "text": "入门",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/正则表达式/入门"
+                        "text": "00 正则表达式知识框架",
+                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/正则表达式/00 正则表达式知识框架"
                       },
                       {
-                        "text": "概述",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/正则表达式/概述"
+                        "text": "01 概述",
+                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/正则表达式/01 概述"
                       },
                       {
-                        "text": "进阶",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/正则表达式/进阶"
+                        "text": "02 入门",
+                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/正则表达式/02 入门"
                       },
                       {
-                        "text": "高级",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/正则表达式/高级"
+                        "text": "03 进阶",
+                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/正则表达式/03 进阶"
+                      },
+                      {
+                        "text": "04 高级",
+                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/正则表达式/04 高级"
                       }
                     ],
                     "collapsed": false
@@ -535,6 +543,10 @@
               {
                 "text": "TypeScript",
                 "items": [
+                  {
+                    "text": "00 Typescript 知识框架",
+                    "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/00 Typescript 知识框架"
+                  },
                   {
                     "text": "函数与泛型",
                     "items": [

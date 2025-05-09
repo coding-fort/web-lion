@@ -4,6 +4,10 @@
       "text": "前沿技术",
       "items": [
         {
+          "text": "AI 智能技术",
+          "link": "/views/前沿技术/AI 智能技术/readme.md"
+        },
+        {
           "text": "后端技术创新",
           "link": "/views/前沿技术/后端技术创新/readme.md"
         },
@@ -19,6 +23,34 @@
     }
   ],
   "sidebar": {
+    "/views/前沿技术/AI 智能技术": [
+      {
+        "text": "AI 智能技术",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "coze",
+            "items": [
+              {
+                "text": "coze 快速上手",
+                "link": "/views/前沿技术/AI 智能技术/coze/coze 快速上手"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "cursor",
+            "items": [
+              {
+                "text": "cursor 快速上手",
+                "link": "/views/前沿技术/AI 智能技术/cursor/cursor 快速上手"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
     "/views/前沿技术/后端技术创新": [
       {
         "text": "后端技术创新",
