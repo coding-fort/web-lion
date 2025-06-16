@@ -4,621 +4,606 @@
       "text": "技术基石",
       "items": [
         {
-          "text": "开发软件",
-          "link": "/views/技术基石/开发软件/readme.md"
+          "text": "A 编程语言基础",
+          "link": "/views/技术基石/A 编程语言基础/readme.md"
         },
         {
-          "text": "操作系统与服务器基础",
-          "link": "/views/技术基石/操作系统与服务器基础/readme.md"
+          "text": "B 操作系统与服务器基础",
+          "link": "/views/技术基石/B 操作系统与服务器基础/readme.md"
         },
         {
-          "text": "数据存储与管理",
-          "link": "/views/技术基石/数据存储与管理/readme.md"
+          "text": "C 数据存储与管理",
+          "link": "/views/技术基石/C 数据存储与管理/readme.md"
         },
         {
-          "text": "编程语言基础",
-          "link": "/views/技术基石/编程语言基础/readme.md"
+          "text": "D 开发软件",
+          "link": "/views/技术基石/D 开发软件/readme.md"
         }
       ]
     }
   ],
   "sidebar": {
-    "/views/技术基石/开发软件": [
+    "/views/技术基石/A 编程语言基础": [
       {
-        "text": "开发软件",
+        "text": "A 编程语言基础",
         "collapsed": false,
         "items": [
           {
-            "text": "切图",
+            "text": "a 前端语言核心",
             "items": [
               {
-                "text": "PhotoShop",
-                "link": "/views/技术基石/开发软件/切图/PhotoShop"
-              },
-              {
-                "text": "PxCook",
-                "link": "/views/技术基石/开发软件/切图/PxCook"
-              },
-              {
-                "text": "Sketch",
-                "link": "/views/技术基石/开发软件/切图/Sketch"
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "编辑器",
-            "items": [
-              {
-                "text": "Markdown",
-                "link": "/views/技术基石/开发软件/编辑器/Markdown"
-              },
-              {
-                "text": "Notepad++",
-                "link": "/views/技术基石/开发软件/编辑器/Notepad++"
-              },
-              {
-                "text": "Submit Text 3",
-                "link": "/views/技术基石/开发软件/编辑器/Submit Text 3"
-              },
-              {
-                "text": "VIM",
-                "link": "/views/技术基石/开发软件/编辑器/VIM"
-              },
-              {
-                "text": "Visual Studio Code",
-                "items": [
-                  {
-                    "text": "VSCode 插件",
-                    "link": "/views/技术基石/开发软件/编辑器/Visual Studio Code/VSCode 插件"
-                  }
-                ],
-                "collapsed": false
-              },
-              {
-                "text": "WebStorm",
-                "link": "/views/技术基石/开发软件/编辑器/WebStorm"
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "编辑器及IDE",
-            "items": [
-              {
-                "text": "Notepad++",
-                "link": "/views/技术基石/开发软件/编辑器及IDE/Notepad++"
-              },
-              {
-                "text": "Submit Text 3",
-                "link": "/views/技术基石/开发软件/编辑器及IDE/Submit Text 3"
-              },
-              {
-                "text": "VIM",
-                "link": "/views/技术基石/开发软件/编辑器及IDE/VIM"
-              },
-              {
-                "text": "Visual Studio Code",
-                "link": "/views/技术基石/开发软件/编辑器及IDE/Visual Studio Code"
-              },
-              {
-                "text": "WebStorm",
-                "link": "/views/技术基石/开发软件/编辑器及IDE/WebStorm"
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "调试工具",
-            "items": [
-              {
-                "text": "Apifox",
-                "link": "/views/技术基石/开发软件/调试工具/Apifox"
-              },
-              {
-                "text": "Charles",
-                "link": "/views/技术基石/开发软件/调试工具/Charles"
-              },
-              {
-                "text": "Chrome Dev Tool",
-                "link": "/views/技术基石/开发软件/调试工具/Chrome Dev Tool"
-              },
-              {
-                "text": "Dragonfly",
-                "link": "/views/技术基石/开发软件/调试工具/Dragonfly"
-              },
-              {
-                "text": "Fiddler",
-                "link": "/views/技术基石/开发软件/调试工具/Fiddler"
-              },
-              {
-                "text": "Firebug",
-                "link": "/views/技术基石/开发软件/调试工具/Firebug"
-              },
-              {
-                "text": "Postman",
-                "link": "/views/技术基石/开发软件/调试工具/Postman"
-              }
-            ],
-            "collapsed": false
-          }
-        ]
-      }
-    ],
-    "/views/技术基石/操作系统与服务器基础": [
-      {
-        "text": "操作系统与服务器基础",
-        "collapsed": false,
-        "items": [
-          {
-            "text": "浏览器基础",
-            "items": [
-              {
-                "text": "事件循环",
-                "link": "/views/技术基石/操作系统与服务器基础/浏览器基础/事件循环"
-              },
-              {
-                "text": "浏览器渲染原理",
-                "link": "/views/技术基石/操作系统与服务器基础/浏览器基础/浏览器渲染原理"
-              },
-              {
-                "text": "浏览器渲染流程",
-                "link": "/views/技术基石/操作系统与服务器基础/浏览器基础/浏览器渲染流程"
-              },
-              {
-                "text": "浏览器进程模型",
-                "link": "/views/技术基石/操作系统与服务器基础/浏览器基础/浏览器进程模型"
-              },
-              {
-                "text": "面试题",
-                "link": "/views/技术基石/操作系统与服务器基础/浏览器基础/面试题"
-              }
-            ],
-            "collapsed": false
-          }
-        ]
-      }
-    ],
-    "/views/技术基石/数据存储与管理": [
-      {
-        "text": "数据存储与管理",
-        "collapsed": false,
-        "items": []
-      }
-    ],
-    "/views/技术基石/编程语言基础": [
-      {
-        "text": "编程语言基础",
-        "collapsed": false,
-        "items": [
-          {
-            "text": "前端语言核心",
-            "items": [
-              {
-                "text": "CSS",
-                "items": [
-                  {
-                    "text": "00 CSS 核心框架",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/00 CSS 核心框架"
-                  },
-                  {
-                    "text": "BFC",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/BFC"
-                  },
-                  {
-                    "text": "CSS in JS",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/CSS in JS"
-                  },
-                  {
-                    "text": "CSS 高度塌陷",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/CSS 高度塌陷"
-                  },
-                  {
-                    "text": "box-sizing",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/box-sizing"
-                  },
-                  {
-                    "text": "css3",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/css3"
-                  },
-                  {
-                    "text": "position",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/position"
-                  },
-                  {
-                    "text": "select",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/select"
-                  },
-                  {
-                    "text": "元素尺寸",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/元素尺寸"
-                  },
-                  {
-                    "text": "多级样式布局",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/多级样式布局"
-                  },
-                  {
-                    "text": "弹性盒子布局",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/弹性盒子布局"
-                  },
-                  {
-                    "text": "文档流",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/文档流"
-                  },
-                  {
-                    "text": "盒子模型",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/盒子模型"
-                  },
-                  {
-                    "text": "网格布局",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/网格布局"
-                  },
-                  {
-                    "text": "选择器",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/选择器"
-                  },
-                  {
-                    "text": "页面布局样式",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/CSS/页面布局样式"
-                  }
-                ],
-                "collapsed": false
-              },
-              {
-                "text": "HTML",
+                "text": "01 HTML",
                 "items": [
                   {
                     "text": "00 HTML 知识框架",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/HTML/00 HTML 知识框架"
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/00 HTML 知识框架"
                   },
                   {
-                    "text": "文档声明",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/HTML/文档声明"
+                    "text": "f01 html",
+                    "items": [
+                      {
+                        "text": "000 基本结构",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f01 html/000 基本结构"
+                      },
+                      {
+                        "text": "001 文档声明",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f01 html/001 文档声明"
+                      },
+                      {
+                        "text": "002 meta 标签",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f01 html/002 meta 标签"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "f02 html5",
+                    "items": [
+                      {
+                        "text": "001 语义化标签",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/001 语义化标签"
+                      },
+                      {
+                        "text": "002 表单增强",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/002 表单增强"
+                      },
+                      {
+                        "text": "003 本地存储",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/003 本地存储"
+                      },
+                      {
+                        "text": "004 WebSocket",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/004 WebSocket"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "s01 示例代码",
+                    "items": [
+                      {
+                        "text": "001 基于WebSocket 实现聊天室",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/s01 示例代码/001 基于WebSocket 实现聊天室"
+                      }
+                    ],
+                    "collapsed": false
                   }
                 ],
                 "collapsed": false
               },
               {
-                "text": "JavaScript",
+                "text": "02 CSS",
                 "items": [
                   {
-                    "text": "00 Javascript 知识框架",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/00 Javascript 知识框架"
+                    "text": "00 CSS 核心框架",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/00 CSS 核心框架"
                   },
                   {
-                    "text": "ECMAScript标准",
+                    "text": "BFC",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/BFC"
+                  },
+                  {
+                    "text": "CSS in JS",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/CSS in JS"
+                  },
+                  {
+                    "text": "CSS 高度塌陷",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/CSS 高度塌陷"
+                  },
+                  {
+                    "text": "box-sizing",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/box-sizing"
+                  },
+                  {
+                    "text": "css3",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/css3"
+                  },
+                  {
+                    "text": "f01 CSS",
+                    "items": [
+                      {
+                        "text": "001 基本概念",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/f01 CSS/001 基本概念"
+                      },
+                      {
+                        "text": "002 选择器",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/f01 CSS/002 选择器"
+                      },
+                      {
+                        "text": "003 盒模型",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/f01 CSS/003 盒模型"
+                      },
+                      {
+                        "text": "004 BFC",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/f01 CSS/004 BFC"
+                      },
+                      {
+                        "text": "005 布局",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/f01 CSS/005 布局"
+                      },
+                      {
+                        "text": "006 样式属性",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/f01 CSS/006 样式属性"
+                      },
+                      {
+                        "text": "007 媒体查询",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/f01 CSS/007 媒体查询"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "f02 CSS3",
+                    "items": [],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "position",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/position"
+                  },
+                  {
+                    "text": "select",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/select"
+                  },
+                  {
+                    "text": "元素尺寸",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/元素尺寸"
+                  },
+                  {
+                    "text": "多级样式布局",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/多级样式布局"
+                  },
+                  {
+                    "text": "弹性盒子布局",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/弹性盒子布局"
+                  },
+                  {
+                    "text": "文档流",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/文档流"
+                  },
+                  {
+                    "text": "盒子模型",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/盒子模型"
+                  },
+                  {
+                    "text": "网格布局",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/网格布局"
+                  },
+                  {
+                    "text": "选择器",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/选择器"
+                  },
+                  {
+                    "text": "页面布局样式",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/02 CSS/页面布局样式"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "03 JavaScript",
+                "items": [
+                  {
+                    "text": "000 Javascript 知识框架",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/000 Javascript 知识框架"
+                  },
+                  {
+                    "text": "001 js 概述",
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/001 js 概述"
+                  },
+                  {
+                    "text": "a01 基础语法",
+                    "items": [
+                      {
+                        "text": "时间空间复杂度",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a01 基础语法/时间空间复杂度"
+                      },
+                      {
+                        "text": "类型",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a01 基础语法/类型"
+                      },
+                      {
+                        "text": "隐式转换",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a01 基础语法/隐式转换"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "a02 函数",
+                    "items": [
+                      {
+                        "text": "constructor、__proto__、prototype",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a02 函数/constructor、__proto__、prototype"
+                      },
+                      {
+                        "text": "作用域",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a02 函数/作用域"
+                      },
+                      {
+                        "text": "作用域链",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a02 函数/作用域链"
+                      },
+                      {
+                        "text": "函数",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a02 函数/函数"
+                      },
+                      {
+                        "text": "函数与构造函数",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a02 函数/函数与构造函数"
+                      },
+                      {
+                        "text": "原型",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a02 函数/原型"
+                      },
+                      {
+                        "text": "原型与构造函数",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a02 函数/原型与构造函数"
+                      },
+                      {
+                        "text": "原型链",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a02 函数/原型链"
+                      },
+                      {
+                        "text": "构造函数",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a02 函数/构造函数"
+                      },
+                      {
+                        "text": "立即执行函数",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a02 函数/立即执行函数"
+                      },
+                      {
+                        "text": "闭包",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a02 函数/闭包"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "a03 对象",
+                    "items": [
+                      {
+                        "text": "封装、继承、多态",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a03 对象/封装、继承、多态"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "a04 数组",
+                    "items": [],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "a05 ECMAScript标准",
                     "items": [
                       {
                         "text": "ES10",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES10"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES10"
                       },
                       {
                         "text": "ES2020",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES2020"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES2020"
                       },
                       {
                         "text": "ES2021",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES2021"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES2021"
                       },
                       {
                         "text": "ES2022",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES2022"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES2022"
                       },
                       {
                         "text": "ES2023",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES2023"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES2023"
                       },
                       {
                         "text": "ES5",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES5"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES5"
                       },
                       {
                         "text": "ES6",
                         "items": [
                           {
                             "text": "ES Next",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/ES Next"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/ES Next"
                           },
                           {
                             "text": "ES6",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/ES6"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/ES6"
                           },
                           {
                             "text": "Fetch API",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/Fetch API"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/Fetch API"
                           },
                           {
                             "text": "Symbol",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/Symbol"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/Symbol"
                           },
                           {
                             "text": "代理",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/代理"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/代理"
                           },
                           {
                             "text": "函数",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/函数"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/函数"
                           },
                           {
                             "text": "反射",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/反射"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/反射"
                           },
                           {
                             "text": "块级作用域",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/块级作用域"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/块级作用域"
                           },
                           {
                             "text": "字符串与正则表达式",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/字符串与正则表达式"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/字符串与正则表达式"
                           },
                           {
                             "text": "对象",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/对象"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/对象"
                           },
                           {
                             "text": "属性描述符与存取器",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/属性描述符与存取器"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/属性描述符与存取器"
                           },
                           {
                             "text": "异步处理",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/异步处理"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/异步处理"
                           },
                           {
                             "text": "数组",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/数组"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/数组"
                           },
                           {
                             "text": "解构",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/解构"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/解构"
                           },
                           {
                             "text": "迭代器与生成器",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/迭代器与生成器"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/迭代器与生成器"
                           },
                           {
                             "text": "集合",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES6/集合"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES6/集合"
                           }
                         ],
                         "collapsed": false
                       },
                       {
                         "text": "ES7",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES7"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES7"
                       },
                       {
                         "text": "ES8",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES8"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES8"
                       },
                       {
                         "text": "ES9",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/ECMAScript标准/ES9"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a05 ECMAScript标准/ES9"
                       }
                     ],
                     "collapsed": false
                   },
                   {
-                    "text": "Promise",
+                    "text": "a06 WebAPI",
+                    "items": [
+                      {
+                        "text": "WebAPI",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a06 WebAPI/WebAPI"
+                      },
+                      {
+                        "text": "事件",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a06 WebAPI/事件"
+                      },
+                      {
+                        "text": "事件循环",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a06 WebAPI/事件循环"
+                      },
+                      {
+                        "text": "异步",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a06 WebAPI/异步"
+                      },
+                      {
+                        "text": "编译原理",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a06 WebAPI/编译原理"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "e01 Promise",
                     "items": [
                       {
                         "text": "Promise基础",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/Promise/Promise基础"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/e01 Promise/Promise基础"
                       },
                       {
                         "text": "async与await",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/Promise/async与await"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/e01 Promise/async与await"
                       },
                       {
                         "text": "手写Promise",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/Promise/手写Promise"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/e01 Promise/手写Promise"
                       },
                       {
                         "text": "链式调用",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/Promise/链式调用"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/e01 Promise/链式调用"
                       },
                       {
                         "text": "静态方法",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/Promise/静态方法"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/e01 Promise/静态方法"
                       }
                     ],
                     "collapsed": false
                   },
                   {
-                    "text": "UML 类图",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/UML 类图"
-                  },
-                  {
-                    "text": "WebAPI",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/WebAPI"
-                  },
-                  {
-                    "text": "constructor、__proto__、prototype",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/constructor、__proto__、prototype"
-                  },
-                  {
-                    "text": "js 概述",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/js 概述"
-                  },
-                  {
-                    "text": "事件",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/事件"
-                  },
-                  {
-                    "text": "事件循环",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/事件循环"
-                  },
-                  {
-                    "text": "作用域",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/作用域"
-                  },
-                  {
-                    "text": "作用域链",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/作用域链"
-                  },
-                  {
-                    "text": "函数",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/函数"
-                  },
-                  {
-                    "text": "函数与构造函数",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/函数与构造函数"
-                  },
-                  {
-                    "text": "原型",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/原型"
-                  },
-                  {
-                    "text": "原型与构造函数",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/原型与构造函数"
-                  },
-                  {
-                    "text": "原型链",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/原型链"
-                  },
-                  {
-                    "text": "封装、继承、多态",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/封装、继承、多态"
-                  },
-                  {
-                    "text": "异步",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/异步"
-                  },
-                  {
-                    "text": "时间空间复杂度",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/时间空间复杂度"
-                  },
-                  {
-                    "text": "构造函数",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/构造函数"
-                  },
-                  {
-                    "text": "正则表达式",
+                    "text": "f01 JS 内置函数-全局数据转换函数",
                     "items": [
                       {
-                        "text": "00 正则表达式知识框架",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/正则表达式/00 正则表达式知识框架"
+                        "text": "001 Javascript 内置函数",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/f01 JS 内置函数-全局数据转换函数/001 Javascript 内置函数"
                       },
                       {
-                        "text": "01 概述",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/正则表达式/01 概述"
-                      },
-                      {
-                        "text": "02 入门",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/正则表达式/02 入门"
-                      },
-                      {
-                        "text": "03 进阶",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/正则表达式/03 进阶"
-                      },
-                      {
-                        "text": "04 高级",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/正则表达式/04 高级"
+                        "text": "001 parseInt",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/f01 JS 内置函数-全局数据转换函数/001 parseInt"
                       }
                     ],
                     "collapsed": false
                   },
                   {
-                    "text": "立即执行函数",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/立即执行函数"
+                    "text": "f02 JS 内置函数-数学相关函数",
+                    "items": [
+                      {
+                        "text": "abs",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/f02 JS 内置函数-数学相关函数/abs"
+                      }
+                    ],
+                    "collapsed": false
                   },
                   {
-                    "text": "类型",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/类型"
+                    "text": "f03 JS 内置函数-日期和时间函数",
+                    "items": [
+                      {
+                        "text": "abs",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/f03 JS 内置函数-日期和时间函数/abs"
+                      }
+                    ],
+                    "collapsed": false
                   },
                   {
-                    "text": "编译原理",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/编译原理"
+                    "text": "f04 JS 内置函数-数组相关函数",
+                    "items": [
+                      {
+                        "text": "abs",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/f04 JS 内置函数-数组相关函数/abs"
+                      }
+                    ],
+                    "collapsed": false
                   },
                   {
-                    "text": "闭包",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/闭包"
+                    "text": "f05 JS 内置函数-字符串相关函数",
+                    "items": [
+                      {
+                        "text": "abs",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/f05 JS 内置函数-字符串相关函数/abs"
+                      }
+                    ],
+                    "collapsed": false
                   },
                   {
-                    "text": "隐式转换",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/JavaScript/隐式转换"
+                    "text": "u01 其他",
+                    "items": [
+                      {
+                        "text": "UML 类图",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/u01 其他/UML 类图"
+                      }
+                    ],
+                    "collapsed": false
                   }
                 ],
                 "collapsed": false
               },
               {
-                "text": "TypeScript",
+                "text": "04 TypeScript",
                 "items": [
                   {
                     "text": "00 Typescript 知识框架",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/00 Typescript 知识框架"
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/00 Typescript 知识框架"
                   },
                   {
                     "text": "函数与泛型",
                     "items": [
                       {
                         "text": "关联泛型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/函数与泛型/关联泛型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/函数与泛型/关联泛型"
                       },
                       {
                         "text": "函数",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/函数与泛型/函数"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/函数与泛型/函数"
                       },
                       {
                         "text": "函数签名",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/函数与泛型/函数签名"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/函数与泛型/函数签名"
                       },
                       {
                         "text": "函数重载",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/函数与泛型/函数重载"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/函数与泛型/函数重载"
                       },
                       {
                         "text": "受限的泛型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/函数与泛型/受限的泛型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/函数与泛型/受限的泛型"
                       },
                       {
                         "text": "方法签名",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/函数与泛型/方法签名"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/函数与泛型/方法签名"
                       },
                       {
                         "text": "泛型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/函数与泛型/泛型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/函数与泛型/泛型"
                       }
                     ],
                     "collapsed": false
                   },
                   {
                     "text": "工具库",
-                    "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/工具库"
+                    "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/工具库"
                   },
                   {
                     "text": "工程化",
                     "items": [
                       {
                         "text": "TS 模块解析策略",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/工程化/TS 模块解析策略"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/工程化/TS 模块解析策略"
                       },
                       {
                         "text": "global 全局声明文件",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/工程化/global 全局声明文件"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/工程化/global 全局声明文件"
                       },
                       {
                         "text": "webpack 配置",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/工程化/webpack 配置"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/工程化/webpack 配置"
                       },
                       {
                         "text": "三斜线指令",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/工程化/三斜线指令"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/工程化/三斜线指令"
                       },
                       {
                         "text": "命名空间",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/工程化/命名空间"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/工程化/命名空间"
                       },
                       {
                         "text": "声明合并",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/工程化/声明合并"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/工程化/声明合并"
                       },
                       {
                         "text": "模块化",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/工程化/模块化"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/工程化/模块化"
                       },
                       {
                         "text": "类型声明文件",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/工程化/类型声明文件"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/工程化/类型声明文件"
                       }
                     ],
                     "collapsed": false
@@ -628,103 +613,103 @@
                     "items": [
                       {
                         "text": "TypeScript 概述",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/TypeScript 概述"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/TypeScript 概述"
                       },
                       {
                         "text": "tsconfig 配置文件",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/tsconfig 配置文件"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/tsconfig 配置文件"
                       },
                       {
                         "text": "变量声明",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/变量声明"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/变量声明"
                       },
                       {
                         "text": "基础类型",
                         "items": [
                           {
                             "text": "boolean与类型子面量",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/基础类型/boolean与类型子面量"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/基础类型/boolean与类型子面量"
                           },
                           {
                             "text": "never",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/基础类型/never"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/基础类型/never"
                           },
                           {
                             "text": "null与undefined",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/基础类型/null与undefined"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/基础类型/null与undefined"
                           },
                           {
                             "text": "number与bigInt",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/基础类型/number与bigInt"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/基础类型/number与bigInt"
                           },
                           {
                             "text": "symbol",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/基础类型/symbol"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/基础类型/symbol"
                           },
                           {
                             "text": "unique symbol",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/基础类型/unique symbol"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/基础类型/unique symbol"
                           },
                           {
                             "text": "void",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/基础类型/void"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/基础类型/void"
                           },
                           {
                             "text": "常见类型",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/基础类型/常见类型"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/基础类型/常见类型"
                           }
                         ],
                         "collapsed": false
                       },
                       {
                         "text": "安装与运行",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/安装与运行"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/安装与运行"
                       },
                       {
                         "text": "引用类型",
                         "items": [
                           {
                             "text": "any",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/引用类型/any"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/引用类型/any"
                           },
                           {
                             "text": "unknown",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/引用类型/unknown"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/引用类型/unknown"
                           },
                           {
                             "text": "函数类型",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/引用类型/函数类型"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/引用类型/函数类型"
                           },
                           {
                             "text": "对象类型",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/引用类型/对象类型"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/引用类型/对象类型"
                           },
                           {
                             "text": "接口类型",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/引用类型/接口类型"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/引用类型/接口类型"
                           },
                           {
                             "text": "数组类型",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/引用类型/数组类型"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/引用类型/数组类型"
                           },
                           {
                             "text": "枚举类型",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/引用类型/枚举类型"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/引用类型/枚举类型"
                           },
                           {
                             "text": "类类型",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/引用类型/类类型"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/引用类型/类类型"
                           }
                         ],
                         "collapsed": false
                       },
                       {
                         "text": "编译选项",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/编译选项"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/编译选项"
                       },
                       {
                         "text": "自定义类型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/快速入门/自定义类型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/快速入门/自定义类型"
                       }
                     ],
                     "collapsed": false
@@ -734,11 +719,11 @@
                     "items": [
                       {
                         "text": "按键提取对象中的值",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/示例/按键提取对象中的值"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/示例/按键提取对象中的值"
                       },
                       {
                         "text": "提取类型中的函数",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/示例/提取类型中的函数"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/示例/提取类型中的函数"
                       }
                     ],
                     "collapsed": false
@@ -748,55 +733,55 @@
                     "items": [
                       {
                         "text": "this 关键字",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类和接口/this 关键字"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类和接口/this 关键字"
                       },
                       {
                         "text": "名义类型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类和接口/名义类型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类和接口/名义类型"
                       },
                       {
                         "text": "存取器属性",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类和接口/存取器属性"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类和接口/存取器属性"
                       },
                       {
                         "text": "抽象类",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类和接口/抽象类"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类和接口/抽象类"
                       },
                       {
                         "text": "接口",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类和接口/接口"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类和接口/接口"
                       },
                       {
                         "text": "混入",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类和接口/混入"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类和接口/混入"
                       },
                       {
                         "text": "类",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类和接口/类"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类和接口/类"
                       },
                       {
                         "text": "类型别名",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类和接口/类型别名"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类和接口/类型别名"
                       },
                       {
                         "text": "类的泛型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类和接口/类的泛型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类和接口/类的泛型"
                       },
                       {
                         "text": "类的继承",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类和接口/类的继承"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类和接口/类的继承"
                       },
                       {
                         "text": "结构化类型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类和接口/结构化类型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类和接口/结构化类型"
                       },
                       {
                         "text": "访问修饰符",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类和接口/访问修饰符"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类和接口/访问修饰符"
                       },
                       {
                         "text": "静态成员",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类和接口/静态成员"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类和接口/静态成员"
                       }
                     ],
                     "collapsed": false
@@ -806,71 +791,67 @@
                     "items": [
                       {
                         "text": "as const断言",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/as const断言"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/as const断言"
                       },
                       {
                         "text": "协变与逆变",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/协变与逆变"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/协变与逆变"
                       },
                       {
                         "text": "双重断言",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/双重断言"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/双重断言"
                       },
                       {
                         "text": "多余属性检查",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/多余属性检查"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/多余属性检查"
                       },
                       {
                         "text": "类型保护",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/类型保护"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/类型保护"
                       },
                       {
                         "text": "类型兼容性",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/类型兼容性"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/类型兼容性"
                       },
                       {
                         "text": "类型守卫",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/类型守卫"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/类型守卫"
                       },
                       {
                         "text": "类型安全",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/类型安全"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/类型安全"
                       },
                       {
                         "text": "类型拓宽",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/类型拓宽"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/类型拓宽"
                       },
                       {
                         "text": "类型控制流分析",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/类型控制流分析"
-                      },
-                      {
-                        "text": "类型推断",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/类型推断"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/类型控制流分析"
                       },
                       {
                         "text": "类型断言",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/类型断言"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/类型断言"
                       },
                       {
                         "text": "类型检查",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/类型检查"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/类型检查"
                       },
                       {
                         "text": "类型系统",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/类型系统"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/类型系统"
                       },
                       {
                         "text": "编译器",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/编译器"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/编译器"
                       },
                       {
                         "text": "编译过程",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/编译过程"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/编译过程"
                       },
                       {
                         "text": "装箱与拆箱类型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型理解/装箱与拆箱类型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型理解/装箱与拆箱类型"
                       }
                     ],
                     "collapsed": false
@@ -880,141 +861,141 @@
                     "items": [
                       {
                         "text": "infer",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/infer"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/infer"
                       },
                       {
                         "text": "instanceof与in",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/instanceof与in"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/instanceof与in"
                       },
                       {
                         "text": "keyof",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/keyof"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/keyof"
                       },
                       {
                         "text": "satisfies操作符",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/satisfies操作符"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/satisfies操作符"
                       },
                       {
                         "text": "typeof",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/typeof"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/typeof"
                       },
                       {
                         "text": "交叉类型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/交叉类型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/交叉类型"
                       },
                       {
                         "text": "分布式条件特性",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/分布式条件特性"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/分布式条件特性"
                       },
                       {
                         "text": "声明文件",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/声明文件"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/声明文件"
                       },
                       {
                         "text": "字面量类型检查",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/字面量类型检查"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/字面量类型检查"
                       },
                       {
                         "text": "实例",
                         "items": [
                           {
                             "text": "keyof",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/实例/keyof"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/实例/keyof"
                           },
                           {
                             "text": "this",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/实例/this"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/实例/this"
                           },
                           {
                             "text": "typeof",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/实例/typeof"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/实例/typeof"
                           },
                           {
                             "text": "方括号操作符",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/实例/方括号操作符"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/实例/方括号操作符"
                           },
                           {
                             "text": "映射类型",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/实例/映射类型"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/实例/映射类型"
                           },
                           {
                             "text": "条件类型",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/实例/条件类型"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/实例/条件类型"
                           },
                           {
                             "text": "构造函数参数类型",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/实例/构造函数参数类型"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/实例/构造函数参数类型"
                           },
                           {
                             "text": "模板字符串类型",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/实例/模板字符串类型"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/实例/模板字符串类型"
                           },
                           {
                             "text": "类型编程套路",
-                            "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/实例/类型编程套路"
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/实例/类型编程套路"
                           }
                         ],
                         "collapsed": false
                       },
                       {
                         "text": "工具类型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/工具类型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/工具类型"
                       },
                       {
                         "text": "方括号操作符",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/方括号操作符"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/方括号操作符"
                       },
                       {
                         "text": "映射类型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/映射类型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/映射类型"
                       },
                       {
                         "text": "条件类型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/条件类型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/条件类型"
                       },
                       {
                         "text": "模块",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/模块"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/模块"
                       },
                       {
                         "text": "模板字符串类型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/模板字符串类型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/模板字符串类型"
                       },
                       {
                         "text": "类型声明",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/类型声明"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/类型声明"
                       },
                       {
                         "text": "类型提取",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/类型提取"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/类型提取"
                       },
                       {
                         "text": "类型编程",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/类型编程"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/类型编程"
                       },
                       {
                         "text": "索引签名类型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/索引签名类型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/索引签名类型"
                       },
                       {
                         "text": "索引访问类型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/索引访问类型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/索引访问类型"
                       },
                       {
                         "text": "联合类型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/联合类型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/联合类型"
                       },
                       {
                         "text": "自定义守卫",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/自定义守卫"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/自定义守卫"
                       },
                       {
                         "text": "非空断言",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/非空断言"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/非空断言"
                       },
                       {
                         "text": "高级类型",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/类型编程/高级类型"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/类型编程/高级类型"
                       }
                     ],
                     "collapsed": false
@@ -1024,19 +1005,19 @@
                     "items": [
                       {
                         "text": "class-transformer",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/装饰器/class-transformer"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/装饰器/class-transformer"
                       },
                       {
                         "text": "class-validator",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/装饰器/class-validator"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/装饰器/class-validator"
                       },
                       {
                         "text": "reflect-metadata",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/装饰器/reflect-metadata"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/装饰器/reflect-metadata"
                       },
                       {
                         "text": "装饰器",
-                        "link": "/views/技术基石/编程语言基础/前端语言核心/TypeScript/装饰器/装饰器"
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/04 TypeScript/装饰器/装饰器"
                       }
                     ],
                     "collapsed": false
@@ -1048,200 +1029,248 @@
             "collapsed": false
           },
           {
-            "text": "后端语言概论",
+            "text": "b 后端语言概论",
             "items": [],
             "collapsed": false
           },
           {
-            "text": "编程思想",
+            "text": "c 计算机基础",
             "items": [
               {
-                "text": "架构模式",
+                "text": "01 编译原理",
                 "items": [
                   {
-                    "text": "Code Behind",
-                    "link": "/views/技术基石/编程语言基础/编程思想/架构模式/Code Behind"
-                  },
-                  {
-                    "text": "Code Blocks",
-                    "link": "/views/技术基石/编程语言基础/编程思想/架构模式/Code Blocks"
-                  },
-                  {
-                    "text": "Flux",
-                    "link": "/views/技术基石/编程语言基础/编程思想/架构模式/Flux"
-                  },
-                  {
-                    "text": "MVC",
-                    "link": "/views/技术基石/编程语言基础/编程思想/架构模式/MVC"
-                  },
-                  {
-                    "text": "MVP",
-                    "link": "/views/技术基石/编程语言基础/编程思想/架构模式/MVP"
-                  },
-                  {
-                    "text": "MVVM",
-                    "link": "/views/技术基石/编程语言基础/编程思想/架构模式/MVVM"
-                  },
-                  {
-                    "text": "Script",
-                    "link": "/views/技术基石/编程语言基础/编程思想/架构模式/Script"
-                  }
-                ],
-                "collapsed": false
-              },
-              {
-                "text": "程序设计",
-                "items": [
-                  {
-                    "text": "结构化程序",
-                    "link": "/views/技术基石/编程语言基础/编程思想/程序设计/结构化程序"
-                  },
-                  {
-                    "text": "面向对象程序",
-                    "link": "/views/技术基石/编程语言基础/编程思想/程序设计/面向对象程序"
-                  }
-                ],
-                "collapsed": false
-              },
-              {
-                "text": "编程范型",
-                "items": [
-                  {
-                    "text": "函数式编程",
-                    "link": "/views/技术基石/编程语言基础/编程思想/编程范型/函数式编程"
-                  },
-                  {
-                    "text": "响应式编程",
-                    "link": "/views/技术基石/编程语言基础/编程思想/编程范型/响应式编程"
-                  },
-                  {
-                    "text": "模块化规范",
-                    "link": "/views/技术基石/编程语言基础/编程思想/编程范型/模块化规范"
-                  },
-                  {
-                    "text": "面向切面编程（AOP）",
-                    "link": "/views/技术基石/编程语言基础/编程思想/编程范型/面向切面编程（AOP）"
-                  },
-                  {
-                    "text": "面向对象编程（OOP）",
-                    "link": "/views/技术基石/编程语言基础/编程思想/编程范型/面向对象编程（OOP）"
-                  }
-                ],
-                "collapsed": false
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "计算机基础",
-            "items": [
-              {
-                "text": "性能安全",
-                "items": [
-                  {
-                    "text": "安全",
+                    "text": "f01 形式语言与自动机",
                     "items": [
                       {
-                        "text": "CSP",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/安全/CSP"
-                      },
-                      {
-                        "text": "CSRF",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/安全/CSRF"
-                      },
-                      {
-                        "text": "SOP",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/安全/SOP"
-                      },
-                      {
-                        "text": "SQL 注入",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/安全/SQL 注入"
-                      },
-                      {
-                        "text": "XSS",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/安全/XSS"
-                      },
-                      {
-                        "text": "接口加密",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/安全/接口加密"
+                        "text": "f0101 正则表达式",
+                        "items": [
+                          {
+                            "text": "000 正则表达式知识框架",
+                            "link": "/views/技术基石/A 编程语言基础/c 计算机基础/01 编译原理/f01 形式语言与自动机/f0101 正则表达式/000 正则表达式知识框架"
+                          },
+                          {
+                            "text": "001 概述",
+                            "link": "/views/技术基石/A 编程语言基础/c 计算机基础/01 编译原理/f01 形式语言与自动机/f0101 正则表达式/001 概述"
+                          },
+                          {
+                            "text": "002 入门",
+                            "link": "/views/技术基石/A 编程语言基础/c 计算机基础/01 编译原理/f01 形式语言与自动机/f0101 正则表达式/002 入门"
+                          },
+                          {
+                            "text": "003 进阶",
+                            "link": "/views/技术基石/A 编程语言基础/c 计算机基础/01 编译原理/f01 形式语言与自动机/f0101 正则表达式/003 进阶"
+                          },
+                          {
+                            "text": "004 高级",
+                            "link": "/views/技术基石/A 编程语言基础/c 计算机基础/01 编译原理/f01 形式语言与自动机/f0101 正则表达式/004 高级"
+                          }
+                        ],
+                        "collapsed": false
                       }
                     ],
                     "collapsed": false
                   },
                   {
-                    "text": "性能",
-                    "items": [
-                      {
-                        "text": "性能指标",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/性能/性能指标"
-                      },
-                      {
-                        "text": "评估工具",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/性能/评估工具"
-                      }
-                    ],
+                    "text": "f02 词法分析",
+                    "items": [],
                     "collapsed": false
                   },
                   {
-                    "text": "浏览器",
-                    "items": [
-                      {
-                        "text": "Chrome(Blink)",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/浏览器/Chrome(Blink)"
-                      },
-                      {
-                        "text": "Edge(EdgeHTML)",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/浏览器/Edge(EdgeHTML)"
-                      },
-                      {
-                        "text": "Firefox(Gecko)",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/浏览器/Firefox(Gecko)"
-                      },
-                      {
-                        "text": "IE(Trident)",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/浏览器/IE(Trident)"
-                      },
-                      {
-                        "text": "Opera(Blink)",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/浏览器/Opera(Blink)"
-                      },
-                      {
-                        "text": "Safari(WebKit)",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/浏览器/Safari(WebKit)"
-                      }
-                    ],
-                    "collapsed": false
-                  },
-                  {
-                    "text": "网络通信",
-                    "items": [
-                      {
-                        "text": "API 风格",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/网络通信/API 风格"
-                      },
-                      {
-                        "text": "通信协议",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/性能安全/网络通信/通信协议"
-                      }
-                    ],
+                    "text": "f03 语法分析",
+                    "items": [],
                     "collapsed": false
                   }
                 ],
                 "collapsed": false
               },
               {
-                "text": "操作系统",
+                "text": "02 计算机网络",
+                "items": [
+                  {
+                    "text": "JWT",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/JWT"
+                  },
+                  {
+                    "text": "OAuth",
+                    "items": [
+                      {
+                        "text": "GitHub 授权登陆",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/OAuth/GitHub 授权登陆"
+                      },
+                      {
+                        "text": "OAuth",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/OAuth/OAuth"
+                      },
+                      {
+                        "text": "OAuth2",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/OAuth/OAuth2"
+                      },
+                      {
+                        "text": "凭证授权模式",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/OAuth/凭证授权模式"
+                      },
+                      {
+                        "text": "密码授权模式",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/OAuth/密码授权模式"
+                      },
+                      {
+                        "text": "微信授权登陆",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/OAuth/微信授权登陆"
+                      },
+                      {
+                        "text": "授权机制设计",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/OAuth/授权机制设计"
+                      },
+                      {
+                        "text": "授权码模式",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/OAuth/授权码模式"
+                      },
+                      {
+                        "text": "授权类型",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/OAuth/授权类型"
+                      },
+                      {
+                        "text": "支付宝支付功能",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/OAuth/支付宝支付功能"
+                      },
+                      {
+                        "text": "隐藏授权模式",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/OAuth/隐藏授权模式"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "TCP 协议",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/TCP 协议"
+                  },
+                  {
+                    "text": "TCPIP协议",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/TCPIP协议"
+                  },
+                  {
+                    "text": "WebSocket",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/WebSocket"
+                  },
+                  {
+                    "text": "cookie与session",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/cookie与session"
+                  },
+                  {
+                    "text": "http 缓存协议",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/http 缓存协议"
+                  },
+                  {
+                    "text": "https 协议",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/https 协议"
+                  },
+                  {
+                    "text": "http、https协议",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/http、https协议"
+                  },
+                  {
+                    "text": "一级域名",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/一级域名"
+                  },
+                  {
+                    "text": "中级",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/中级"
+                  },
+                  {
+                    "text": "入门",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/入门"
+                  },
+                  {
+                    "text": "全双工通信协议",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/全双工通信协议"
+                  },
+                  {
+                    "text": "加密",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/加密"
+                  },
+                  {
+                    "text": "同源策略",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/同源策略"
+                  },
+                  {
+                    "text": "文件上传下载与断点续传",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/文件上传下载与断点续传"
+                  },
+                  {
+                    "text": "概述",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/概述"
+                  },
+                  {
+                    "text": "网络",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/网络"
+                  },
+                  {
+                    "text": "网络性能优化",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/网络性能优化"
+                  },
+                  {
+                    "text": "网络攻击",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/网络攻击"
+                  },
+                  {
+                    "text": "高级",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/02 计算机网络/高级"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "03 数据结构",
+                "items": [
+                  {
+                    "text": "哈希表（Map）",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/03 数据结构/哈希表（Map）"
+                  },
+                  {
+                    "text": "堆（Heap）",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/03 数据结构/堆（Heap）"
+                  },
+                  {
+                    "text": "数组（Array）",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/03 数据结构/数组（Array）"
+                  },
+                  {
+                    "text": "栈（Stack）",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/03 数据结构/栈（Stack）"
+                  },
+                  {
+                    "text": "树（Tree）",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/03 数据结构/树（Tree）"
+                  },
+                  {
+                    "text": "链表（Linked List）",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/03 数据结构/链表（Linked List）"
+                  },
+                  {
+                    "text": "队列（Queue）",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/03 数据结构/队列（Queue）"
+                  },
+                  {
+                    "text": "集合（Set）",
+                    "link": "/views/技术基石/A 编程语言基础/c 计算机基础/03 数据结构/集合（Set）"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "04 操作系统",
                 "items": [
                   {
                     "text": "Mobile",
                     "items": [
                       {
                         "text": "Android",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/操作系统/Mobile/Android"
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/04 操作系统/Mobile/Android"
                       },
                       {
                         "text": "IOS",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/操作系统/Mobile/IOS"
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/04 操作系统/Mobile/IOS"
                       }
                     ],
                     "collapsed": false
@@ -1251,19 +1280,19 @@
                     "items": [
                       {
                         "text": "Linux",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/操作系统/PC/Linux"
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/04 操作系统/PC/Linux"
                       },
                       {
                         "text": "Mac OS",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/操作系统/PC/Mac OS"
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/04 操作系统/PC/Mac OS"
                       },
                       {
                         "text": "Unix",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/操作系统/PC/Unix"
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/04 操作系统/PC/Unix"
                       },
                       {
                         "text": "Windows",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/操作系统/PC/Windows"
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/04 操作系统/PC/Windows"
                       }
                     ],
                     "collapsed": false
@@ -1272,45 +1301,7 @@
                 "collapsed": false
               },
               {
-                "text": "数据结构",
-                "items": [
-                  {
-                    "text": "哈希表（Map）",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/数据结构/哈希表（Map）"
-                  },
-                  {
-                    "text": "堆（Heap）",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/数据结构/堆（Heap）"
-                  },
-                  {
-                    "text": "数组（Array）",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/数据结构/数组（Array）"
-                  },
-                  {
-                    "text": "栈（Stack）",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/数据结构/栈（Stack）"
-                  },
-                  {
-                    "text": "树（Tree）",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/数据结构/树（Tree）"
-                  },
-                  {
-                    "text": "链表（Linked List）",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/数据结构/链表（Linked List）"
-                  },
-                  {
-                    "text": "队列（Queue）",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/数据结构/队列（Queue）"
-                  },
-                  {
-                    "text": "集合（Set）",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/数据结构/集合（Set）"
-                  }
-                ],
-                "collapsed": false
-              },
-              {
-                "text": "算法",
+                "text": "05 算法",
                 "items": [
                   {
                     "text": "Diff",
@@ -1331,142 +1322,95 @@
                 "collapsed": false
               },
               {
-                "text": "编译原理",
-                "items": [],
-                "collapsed": false
-              },
-              {
-                "text": "计算机网络",
+                "text": "06 性能安全",
                 "items": [
                   {
-                    "text": "JWT",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/JWT"
-                  },
-                  {
-                    "text": "OAuth",
+                    "text": "安全",
                     "items": [
                       {
-                        "text": "GitHub 授权登陆",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/OAuth/GitHub 授权登陆"
+                        "text": "CSP",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/安全/CSP"
                       },
                       {
-                        "text": "OAuth",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/OAuth/OAuth"
+                        "text": "CSRF",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/安全/CSRF"
                       },
                       {
-                        "text": "OAuth2",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/OAuth/OAuth2"
+                        "text": "SOP",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/安全/SOP"
                       },
                       {
-                        "text": "凭证授权模式",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/OAuth/凭证授权模式"
+                        "text": "SQL 注入",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/安全/SQL 注入"
                       },
                       {
-                        "text": "密码授权模式",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/OAuth/密码授权模式"
+                        "text": "XSS",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/安全/XSS"
                       },
                       {
-                        "text": "微信授权登陆",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/OAuth/微信授权登陆"
-                      },
-                      {
-                        "text": "授权机制设计",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/OAuth/授权机制设计"
-                      },
-                      {
-                        "text": "授权码模式",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/OAuth/授权码模式"
-                      },
-                      {
-                        "text": "授权类型",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/OAuth/授权类型"
-                      },
-                      {
-                        "text": "支付宝支付功能",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/OAuth/支付宝支付功能"
-                      },
-                      {
-                        "text": "隐藏授权模式",
-                        "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/OAuth/隐藏授权模式"
+                        "text": "接口加密",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/安全/接口加密"
                       }
                     ],
                     "collapsed": false
                   },
                   {
-                    "text": "TCP 协议",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/TCP 协议"
+                    "text": "性能",
+                    "items": [
+                      {
+                        "text": "性能指标",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/性能/性能指标"
+                      },
+                      {
+                        "text": "评估工具",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/性能/评估工具"
+                      }
+                    ],
+                    "collapsed": false
                   },
                   {
-                    "text": "TCPIP协议",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/TCPIP协议"
+                    "text": "浏览器",
+                    "items": [
+                      {
+                        "text": "Chrome(Blink)",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/浏览器/Chrome(Blink)"
+                      },
+                      {
+                        "text": "Edge(EdgeHTML)",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/浏览器/Edge(EdgeHTML)"
+                      },
+                      {
+                        "text": "Firefox(Gecko)",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/浏览器/Firefox(Gecko)"
+                      },
+                      {
+                        "text": "IE(Trident)",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/浏览器/IE(Trident)"
+                      },
+                      {
+                        "text": "Opera(Blink)",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/浏览器/Opera(Blink)"
+                      },
+                      {
+                        "text": "Safari(WebKit)",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/浏览器/Safari(WebKit)"
+                      }
+                    ],
+                    "collapsed": false
                   },
                   {
-                    "text": "WebSocket",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/WebSocket"
-                  },
-                  {
-                    "text": "cookie与session",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/cookie与session"
-                  },
-                  {
-                    "text": "http 缓存协议",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/http 缓存协议"
-                  },
-                  {
-                    "text": "https 协议",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/https 协议"
-                  },
-                  {
-                    "text": "http、https协议",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/http、https协议"
-                  },
-                  {
-                    "text": "一级域名",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/一级域名"
-                  },
-                  {
-                    "text": "中级",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/中级"
-                  },
-                  {
-                    "text": "入门",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/入门"
-                  },
-                  {
-                    "text": "全双工通信协议",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/全双工通信协议"
-                  },
-                  {
-                    "text": "加密",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/加密"
-                  },
-                  {
-                    "text": "同源策略",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/同源策略"
-                  },
-                  {
-                    "text": "文件上传下载与断点续传",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/文件上传下载与断点续传"
-                  },
-                  {
-                    "text": "概述",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/概述"
-                  },
-                  {
-                    "text": "网络",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/网络"
-                  },
-                  {
-                    "text": "网络性能优化",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/网络性能优化"
-                  },
-                  {
-                    "text": "网络攻击",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/网络攻击"
-                  },
-                  {
-                    "text": "高级",
-                    "link": "/views/技术基石/编程语言基础/计算机基础/计算机网络/高级"
+                    "text": "网络通信",
+                    "items": [
+                      {
+                        "text": "API 风格",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/网络通信/API 风格"
+                      },
+                      {
+                        "text": "通信协议",
+                        "link": "/views/技术基石/A 编程语言基础/c 计算机基础/06 性能安全/网络通信/通信协议"
+                      }
+                    ],
+                    "collapsed": false
                   }
                 ],
                 "collapsed": false
@@ -1475,64 +1419,144 @@
             "collapsed": false
           },
           {
-            "text": "设计模式",
+            "text": "d 编程思想",
+            "items": [
+              {
+                "text": "架构模式",
+                "items": [
+                  {
+                    "text": "Code Behind",
+                    "link": "/views/技术基石/A 编程语言基础/d 编程思想/架构模式/Code Behind"
+                  },
+                  {
+                    "text": "Code Blocks",
+                    "link": "/views/技术基石/A 编程语言基础/d 编程思想/架构模式/Code Blocks"
+                  },
+                  {
+                    "text": "Flux",
+                    "link": "/views/技术基石/A 编程语言基础/d 编程思想/架构模式/Flux"
+                  },
+                  {
+                    "text": "MVC",
+                    "link": "/views/技术基石/A 编程语言基础/d 编程思想/架构模式/MVC"
+                  },
+                  {
+                    "text": "MVP",
+                    "link": "/views/技术基石/A 编程语言基础/d 编程思想/架构模式/MVP"
+                  },
+                  {
+                    "text": "MVVM",
+                    "link": "/views/技术基石/A 编程语言基础/d 编程思想/架构模式/MVVM"
+                  },
+                  {
+                    "text": "Script",
+                    "link": "/views/技术基石/A 编程语言基础/d 编程思想/架构模式/Script"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "程序设计",
+                "items": [
+                  {
+                    "text": "结构化程序",
+                    "link": "/views/技术基石/A 编程语言基础/d 编程思想/程序设计/结构化程序"
+                  },
+                  {
+                    "text": "面向对象程序",
+                    "link": "/views/技术基石/A 编程语言基础/d 编程思想/程序设计/面向对象程序"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "编程范型",
+                "items": [
+                  {
+                    "text": "函数式编程",
+                    "link": "/views/技术基石/A 编程语言基础/d 编程思想/编程范型/函数式编程"
+                  },
+                  {
+                    "text": "响应式编程",
+                    "link": "/views/技术基石/A 编程语言基础/d 编程思想/编程范型/响应式编程"
+                  },
+                  {
+                    "text": "模块化规范",
+                    "link": "/views/技术基石/A 编程语言基础/d 编程思想/编程范型/模块化规范"
+                  },
+                  {
+                    "text": "面向切面编程（AOP）",
+                    "link": "/views/技术基石/A 编程语言基础/d 编程思想/编程范型/面向切面编程（AOP）"
+                  },
+                  {
+                    "text": "面向对象编程（OOP）",
+                    "link": "/views/技术基石/A 编程语言基础/d 编程思想/编程范型/面向对象编程（OOP）"
+                  }
+                ],
+                "collapsed": false
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "e 设计模式",
             "items": [
               {
                 "text": "创建型模式",
                 "items": [
                   {
                     "text": "单例模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/创建型模式/单例模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/创建型模式/单例模式"
                   },
                   {
                     "text": "原型模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/创建型模式/原型模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/创建型模式/原型模式"
                   },
                   {
                     "text": "工厂模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/创建型模式/工厂模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/创建型模式/工厂模式"
                   },
                   {
                     "text": "建造者模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/创建型模式/建造者模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/创建型模式/建造者模式"
                   }
                 ],
                 "collapsed": false
               },
               {
                 "text": "概述",
-                "link": "/views/技术基石/编程语言基础/设计模式/概述"
+                "link": "/views/技术基石/A 编程语言基础/e 设计模式/概述"
               },
               {
                 "text": "结构型模式",
                 "items": [
                   {
                     "text": "享元模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/结构型模式/享元模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/结构型模式/享元模式"
                   },
                   {
                     "text": "代理模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/结构型模式/代理模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/结构型模式/代理模式"
                   },
                   {
                     "text": "外观模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/结构型模式/外观模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/结构型模式/外观模式"
                   },
                   {
                     "text": "桥接模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/结构型模式/桥接模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/结构型模式/桥接模式"
                   },
                   {
                     "text": "组合模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/结构型模式/组合模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/结构型模式/组合模式"
                   },
                   {
                     "text": "装饰模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/结构型模式/装饰模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/结构型模式/装饰模式"
                   },
                   {
                     "text": "适配器模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/结构型模式/适配器模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/结构型模式/适配器模式"
                   }
                 ],
                 "collapsed": false
@@ -1542,54 +1566,213 @@
                 "items": [
                   {
                     "text": "中介者模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/行为型模式/中介者模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/行为型模式/中介者模式"
                   },
                   {
                     "text": "发布订阅模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/行为型模式/发布订阅模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/行为型模式/发布订阅模式"
                   },
                   {
                     "text": "命令模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/行为型模式/命令模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/行为型模式/命令模式"
                   },
                   {
                     "text": "备忘录模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/行为型模式/备忘录模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/行为型模式/备忘录模式"
                   },
                   {
                     "text": "模板方法模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/行为型模式/模板方法模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/行为型模式/模板方法模式"
                   },
                   {
                     "text": "状态模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/行为型模式/状态模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/行为型模式/状态模式"
                   },
                   {
                     "text": "策略模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/行为型模式/策略模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/行为型模式/策略模式"
                   },
                   {
                     "text": "观察者模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/行为型模式/观察者模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/行为型模式/观察者模式"
                   },
                   {
                     "text": "解释器模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/行为型模式/解释器模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/行为型模式/解释器模式"
                   },
                   {
                     "text": "访问者模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/行为型模式/访问者模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/行为型模式/访问者模式"
                   },
                   {
                     "text": "责任链模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/行为型模式/责任链模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/行为型模式/责任链模式"
                   },
                   {
                     "text": "迭代器模式",
-                    "link": "/views/技术基石/编程语言基础/设计模式/行为型模式/迭代器模式"
+                    "link": "/views/技术基石/A 编程语言基础/e 设计模式/行为型模式/迭代器模式"
                   }
                 ],
                 "collapsed": false
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/技术基石/B 操作系统与服务器基础": [
+      {
+        "text": "B 操作系统与服务器基础",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "浏览器基础",
+            "items": [
+              {
+                "text": "事件循环",
+                "link": "/views/技术基石/B 操作系统与服务器基础/浏览器基础/事件循环"
+              },
+              {
+                "text": "浏览器渲染原理",
+                "link": "/views/技术基石/B 操作系统与服务器基础/浏览器基础/浏览器渲染原理"
+              },
+              {
+                "text": "浏览器渲染流程",
+                "link": "/views/技术基石/B 操作系统与服务器基础/浏览器基础/浏览器渲染流程"
+              },
+              {
+                "text": "浏览器进程模型",
+                "link": "/views/技术基石/B 操作系统与服务器基础/浏览器基础/浏览器进程模型"
+              },
+              {
+                "text": "面试题",
+                "link": "/views/技术基石/B 操作系统与服务器基础/浏览器基础/面试题"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/技术基石/C 数据存储与管理": [
+      {
+        "text": "C 数据存储与管理",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/技术基石/D 开发软件": [
+      {
+        "text": "D 开发软件",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "切图",
+            "items": [
+              {
+                "text": "PhotoShop",
+                "link": "/views/技术基石/D 开发软件/切图/PhotoShop"
+              },
+              {
+                "text": "PxCook",
+                "link": "/views/技术基石/D 开发软件/切图/PxCook"
+              },
+              {
+                "text": "Sketch",
+                "link": "/views/技术基石/D 开发软件/切图/Sketch"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "编辑器",
+            "items": [
+              {
+                "text": "Markdown",
+                "link": "/views/技术基石/D 开发软件/编辑器/Markdown"
+              },
+              {
+                "text": "Notepad++",
+                "link": "/views/技术基石/D 开发软件/编辑器/Notepad++"
+              },
+              {
+                "text": "Submit Text 3",
+                "link": "/views/技术基石/D 开发软件/编辑器/Submit Text 3"
+              },
+              {
+                "text": "VIM",
+                "link": "/views/技术基石/D 开发软件/编辑器/VIM"
+              },
+              {
+                "text": "Visual Studio Code",
+                "items": [
+                  {
+                    "text": "VSCode 插件",
+                    "link": "/views/技术基石/D 开发软件/编辑器/Visual Studio Code/VSCode 插件"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "WebStorm",
+                "link": "/views/技术基石/D 开发软件/编辑器/WebStorm"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "编辑器及IDE",
+            "items": [
+              {
+                "text": "Notepad++",
+                "link": "/views/技术基石/D 开发软件/编辑器及IDE/Notepad++"
+              },
+              {
+                "text": "Submit Text 3",
+                "link": "/views/技术基石/D 开发软件/编辑器及IDE/Submit Text 3"
+              },
+              {
+                "text": "VIM",
+                "link": "/views/技术基石/D 开发软件/编辑器及IDE/VIM"
+              },
+              {
+                "text": "Visual Studio Code",
+                "link": "/views/技术基石/D 开发软件/编辑器及IDE/Visual Studio Code"
+              },
+              {
+                "text": "WebStorm",
+                "link": "/views/技术基石/D 开发软件/编辑器及IDE/WebStorm"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "调试工具",
+            "items": [
+              {
+                "text": "Charles",
+                "link": "/views/技术基石/D 开发软件/调试工具/Charles"
+              },
+              {
+                "text": "Chrome Dev Tool",
+                "link": "/views/技术基石/D 开发软件/调试工具/Chrome Dev Tool"
+              },
+              {
+                "text": "Dragonfly",
+                "link": "/views/技术基石/D 开发软件/调试工具/Dragonfly"
+              },
+              {
+                "text": "Fiddler",
+                "link": "/views/技术基石/D 开发软件/调试工具/Fiddler"
+              },
+              {
+                "text": "Firebug",
+                "link": "/views/技术基石/D 开发软件/调试工具/Firebug"
+              },
+              {
+                "text": "Postman",
+                "link": "/views/技术基石/D 开发软件/调试工具/Postman"
               }
             ],
             "collapsed": false

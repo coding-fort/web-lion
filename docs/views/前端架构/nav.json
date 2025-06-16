@@ -4,1011 +4,44 @@
       "text": "前端架构",
       "items": [
         {
-          "text": "前端工程化体系",
-          "link": "/views/前端架构/前端工程化体系/readme.md"
+          "text": "A 框架原理与设计",
+          "link": "/views/前端架构/A 框架原理与设计/readme.md"
         },
         {
-          "text": "前端框架与技术",
-          "link": "/views/前端架构/前端框架与技术/readme.md"
+          "text": "B 前端工程化体系",
+          "link": "/views/前端架构/B 前端工程化体系/readme.md"
         },
         {
-          "text": "平台开发框架",
-          "link": "/views/前端架构/平台开发框架/readme.md"
+          "text": "C 通用功能工具集",
+          "link": "/views/前端架构/C 通用功能工具集/readme.md"
         },
         {
-          "text": "性能与安全优化",
-          "link": "/views/前端架构/性能与安全优化/readme.md"
+          "text": "D 前端其他技术框架",
+          "link": "/views/前端架构/D 前端其他技术框架/readme.md"
         },
         {
-          "text": "服务器与部署",
-          "link": "/views/前端架构/服务器与部署/readme.md"
+          "text": "E 测试相关",
+          "link": "/views/前端架构/E 测试相关/readme.md"
         },
         {
-          "text": "框架原理与设计",
-          "link": "/views/前端架构/框架原理与设计/readme.md"
+          "text": "F 服务器与部署",
+          "link": "/views/前端架构/F 服务器与部署/readme.md"
         },
         {
-          "text": "测试相关",
-          "link": "/views/前端架构/测试相关/readme.md"
+          "text": "G 性能与安全优化",
+          "link": "/views/前端架构/G 性能与安全优化/readme.md"
         },
         {
-          "text": "通用功能工具集",
-          "link": "/views/前端架构/通用功能工具集/readme.md"
+          "text": "H 平台开发框架",
+          "link": "/views/前端架构/H 平台开发框架/readme.md"
         }
       ]
     }
   ],
   "sidebar": {
-    "/views/前端架构/前端工程化体系": [
+    "/views/前端架构/A 框架原理与设计": [
       {
-        "text": "前端工程化体系",
-        "collapsed": false,
-        "items": [
-          {
-            "text": "CSS 工程化",
-            "items": [
-              {
-                "text": "CSS Module",
-                "link": "/views/前端架构/前端工程化体系/CSS 工程化/CSS Module"
-              },
-              {
-                "text": "Less",
-                "link": "/views/前端架构/前端工程化体系/CSS 工程化/Less"
-              },
-              {
-                "text": "PostCSS",
-                "link": "/views/前端架构/前端工程化体系/CSS 工程化/PostCSS"
-              },
-              {
-                "text": "Sass",
-                "link": "/views/前端架构/前端工程化体系/CSS 工程化/Sass"
-              },
-              {
-                "text": "Stylus",
-                "link": "/views/前端架构/前端工程化体系/CSS 工程化/Stylus"
-              },
-              {
-                "text": "自动厂商前缀",
-                "link": "/views/前端架构/前端工程化体系/CSS 工程化/自动厂商前缀"
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "JS 工程化",
-            "items": [
-              {
-                "text": "Babel",
-                "link": "/views/前端架构/前端工程化体系/JS 工程化/Babel"
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "代码质量管理",
-            "items": [
-              {
-                "text": "代码评审",
-                "items": [
-                  {
-                    "text": "与传统代码评审区别",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/代码评审/与传统代码评审区别"
-                  },
-                  {
-                    "text": "性能评估",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/代码评审/性能评估"
-                  },
-                  {
-                    "text": "推广代码评审",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/代码评审/推广代码评审"
-                  },
-                  {
-                    "text": "落地实行",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/代码评审/落地实行"
-                  },
-                  {
-                    "text": "错误处理",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/代码评审/错误处理"
-                  }
-                ],
-                "collapsed": false
-              },
-              {
-                "text": "前端规范",
-                "items": [
-                  {
-                    "text": "BFF_研发规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/BFF_研发规范"
-                  },
-                  {
-                    "text": "CR_规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/CR_规范"
-                  },
-                  {
-                    "text": "CSS 规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/CSS 规范"
-                  },
-                  {
-                    "text": "GIT_规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/GIT_规范"
-                  },
-                  {
-                    "text": "HTML 规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/HTML 规范"
-                  },
-                  {
-                    "text": "IDE_编辑器规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/IDE_编辑器规范"
-                  },
-                  {
-                    "text": "JS 规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/JS 规范"
-                  },
-                  {
-                    "text": "UI_设计规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/UI_设计规范"
-                  },
-                  {
-                    "text": "前后端协作规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/前后端协作规范"
-                  },
-                  {
-                    "text": "前端测试规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/前端测试规范"
-                  },
-                  {
-                    "text": "命名规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/命名规范"
-                  },
-                  {
-                    "text": "技术栈规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/技术栈规范"
-                  },
-                  {
-                    "text": "浏览器兼容规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/浏览器兼容规范"
-                  },
-                  {
-                    "text": "编程规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/编程规范"
-                  },
-                  {
-                    "text": "附1_BEM_策略及通用类名",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/附1_BEM_策略及通用类名"
-                  },
-                  {
-                    "text": "需求研发流程规范",
-                    "link": "/views/前端架构/前端工程化体系/代码质量管理/前端规范/需求研发流程规范"
-                  }
-                ],
-                "collapsed": false
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "构建工具",
-            "items": [
-              {
-                "text": "Grunt",
-                "link": "/views/前端架构/前端工程化体系/构建工具/Grunt"
-              },
-              {
-                "text": "Gulp",
-                "link": "/views/前端架构/前端工程化体系/构建工具/Gulp"
-              },
-              {
-                "text": "Rollup",
-                "link": "/views/前端架构/前端工程化体系/构建工具/Rollup"
-              },
-              {
-                "text": "Vite",
-                "link": "/views/前端架构/前端工程化体系/构建工具/Vite"
-              },
-              {
-                "text": "Webpack 相关",
-                "items": [
-                  {
-                    "text": "Gzip 压缩",
-                    "link": "/views/前端架构/前端工程化体系/构建工具/Webpack 相关/Gzip 压缩"
-                  },
-                  {
-                    "text": "cache 配置项",
-                    "link": "/views/前端架构/前端工程化体系/构建工具/Webpack 相关/cache 配置项"
-                  },
-                  {
-                    "text": "optimization 配置项",
-                    "link": "/views/前端架构/前端工程化体系/构建工具/Webpack 相关/optimization 配置项"
-                  },
-                  {
-                    "text": "performance 配置项",
-                    "link": "/views/前端架构/前端工程化体系/构建工具/Webpack 相关/performance 配置项"
-                  },
-                  {
-                    "text": "webpack 版本",
-                    "link": "/views/前端架构/前端工程化体系/构建工具/Webpack 相关/webpack 版本"
-                  },
-                  {
-                    "text": "代码拆分",
-                    "link": "/views/前端架构/前端工程化体系/构建工具/Webpack 相关/代码拆分"
-                  },
-                  {
-                    "text": "作用域提升",
-                    "link": "/views/前端架构/前端工程化体系/构建工具/Webpack 相关/作用域提升"
-                  },
-                  {
-                    "text": "性能优化",
-                    "link": "/views/前端架构/前端工程化体系/构建工具/Webpack 相关/性能优化"
-                  },
-                  {
-                    "text": "拆包原则",
-                    "link": "/views/前端架构/前端工程化体系/构建工具/Webpack 相关/拆包原则"
-                  },
-                  {
-                    "text": "模块解析规则优化",
-                    "link": "/views/前端架构/前端工程化体系/构建工具/Webpack 相关/模块解析规则优化"
-                  },
-                  {
-                    "text": "魔术注释",
-                    "link": "/views/前端架构/前端工程化体系/构建工具/Webpack 相关/魔术注释"
-                  }
-                ],
-                "collapsed": false
-              },
-              {
-                "text": "Webpack",
-                "link": "/views/前端架构/前端工程化体系/构建工具/Webpack"
-              },
-              {
-                "text": "构建工具对比",
-                "link": "/views/前端架构/前端工程化体系/构建工具/构建工具对比"
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "模块化",
-            "items": [
-              {
-                "text": "CommonJS 模块查找策略",
-                "link": "/views/前端架构/前端工程化体系/模块化/CommonJS 模块查找策略"
-              },
-              {
-                "text": "CommonJS",
-                "link": "/views/前端架构/前端工程化体系/模块化/CommonJS"
-              },
-              {
-                "text": "ES Module 模块查找策略",
-                "link": "/views/前端架构/前端工程化体系/模块化/ES Module 模块查找策略"
-              },
-              {
-                "text": "ES Module",
-                "link": "/views/前端架构/前端工程化体系/模块化/ES Module"
-              },
-              {
-                "text": "ESLint",
-                "link": "/views/前端架构/前端工程化体系/模块化/ESLint"
-              },
-              {
-                "text": "RequireJS",
-                "link": "/views/前端架构/前端工程化体系/模块化/RequireJS"
-              },
-              {
-                "text": "SeaJS",
-                "link": "/views/前端架构/前端工程化体系/模块化/SeaJS"
-              },
-              {
-                "text": "包管理",
-                "items": [
-                  {
-                    "text": "Npm",
-                    "link": "/views/前端架构/前端工程化体系/模块化/包管理/Npm"
-                  },
-                  {
-                    "text": "Npx",
-                    "link": "/views/前端架构/前端工程化体系/模块化/包管理/Npx"
-                  },
-                  {
-                    "text": "Yarn",
-                    "link": "/views/前端架构/前端工程化体系/模块化/包管理/Yarn"
-                  },
-                  {
-                    "text": "cnpm",
-                    "link": "/views/前端架构/前端工程化体系/模块化/包管理/cnpm"
-                  },
-                  {
-                    "text": "curl",
-                    "link": "/views/前端架构/前端工程化体系/模块化/包管理/curl"
-                  },
-                  {
-                    "text": "npm与yarn对比",
-                    "link": "/views/前端架构/前端工程化体系/模块化/包管理/npm与yarn对比"
-                  },
-                  {
-                    "text": "nvm",
-                    "link": "/views/前端架构/前端工程化体系/模块化/包管理/nvm"
-                  },
-                  {
-                    "text": "package_json",
-                    "link": "/views/前端架构/前端工程化体系/模块化/包管理/package_json"
-                  },
-                  {
-                    "text": "pnpm",
-                    "link": "/views/前端架构/前端工程化体系/模块化/包管理/pnpm"
-                  },
-                  {
-                    "text": "wget",
-                    "link": "/views/前端架构/前端工程化体系/模块化/包管理/wget"
-                  },
-                  {
-                    "text": "包管理器",
-                    "link": "/views/前端架构/前端工程化体系/模块化/包管理/包管理器"
-                  }
-                ],
-                "collapsed": false
-              },
-              {
-                "text": "模块联邦",
-                "link": "/views/前端架构/前端工程化体系/模块化/模块联邦"
-              },
-              {
-                "text": "模块解析策略",
-                "link": "/views/前端架构/前端工程化体系/模块化/模块解析策略"
-              },
-              {
-                "text": "浏览器端模块化难题",
-                "link": "/views/前端架构/前端工程化体系/模块化/浏览器端模块化难题"
-              },
-              {
-                "text": "跨域问题",
-                "link": "/views/前端架构/前端工程化体系/模块化/跨域问题"
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "版本与依赖管理",
-            "items": [
-              {
-                "text": "依赖管理",
-                "items": [
-                  {
-                    "text": "Lema",
-                    "link": "/views/前端架构/前端工程化体系/版本与依赖管理/依赖管理/Lema"
-                  },
-                  {
-                    "text": "Yarn",
-                    "link": "/views/前端架构/前端工程化体系/版本与依赖管理/依赖管理/Yarn"
-                  },
-                  {
-                    "text": "npm",
-                    "link": "/views/前端架构/前端工程化体系/版本与依赖管理/依赖管理/npm"
-                  }
-                ],
-                "collapsed": false
-              },
-              {
-                "text": "版本管理",
-                "items": [
-                  {
-                    "text": "Git",
-                    "link": "/views/前端架构/前端工程化体系/版本与依赖管理/版本管理/Git"
-                  },
-                  {
-                    "text": "Svn",
-                    "link": "/views/前端架构/前端工程化体系/版本与依赖管理/版本管理/Svn"
-                  }
-                ],
-                "collapsed": false
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "语言增强",
-            "items": [
-              {
-                "text": "CSS",
-                "items": [
-                  {
-                    "text": "Post css",
-                    "link": "/views/前端架构/前端工程化体系/语言增强/CSS/Post css"
-                  },
-                  {
-                    "text": "Sass(Scss)",
-                    "link": "/views/前端架构/前端工程化体系/语言增强/CSS/Sass(Scss)"
-                  },
-                  {
-                    "text": "Stylus",
-                    "link": "/views/前端架构/前端工程化体系/语言增强/CSS/Stylus"
-                  },
-                  {
-                    "text": "less",
-                    "link": "/views/前端架构/前端工程化体系/语言增强/CSS/less"
-                  }
-                ],
-                "collapsed": false
-              },
-              {
-                "text": "JavaScript",
-                "items": [
-                  {
-                    "text": "CoffeeScript",
-                    "link": "/views/前端架构/前端工程化体系/语言增强/JavaScript/CoffeeScript"
-                  },
-                  {
-                    "text": "Flow",
-                    "link": "/views/前端架构/前端工程化体系/语言增强/JavaScript/Flow"
-                  },
-                  {
-                    "text": "TypeScript",
-                    "link": "/views/前端架构/前端工程化体系/语言增强/JavaScript/TypeScript"
-                  }
-                ],
-                "collapsed": false
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "转换器",
-            "items": [
-              {
-                "text": "Babel",
-                "link": "/views/前端架构/前端工程化体系/转换器/Babel"
-              },
-              {
-                "text": "Traceur",
-                "link": "/views/前端架构/前端工程化体系/转换器/Traceur"
-              }
-            ],
-            "collapsed": false
-          }
-        ]
-      }
-    ],
-    "/views/前端架构/前端框架与技术": [
-      {
-        "text": "前端框架与技术",
-        "collapsed": false,
-        "items": [
-          {
-            "text": "Node",
-            "items": [
-              {
-                "text": "EventEmitter",
-                "link": "/views/前端架构/前端框架与技术/Node/EventEmitter"
-              },
-              {
-                "text": "Node 概述",
-                "link": "/views/前端架构/前端框架与技术/Node/Node 概述"
-              },
-              {
-                "text": "http 模块",
-                "link": "/views/前端架构/前端框架与技术/Node/http 模块"
-              },
-              {
-                "text": "https 模块",
-                "link": "/views/前端架构/前端框架与技术/Node/https 模块"
-              },
-              {
-                "text": "net 模块",
-                "link": "/views/前端架构/前端框架与技术/Node/net 模块"
-              },
-              {
-                "text": "事件循环",
-                "link": "/views/前端架构/前端框架与技术/Node/事件循环"
-              },
-              {
-                "text": "全局对象",
-                "link": "/views/前端架构/前端框架与技术/Node/全局对象"
-              },
-              {
-                "text": "基本内置模块",
-                "link": "/views/前端架构/前端框架与技术/Node/基本内置模块"
-              },
-              {
-                "text": "常用库",
-                "items": [
-                  {
-                    "text": "connect-history-api-fallback",
-                    "link": "/views/前端架构/前端框架与技术/Node/常用库/connect-history-api-fallback"
-                  },
-                  {
-                    "text": "express",
-                    "link": "/views/前端架构/前端框架与技术/Node/常用库/express"
-                  },
-                  {
-                    "text": "qs",
-                    "link": "/views/前端架构/前端框架与技术/Node/常用库/qs"
-                  }
-                ],
-                "collapsed": false
-              },
-              {
-                "text": "文件IO",
-                "link": "/views/前端架构/前端框架与技术/Node/文件IO"
-              },
-              {
-                "text": "模块化",
-                "link": "/views/前端架构/前端框架与技术/Node/模块化"
-              },
-              {
-                "text": "生命周期",
-                "link": "/views/前端架构/前端框架与技术/Node/生命周期"
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "可视化技术",
-            "items": [
-              {
-                "text": "Canvas",
-                "items": [
-                  {
-                    "text": "Canvas 图像",
-                    "link": "/views/前端架构/前端框架与技术/可视化技术/Canvas/Canvas 图像"
-                  },
-                  {
-                    "text": "Canvas 图形变换",
-                    "link": "/views/前端架构/前端框架与技术/可视化技术/Canvas/Canvas 图形变换"
-                  },
-                  {
-                    "text": "Canvas 基础",
-                    "link": "/views/前端架构/前端框架与技术/可视化技术/Canvas/Canvas 基础"
-                  },
-                  {
-                    "text": "Canvas 滤镜",
-                    "link": "/views/前端架构/前端框架与技术/可视化技术/Canvas/Canvas 滤镜"
-                  },
-                  {
-                    "text": "Echarts",
-                    "link": "/views/前端架构/前端框架与技术/可视化技术/Canvas/Echarts"
-                  },
-                  {
-                    "text": "HighCharts",
-                    "link": "/views/前端架构/前端框架与技术/可视化技术/Canvas/HighCharts"
-                  },
-                  {
-                    "text": "实例",
-                    "items": [],
-                    "collapsed": false
-                  }
-                ],
-                "collapsed": false
-              },
-              {
-                "text": "SVG",
-                "items": [
-                  {
-                    "text": "SVG Snap库",
-                    "link": "/views/前端架构/前端框架与技术/可视化技术/SVG/SVG Snap库"
-                  },
-                  {
-                    "text": "SVG 动画",
-                    "link": "/views/前端架构/前端框架与技术/可视化技术/SVG/SVG 动画"
-                  },
-                  {
-                    "text": "SVG 图表",
-                    "link": "/views/前端架构/前端框架与技术/可视化技术/SVG/SVG 图表"
-                  },
-                  {
-                    "text": "SVG 基础",
-                    "link": "/views/前端架构/前端框架与技术/可视化技术/SVG/SVG 基础"
-                  },
-                  {
-                    "text": "SVG 滤镜",
-                    "link": "/views/前端架构/前端框架与技术/可视化技术/SVG/SVG 滤镜"
-                  },
-                  {
-                    "text": "SVG 进阶",
-                    "link": "/views/前端架构/前端框架与技术/可视化技术/SVG/SVG 进阶"
-                  }
-                ],
-                "collapsed": false
-              }
-            ],
-            "collapsed": false
-          }
-        ]
-      }
-    ],
-    "/views/前端架构/平台开发框架": [
-      {
-        "text": "平台开发框架",
-        "collapsed": false,
-        "items": [
-          {
-            "text": "微信小程序",
-            "items": [
-              {
-                "text": "[功能] api+slider 实现音乐播放",
-                "link": "/views/前端架构/平台开发框架/微信小程序/[功能] api+slider 实现音乐播放"
-              },
-              {
-                "text": "[功能] 使用云存储资源",
-                "link": "/views/前端架构/平台开发框架/微信小程序/[功能] 使用云存储资源"
-              },
-              {
-                "text": "[功能] 播放音乐",
-                "link": "/views/前端架构/平台开发框架/微信小程序/[功能] 播放音乐"
-              },
-              {
-                "text": "[问题] swiper-item 不会随内容自动撑开",
-                "link": "/views/前端架构/平台开发框架/微信小程序/[问题] swiper-item 不会随内容自动撑开"
-              },
-              {
-                "text": "[问题] 修改小程序logo 及名称",
-                "link": "/views/前端架构/平台开发框架/微信小程序/[问题] 修改小程序logo 及名称"
-              },
-              {
-                "text": "[问题] 页面底部滚动后出现白条",
-                "link": "/views/前端架构/平台开发框架/微信小程序/[问题] 页面底部滚动后出现白条"
-              },
-              {
-                "text": "小程序组件",
-                "link": "/views/前端架构/平台开发框架/微信小程序/小程序组件"
-              },
-              {
-                "text": "小程序项目相关",
-                "link": "/views/前端架构/平台开发框架/微信小程序/小程序项目相关"
-              },
-              {
-                "text": "开发基础",
-                "link": "/views/前端架构/平台开发框架/微信小程序/开发基础"
-              },
-              {
-                "text": "开发进阶",
-                "link": "/views/前端架构/平台开发框架/微信小程序/开发进阶"
-              },
-              {
-                "text": "数据传递",
-                "link": "/views/前端架构/平台开发框架/微信小程序/数据传递"
-              },
-              {
-                "text": "滚动视图-scrollView",
-                "link": "/views/前端架构/平台开发框架/微信小程序/滚动视图-scrollView"
-              },
-              {
-                "text": "生命周期",
-                "link": "/views/前端架构/平台开发框架/微信小程序/生命周期"
-              },
-              {
-                "text": "监听全局共享数据",
-                "link": "/views/前端架构/平台开发框架/微信小程序/监听全局共享数据"
-              },
-              {
-                "text": "轮播控件-swiper",
-                "link": "/views/前端架构/平台开发框架/微信小程序/轮播控件-swiper"
-              }
-            ],
-            "collapsed": false
-          }
-        ]
-      }
-    ],
-    "/views/前端架构/性能与安全优化": [
-      {
-        "text": "性能与安全优化",
-        "collapsed": false,
-        "items": [
-          {
-            "text": "SSG",
-            "items": [
-              {
-                "text": "VitePress",
-                "items": [
-                  {
-                    "text": "创建一个VitePress插件",
-                    "link": "/views/前端架构/性能与安全优化/SSG/VitePress/创建一个VitePress插件"
-                  },
-                  {
-                    "text": "部署 VitePress 站点",
-                    "link": "/views/前端架构/性能与安全优化/SSG/VitePress/部署 VitePress 站点"
-                  }
-                ],
-                "collapsed": false
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "SSR",
-            "items": [
-              {
-                "text": "React SSR",
-                "items": [
-                  {
-                    "text": "CSR与SSR",
-                    "link": "/views/前端架构/性能与安全优化/SSR/React SSR/CSR与SSR"
-                  },
-                  {
-                    "text": "NextJS",
-                    "items": [
-                      {
-                        "text": "NextJS 概述",
-                        "link": "/views/前端架构/性能与安全优化/SSR/React SSR/NextJS/NextJS 概述"
-                      },
-                      {
-                        "text": "api 代理",
-                        "link": "/views/前端架构/性能与安全优化/SSR/React SSR/NextJS/api 代理"
-                      },
-                      {
-                        "text": "cookie和header转换",
-                        "link": "/views/前端架构/性能与安全优化/SSR/React SSR/NextJS/cookie和header转换"
-                      },
-                      {
-                        "text": "使用redux",
-                        "link": "/views/前端架构/性能与安全优化/SSR/React SSR/NextJS/使用redux"
-                      },
-                      {
-                        "text": "动态路由静态化",
-                        "link": "/views/前端架构/性能与安全优化/SSR/React SSR/NextJS/动态路由静态化"
-                      },
-                      {
-                        "text": "引入样式",
-                        "link": "/views/前端架构/性能与安全优化/SSR/React SSR/NextJS/引入样式"
-                      },
-                      {
-                        "text": "数据静态化",
-                        "link": "/views/前端架构/性能与安全优化/SSR/React SSR/NextJS/数据静态化"
-                      },
-                      {
-                        "text": "模板",
-                        "link": "/views/前端架构/性能与安全优化/SSR/React SSR/NextJS/模板"
-                      },
-                      {
-                        "text": "自定义页面",
-                        "link": "/views/前端架构/性能与安全优化/SSR/React SSR/NextJS/自定义页面"
-                      },
-                      {
-                        "text": "请求数据",
-                        "link": "/views/前端架构/性能与安全优化/SSR/React SSR/NextJS/请求数据"
-                      },
-                      {
-                        "text": "路由",
-                        "link": "/views/前端架构/性能与安全优化/SSR/React SSR/NextJS/路由"
-                      },
-                      {
-                        "text": "静态化",
-                        "link": "/views/前端架构/性能与安全优化/SSR/React SSR/NextJS/静态化"
-                      },
-                      {
-                        "text": "静态资源",
-                        "link": "/views/前端架构/性能与安全优化/SSR/React SSR/NextJS/静态资源"
-                      },
-                      {
-                        "text": "页面信息",
-                        "link": "/views/前端架构/性能与安全优化/SSR/React SSR/NextJS/页面信息"
-                      }
-                    ],
-                    "collapsed": false
-                  },
-                  {
-                    "text": "staticContext",
-                    "link": "/views/前端架构/性能与安全优化/SSR/React SSR/staticContext"
-                  },
-                  {
-                    "text": "使用Redux",
-                    "link": "/views/前端架构/性能与安全优化/SSR/React SSR/使用Redux"
-                  },
-                  {
-                    "text": "使用路由",
-                    "link": "/views/前端架构/性能与安全优化/SSR/React SSR/使用路由"
-                  },
-                  {
-                    "text": "引入图片",
-                    "link": "/views/前端架构/性能与安全优化/SSR/React SSR/引入图片"
-                  },
-                  {
-                    "text": "引入样式",
-                    "link": "/views/前端架构/性能与安全优化/SSR/React SSR/引入样式"
-                  },
-                  {
-                    "text": "数据通信",
-                    "link": "/views/前端架构/性能与安全优化/SSR/React SSR/数据通信"
-                  },
-                  {
-                    "text": "渲染组件",
-                    "link": "/views/前端架构/性能与安全优化/SSR/React SSR/渲染组件"
-                  }
-                ],
-                "collapsed": false
-              },
-              {
-                "text": "React SSR",
-                "link": "/views/前端架构/性能与安全优化/SSR/React SSR"
-              },
-              {
-                "text": "SSR 概述",
-                "link": "/views/前端架构/性能与安全优化/SSR/SSR 概述"
-              },
-              {
-                "text": "Vue SSR",
-                "items": [
-                  {
-                    "text": "NuxtJS",
-                    "items": [
-                      {
-                        "text": "Nuxt 布局",
-                        "link": "/views/前端架构/性能与安全优化/SSR/Vue SSR/NuxtJS/Nuxt 布局"
-                      },
-                      {
-                        "text": "Nuxt 路由",
-                        "link": "/views/前端架构/性能与安全优化/SSR/Vue SSR/NuxtJS/Nuxt 路由"
-                      },
-                      {
-                        "text": "Nuxt 静态化",
-                        "link": "/views/前端架构/性能与安全优化/SSR/Vue SSR/NuxtJS/Nuxt 静态化"
-                      },
-                      {
-                        "text": "NuxtJS",
-                        "link": "/views/前端架构/性能与安全优化/SSR/Vue SSR/NuxtJS/NuxtJS"
-                      },
-                      {
-                        "text": "vuex 应用",
-                        "link": "/views/前端架构/性能与安全优化/SSR/Vue SSR/NuxtJS/vuex 应用"
-                      },
-                      {
-                        "text": "引入Element-ui",
-                        "link": "/views/前端架构/性能与安全优化/SSR/Vue SSR/NuxtJS/引入Element-ui"
-                      },
-                      {
-                        "text": "引入Vuetify",
-                        "link": "/views/前端架构/性能与安全优化/SSR/Vue SSR/NuxtJS/引入Vuetify"
-                      },
-                      {
-                        "text": "鉴权应用",
-                        "link": "/views/前端架构/性能与安全优化/SSR/Vue SSR/NuxtJS/鉴权应用"
-                      }
-                    ],
-                    "collapsed": false
-                  },
-                  {
-                    "text": "SSR 环境搭建",
-                    "link": "/views/前端架构/性能与安全优化/SSR/Vue SSR/SSR 环境搭建"
-                  },
-                  {
-                    "text": "Vue SSR",
-                    "link": "/views/前端架构/性能与安全优化/SSR/Vue SSR/Vue SSR"
-                  },
-                  {
-                    "text": "vue-cli 构建SSR",
-                    "link": "/views/前端架构/性能与安全优化/SSR/Vue SSR/vue-cli 构建SSR"
-                  },
-                  {
-                    "text": "数据预取",
-                    "link": "/views/前端架构/性能与安全优化/SSR/Vue SSR/数据预取"
-                  },
-                  {
-                    "text": "路由处理",
-                    "link": "/views/前端架构/性能与安全优化/SSR/Vue SSR/路由处理"
-                  }
-                ],
-                "collapsed": false
-              },
-              {
-                "text": "基本API",
-                "link": "/views/前端架构/性能与安全优化/SSR/基本API"
-              },
-              {
-                "text": "服务端与客户端",
-                "link": "/views/前端架构/性能与安全优化/SSR/服务端与客户端"
-              },
-              {
-                "text": "静态资源服务器",
-                "link": "/views/前端架构/性能与安全优化/SSR/静态资源服务器"
-              }
-            ],
-            "collapsed": false
-          }
-        ]
-      }
-    ],
-    "/views/前端架构/服务器与部署": [
-      {
-        "text": "服务器与部署",
-        "collapsed": false,
-        "items": [
-          {
-            "text": "CI CD",
-            "items": [
-              {
-                "text": "Git web hook",
-                "link": "/views/前端架构/服务器与部署/CI CD/Git web hook"
-              },
-              {
-                "text": "Jenkins",
-                "link": "/views/前端架构/服务器与部署/CI CD/Jenkins"
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "服务器部署",
-            "items": [
-              {
-                "text": "Nginx 安装及配置",
-                "link": "/views/前端架构/服务器与部署/服务器部署/Nginx 安装及配置"
-              },
-              {
-                "text": "Node 安装",
-                "link": "/views/前端架构/服务器与部署/服务器部署/Node 安装"
-              },
-              {
-                "text": "Node 进程管理工具安装说明",
-                "link": "/views/前端架构/服务器与部署/服务器部署/Node 进程管理工具安装说明"
-              },
-              {
-                "text": "hosts 文件",
-                "link": "/views/前端架构/服务器与部署/服务器部署/hosts 文件"
-              },
-              {
-                "text": "mysql 安装及修改密码",
-                "link": "/views/前端架构/服务器与部署/服务器部署/mysql 安装及修改密码"
-              },
-              {
-                "text": "前后段不分离页面请求",
-                "link": "/views/前端架构/服务器与部署/服务器部署/前后段不分离页面请求"
-              },
-              {
-                "text": "反向代理请求处理",
-                "link": "/views/前端架构/服务器与部署/服务器部署/反向代理请求处理"
-              },
-              {
-                "text": "域名解析设置",
-                "link": "/views/前端架构/服务器与部署/服务器部署/域名解析设置"
-              },
-              {
-                "text": "域名购买及解析",
-                "link": "/views/前端架构/服务器与部署/服务器部署/域名购买及解析"
-              },
-              {
-                "text": "多域名指向",
-                "link": "/views/前端架构/服务器与部署/服务器部署/多域名指向"
-              },
-              {
-                "text": "打包项目并上传",
-                "link": "/views/前端架构/服务器与部署/服务器部署/打包项目并上传"
-              },
-              {
-                "text": "服务器免密登录配置",
-                "link": "/views/前端架构/服务器与部署/服务器部署/服务器免密登录配置"
-              },
-              {
-                "text": "服务器购买及系统选择",
-                "link": "/views/前端架构/服务器与部署/服务器部署/服务器购买及系统选择"
-              },
-              {
-                "text": "网站运行机制",
-                "link": "/views/前端架构/服务器与部署/服务器部署/网站运行机制"
-              },
-              {
-                "text": "跨域请求处理",
-                "link": "/views/前端架构/服务器与部署/服务器部署/跨域请求处理"
-              },
-              {
-                "text": "连接服务器及安装开发包",
-                "link": "/views/前端架构/服务器与部署/服务器部署/连接服务器及安装开发包"
-              },
-              {
-                "text": "配置Nginx 访问项目",
-                "link": "/views/前端架构/服务器与部署/服务器部署/配置Nginx 访问项目"
-              },
-              {
-                "text": "静态网页请求流程",
-                "link": "/views/前端架构/服务器与部署/服务器部署/静态网页请求流程"
-              }
-            ],
-            "collapsed": false
-          }
-        ]
-      }
-    ],
-    "/views/前端架构/框架原理与设计": [
-      {
-        "text": "框架原理与设计",
+        "text": "A 框架原理与设计",
         "collapsed": false,
         "items": [
           {
@@ -1019,35 +52,35 @@
                 "items": [
                   {
                     "text": "Dvajs",
-                    "link": "/views/前端架构/框架原理与设计/React/Dva/Dvajs"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Dva/Dvajs"
                   },
                   {
                     "text": "connect",
-                    "link": "/views/前端架构/框架原理与设计/React/Dva/connect"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Dva/connect"
                   },
                   {
                     "text": "dva 对象",
-                    "link": "/views/前端架构/框架原理与设计/React/Dva/dva 对象"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Dva/dva 对象"
                   },
                   {
                     "text": "dva 插件",
-                    "link": "/views/前端架构/框架原理与设计/React/Dva/dva 插件"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Dva/dva 插件"
                   },
                   {
                     "text": "dva 配置项",
-                    "link": "/views/前端架构/框架原理与设计/React/Dva/dva 配置项"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Dva/dva 配置项"
                   },
                   {
                     "text": "dva-cli",
-                    "link": "/views/前端架构/框架原理与设计/React/Dva/dva-cli"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Dva/dva-cli"
                   },
                   {
                     "text": "routerConfig",
-                    "link": "/views/前端架构/框架原理与设计/React/Dva/routerConfig"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Dva/routerConfig"
                   },
                   {
                     "text": "同步路由",
-                    "link": "/views/前端架构/框架原理与设计/React/Dva/同步路由"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Dva/同步路由"
                   }
                 ],
                 "collapsed": false
@@ -1057,51 +90,51 @@
                 "items": [
                   {
                     "text": "React Hooks",
-                    "link": "/views/前端架构/框架原理与设计/React/React Hook/React Hooks"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Hook/React Hooks"
                   },
                   {
                     "text": "useCallback",
-                    "link": "/views/前端架构/框架原理与设计/React/React Hook/useCallback"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Hook/useCallback"
                   },
                   {
                     "text": "useContext",
-                    "link": "/views/前端架构/框架原理与设计/React/React Hook/useContext"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Hook/useContext"
                   },
                   {
                     "text": "useDebugValue",
-                    "link": "/views/前端架构/框架原理与设计/React/React Hook/useDebugValue"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Hook/useDebugValue"
                   },
                   {
                     "text": "useEffect",
-                    "link": "/views/前端架构/框架原理与设计/React/React Hook/useEffect"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Hook/useEffect"
                   },
                   {
                     "text": "useImperativeHandle",
-                    "link": "/views/前端架构/框架原理与设计/React/React Hook/useImperativeHandle"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Hook/useImperativeHandle"
                   },
                   {
                     "text": "useLayoutEffect",
-                    "link": "/views/前端架构/框架原理与设计/React/React Hook/useLayoutEffect"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Hook/useLayoutEffect"
                   },
                   {
                     "text": "useMemo",
-                    "link": "/views/前端架构/框架原理与设计/React/React Hook/useMemo"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Hook/useMemo"
                   },
                   {
                     "text": "useReducer",
-                    "link": "/views/前端架构/框架原理与设计/React/React Hook/useReducer"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Hook/useReducer"
                   },
                   {
                     "text": "useRef",
-                    "link": "/views/前端架构/框架原理与设计/React/React Hook/useRef"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Hook/useRef"
                   },
                   {
                     "text": "useState",
-                    "link": "/views/前端架构/框架原理与设计/React/React Hook/useState"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Hook/useState"
                   },
                   {
                     "text": "自定义 Hooks",
-                    "link": "/views/前端架构/框架原理与设计/React/React Hook/自定义 Hooks"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Hook/自定义 Hooks"
                   }
                 ],
                 "collapsed": false
@@ -1114,66 +147,66 @@
                     "items": [
                       {
                         "text": "useLocation",
-                        "link": "/views/前端架构/框架原理与设计/React/React Router/Hooks/useLocation"
+                        "link": "/views/前端架构/A 框架原理与设计/React/React Router/Hooks/useLocation"
                       },
                       {
                         "text": "useMatch",
-                        "link": "/views/前端架构/框架原理与设计/React/React Router/Hooks/useMatch"
+                        "link": "/views/前端架构/A 框架原理与设计/React/React Router/Hooks/useMatch"
                       },
                       {
                         "text": "useNavigate",
-                        "link": "/views/前端架构/框架原理与设计/React/React Router/Hooks/useNavigate"
+                        "link": "/views/前端架构/A 框架原理与设计/React/React Router/Hooks/useNavigate"
                       },
                       {
                         "text": "useParams",
-                        "link": "/views/前端架构/框架原理与设计/React/React Router/Hooks/useParams"
+                        "link": "/views/前端架构/A 框架原理与设计/React/React Router/Hooks/useParams"
                       }
                     ],
                     "collapsed": false
                   },
                   {
                     "text": "Prompt组件",
-                    "link": "/views/前端架构/框架原理与设计/React/React Router/Prompt组件"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Router/Prompt组件"
                   },
                   {
                     "text": "React Router v5",
-                    "link": "/views/前端架构/框架原理与设计/React/React Router/React Router v5"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Router/React Router v5"
                   },
                   {
                     "text": "React Router v6",
-                    "link": "/views/前端架构/框架原理与设计/React/React Router/React Router v6"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Router/React Router v6"
                   },
                   {
                     "text": "beforeunload",
-                    "link": "/views/前端架构/框架原理与设计/React/React Router/beforeunload"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Router/beforeunload"
                   },
                   {
                     "text": "getUserConfirmation",
-                    "link": "/views/前端架构/框架原理与设计/React/React Router/getUserConfirmation"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Router/getUserConfirmation"
                   },
                   {
                     "text": "路由信息 v5",
-                    "link": "/views/前端架构/框架原理与设计/React/React Router/路由信息 v5"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Router/路由信息 v5"
                   },
                   {
                     "text": "路由信息 v6",
-                    "link": "/views/前端架构/框架原理与设计/React/React Router/路由信息 v6"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Router/路由信息 v6"
                   },
                   {
                     "text": "路由守卫",
-                    "link": "/views/前端架构/框架原理与设计/React/React Router/路由守卫"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Router/路由守卫"
                   },
                   {
                     "text": "路由嵌套",
-                    "link": "/views/前端架构/框架原理与设计/React/React Router/路由嵌套"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Router/路由嵌套"
                   },
                   {
                     "text": "路由模式",
-                    "link": "/views/前端架构/框架原理与设计/React/React Router/路由模式"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Router/路由模式"
                   },
                   {
                     "text": "路由组件",
-                    "link": "/views/前端架构/框架原理与设计/React/React Router/路由组件"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React Router/路由组件"
                   }
                 ],
                 "collapsed": false
@@ -1183,159 +216,159 @@
                 "items": [
                   {
                     "text": "Context",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/Context"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/Context"
                   },
                   {
                     "text": "Function as a Child",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/Function as a Child"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/Function as a Child"
                   },
                   {
                     "text": "JSX",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/JSX"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/JSX"
                   },
                   {
                     "text": "Portals",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/Portals"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/Portals"
                   },
                   {
                     "text": "PureComponent",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/PureComponent"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/PureComponent"
                   },
                   {
                     "text": "React Fiber",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/React Fiber"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/React Fiber"
                   },
                   {
                     "text": "React Fragment",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/React Fragment"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/React Fragment"
                   },
                   {
                     "text": "React Profiler",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/React Profiler"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/React Profiler"
                   },
                   {
                     "text": "React StrictMode",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/React StrictMode"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/React StrictMode"
                   },
                   {
                     "text": "React 副作用代码",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/React 副作用代码"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/React 副作用代码"
                   },
                   {
                     "text": "React 简介",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/React 简介"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/React 简介"
                   },
                   {
                     "text": "Render Props",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/Render Props"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/Render Props"
                   },
                   {
                     "text": "componentDidCatch",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/componentDidCatch"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/componentDidCatch"
                   },
                   {
                     "text": "componentDidMount",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/componentDidMount"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/componentDidMount"
                   },
                   {
                     "text": "componentDidUpdate",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/componentDidUpdate"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/componentDidUpdate"
                   },
                   {
                     "text": "componentWillMount",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/componentWillMount"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/componentWillMount"
                   },
                   {
                     "text": "componentWillReceiveProps",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/componentWillReceiveProps"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/componentWillReceiveProps"
                   },
                   {
                     "text": "componentWillUnmount",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/componentWillUnmount"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/componentWillUnmount"
                   },
                   {
                     "text": "componentWillUpdate",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/componentWillUpdate"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/componentWillUpdate"
                   },
                   {
                     "text": "forceUpdate",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/forceUpdate"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/forceUpdate"
                   },
                   {
                     "text": "forwardRef",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/forwardRef"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/forwardRef"
                   },
                   {
                     "text": "getDerivedStateFromError",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/getDerivedStateFromError"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/getDerivedStateFromError"
                   },
                   {
                     "text": "getDerivedStateFromProps",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/getDerivedStateFromProps"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/getDerivedStateFromProps"
                   },
                   {
                     "text": "getSnapshotBeforeUpdate",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/getSnapshotBeforeUpdate"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/getSnapshotBeforeUpdate"
                   },
                   {
                     "text": "props的children属性",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/props的children属性"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/props的children属性"
                   },
                   {
                     "text": "ref",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/ref"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/ref"
                   },
                   {
                     "text": "setState",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/setState"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/setState"
                   },
                   {
                     "text": "shouldComponentUpdate",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/shouldComponentUpdate"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/shouldComponentUpdate"
                   },
                   {
                     "text": "事件处理",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/事件处理"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/事件处理"
                   },
                   {
                     "text": "受控组件",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/受控组件"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/受控组件"
                   },
                   {
                     "text": "渲染原理",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/渲染原理"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/渲染原理"
                   },
                   {
                     "text": "生命周期",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/生命周期"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/生命周期"
                   },
                   {
                     "text": "组件与组件属性",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/组件与组件属性"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/组件与组件属性"
                   },
                   {
                     "text": "组件状态State",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/组件状态State"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/组件状态State"
                   },
                   {
                     "text": "组件通信",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/组件通信"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/组件通信"
                   },
                   {
                     "text": "表单组件",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/表单组件"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/表单组件"
                   },
                   {
                     "text": "错误边界",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/错误边界"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/错误边界"
                   },
                   {
                     "text": "非受控组件",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/非受控组件"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/非受控组件"
                   },
                   {
                     "text": "高阶组件",
-                    "link": "/views/前端架构/框架原理与设计/React/React V16/高阶组件"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React V16/高阶组件"
                   }
                 ],
                 "collapsed": false
@@ -1350,7 +383,7 @@
                 "items": [
                   {
                     "text": "react-transition-group",
-                    "link": "/views/前端架构/框架原理与设计/React/React 动画/react-transition-group"
+                    "link": "/views/前端架构/A 框架原理与设计/React/React 动画/react-transition-group"
                   }
                 ],
                 "collapsed": false
@@ -1360,150 +393,150 @@
                 "items": [
                   {
                     "text": "Action Creators",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/Action Creators"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/Action Creators"
                   },
                   {
                     "text": "Action",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/Action"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/Action"
                   },
                   {
                     "text": "Dispatch",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/Dispatch"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/Dispatch"
                   },
                   {
                     "text": "Flux",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/Flux"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/Flux"
                   },
                   {
                     "text": "Hooks",
                     "items": [
                       {
                         "text": "useDispatch",
-                        "link": "/views/前端架构/框架原理与设计/React/Redux/Hooks/useDispatch"
+                        "link": "/views/前端架构/A 框架原理与设计/React/Redux/Hooks/useDispatch"
                       },
                       {
                         "text": "useSelector",
-                        "link": "/views/前端架构/框架原理与设计/React/Redux/Hooks/useSelector"
+                        "link": "/views/前端架构/A 框架原理与设计/React/Redux/Hooks/useSelector"
                       }
                     ],
                     "collapsed": false
                   },
                   {
                     "text": "Immutable Updates",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/Immutable Updates"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/Immutable Updates"
                   },
                   {
                     "text": "Plain Action",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/Plain Action"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/Plain Action"
                   },
                   {
                     "text": "Reducer 纯函数",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/Reducer 纯函数"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/Reducer 纯函数"
                   },
                   {
                     "text": "Reducer",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/Reducer"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/Reducer"
                   },
                   {
                     "text": "Redux 核心概念",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/Redux 核心概念"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/Redux 核心概念"
                   },
                   {
                     "text": "Store subscribe",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/Store subscribe"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/Store subscribe"
                   },
                   {
                     "text": "Store",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/Store"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/Store"
                   },
                   {
                     "text": "applyMiddleware",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/applyMiddleware"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/applyMiddleware"
                   },
                   {
                     "text": "bindActionCreators",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/bindActionCreators"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/bindActionCreators"
                   },
                   {
                     "text": "combineReducers",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/combineReducers"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/combineReducers"
                   },
                   {
                     "text": "compose",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/compose"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/compose"
                   },
                   {
                     "text": "connected-react-router",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/connected-react-router"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/connected-react-router"
                   },
                   {
                     "text": "createStore",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/createStore"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/createStore"
                   },
                   {
                     "text": "react-redux",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/react-redux"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/react-redux"
                   },
                   {
                     "text": "redux-actions",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/redux-actions"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/redux-actions"
                   },
                   {
                     "text": "中间件",
                     "items": [
                       {
                         "text": "Middleware",
-                        "link": "/views/前端架构/框架原理与设计/React/Redux/中间件/Middleware"
+                        "link": "/views/前端架构/A 框架原理与设计/React/Redux/中间件/Middleware"
                       },
                       {
                         "text": "redux-logger",
-                        "link": "/views/前端架构/框架原理与设计/React/Redux/中间件/redux-logger"
+                        "link": "/views/前端架构/A 框架原理与设计/React/Redux/中间件/redux-logger"
                       },
                       {
                         "text": "redux-promise",
-                        "link": "/views/前端架构/框架原理与设计/React/Redux/中间件/redux-promise"
+                        "link": "/views/前端架构/A 框架原理与设计/React/Redux/中间件/redux-promise"
                       },
                       {
                         "text": "redux-saga 指令",
-                        "link": "/views/前端架构/框架原理与设计/React/Redux/中间件/redux-saga 指令"
+                        "link": "/views/前端架构/A 框架原理与设计/React/Redux/中间件/redux-saga 指令"
                       },
                       {
                         "text": "redux-saga",
-                        "link": "/views/前端架构/框架原理与设计/React/Redux/中间件/redux-saga"
+                        "link": "/views/前端架构/A 框架原理与设计/React/Redux/中间件/redux-saga"
                       },
                       {
                         "text": "redux-thunk",
-                        "link": "/views/前端架构/框架原理与设计/React/Redux/中间件/redux-thunk"
+                        "link": "/views/前端架构/A 框架原理与设计/React/Redux/中间件/redux-thunk"
                       },
                       {
                         "text": "redux-toolkit",
-                        "link": "/views/前端架构/框架原理与设计/React/Redux/中间件/redux-toolkit"
+                        "link": "/views/前端架构/A 框架原理与设计/React/Redux/中间件/redux-toolkit"
                       }
                     ],
                     "collapsed": false
                   },
                   {
                     "text": "共享 Store",
-                    "link": "/views/前端架构/框架原理与设计/React/Redux/共享 Store"
+                    "link": "/views/前端架构/A 框架原理与设计/React/Redux/共享 Store"
                   },
                   {
                     "text": "源码分析",
                     "items": [
                       {
                         "text": "applyMiddleware",
-                        "link": "/views/前端架构/框架原理与设计/React/Redux/源码分析/applyMiddleware"
+                        "link": "/views/前端架构/A 框架原理与设计/React/Redux/源码分析/applyMiddleware"
                       },
                       {
                         "text": "bindActionCreators",
-                        "link": "/views/前端架构/框架原理与设计/React/Redux/源码分析/bindActionCreators"
+                        "link": "/views/前端架构/A 框架原理与设计/React/Redux/源码分析/bindActionCreators"
                       },
                       {
                         "text": "combineReducers",
-                        "link": "/views/前端架构/框架原理与设计/React/Redux/源码分析/combineReducers"
+                        "link": "/views/前端架构/A 框架原理与设计/React/Redux/源码分析/combineReducers"
                       },
                       {
                         "text": "createStore",
-                        "link": "/views/前端架构/框架原理与设计/React/Redux/源码分析/createStore"
+                        "link": "/views/前端架构/A 框架原理与设计/React/Redux/源码分析/createStore"
                       }
                     ],
                     "collapsed": false
@@ -1516,19 +549,19 @@
                 "items": [
                   {
                     "text": "[实例] React V16 Demo",
-                    "link": "/views/前端架构/框架原理与设计/React/实例/[实例] React V16 Demo"
+                    "link": "/views/前端架构/A 框架原理与设计/React/实例/[实例] React V16 Demo"
                   },
                   {
                     "text": "[实例] 小球滚动",
-                    "link": "/views/前端架构/框架原理与设计/React/实例/[实例] 小球滚动"
+                    "link": "/views/前端架构/A 框架原理与设计/React/实例/[实例] 小球滚动"
                   },
                   {
                     "text": "[实例] 表单上下文应用",
-                    "link": "/views/前端架构/框架原理与设计/React/实例/[实例] 表单上下文应用"
+                    "link": "/views/前端架构/A 框架原理与设计/React/实例/[实例] 表单上下文应用"
                   },
                   {
                     "text": "[实例] 轮播图",
-                    "link": "/views/前端架构/框架原理与设计/React/实例/[实例] 轮播图"
+                    "link": "/views/前端架构/A 框架原理与设计/React/实例/[实例] 轮播图"
                   }
                 ],
                 "collapsed": false
@@ -1538,7 +571,7 @@
                 "items": [
                   {
                     "text": "create-react-app",
-                    "link": "/views/前端架构/框架原理与设计/React/工程化/create-react-app"
+                    "link": "/views/前端架构/A 框架原理与设计/React/工程化/create-react-app"
                   }
                 ],
                 "collapsed": false
@@ -1554,27 +587,27 @@
                 "items": [
                   {
                     "text": "Vue Router",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue Router/Vue Router"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue Router/Vue Router"
                   },
                   {
                     "text": "动态路由",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue Router/动态路由"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue Router/动态路由"
                   },
                   {
                     "text": "标签标题统一处理",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue Router/标签标题统一处理"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue Router/标签标题统一处理"
                   },
                   {
                     "text": "组件 router-link",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue Router/组件 router-link"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue Router/组件 router-link"
                   },
                   {
                     "text": "组件 router-view",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue Router/组件 router-view"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue Router/组件 router-view"
                   },
                   {
                     "text": "路由模式",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue Router/路由模式"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue Router/路由模式"
                   }
                 ],
                 "collapsed": false
@@ -1584,111 +617,111 @@
                 "items": [
                   {
                     "text": "Vue $attrs",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue $attrs"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue $attrs"
                   },
                   {
                     "text": "Vue $emit",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue $emit"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue $emit"
                   },
                   {
                     "text": "Vue $listeners",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue $listeners"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue $listeners"
                   },
                   {
                     "text": "Vue $refs",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue $refs"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue $refs"
                   },
                   {
                     "text": "Vue $slots",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue $slots"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue $slots"
                   },
                   {
                     "text": "Vue Diff 算法",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue Diff 算法"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue Diff 算法"
                   },
                   {
                     "text": "Vue JSX",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue JSX"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue JSX"
                   },
                   {
                     "text": "Vue devtools",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue devtools"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue devtools"
                   },
                   {
                     "text": "Vue 事件总线",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 事件总线"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 事件总线"
                   },
                   {
                     "text": "Vue 内置组件",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 内置组件"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 内置组件"
                   },
                   {
                     "text": "Vue 实例成员",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 实例成员"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 实例成员"
                   },
                   {
                     "text": "Vue 异步组件",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 异步组件"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 异步组件"
                   },
                   {
                     "text": "Vue 指令",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 指令"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 指令"
                   },
                   {
                     "text": "Vue 插槽",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 插槽"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 插槽"
                   },
                   {
                     "text": "Vue 数据劫持",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 数据劫持"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 数据劫持"
                   },
                   {
                     "text": "Vue 模板语法",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 模板语法"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 模板语法"
                   },
                   {
                     "text": "Vue 混入",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 混入"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 混入"
                   },
                   {
                     "text": "Vue 生命周期",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 生命周期"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 生命周期"
                   },
                   {
                     "text": "Vue 监听属性",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 监听属性"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 监听属性"
                   },
                   {
                     "text": "Vue 组件",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 组件"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 组件"
                   },
                   {
                     "text": "Vue 虚拟DOM",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 虚拟DOM"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 虚拟DOM"
                   },
                   {
                     "text": "Vue 计算属性",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 计算属性"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 计算属性"
                   },
                   {
                     "text": "Vue 过滤属性",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 过滤属性"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 过滤属性"
                   },
                   {
                     "text": "Vue 通信",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 通信"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 通信"
                   },
                   {
                     "text": "Vue 预编译",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue 预编译"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue 预编译"
                   },
                   {
                     "text": "Vue基础",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/Vue基础"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/Vue基础"
                   },
                   {
                     "text": "内置组件 keep-alive",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vue2/内置组件 keep-alive"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vue2/内置组件 keep-alive"
                   }
                 ],
                 "collapsed": false
@@ -1703,11 +736,11 @@
                 "items": [
                   {
                     "text": "Vuex",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vuex/Vuex"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vuex/Vuex"
                   },
                   {
                     "text": "命名空间",
-                    "link": "/views/前端架构/框架原理与设计/Vue/Vuex/命名空间"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/Vuex/命名空间"
                   }
                 ],
                 "collapsed": false
@@ -1717,15 +750,15 @@
                 "items": [
                   {
                     "text": "[实例] 图片懒加载方案",
-                    "link": "/views/前端架构/框架原理与设计/Vue/实例/[实例] 图片懒加载方案"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/实例/[实例] 图片懒加载方案"
                   },
                   {
                     "text": "[实例] 图片随鼠标微动",
-                    "link": "/views/前端架构/框架原理与设计/Vue/实例/[实例] 图片随鼠标微动"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/实例/[实例] 图片随鼠标微动"
                   },
                   {
                     "text": "[实例] 消息弹窗框",
-                    "link": "/views/前端架构/框架原理与设计/Vue/实例/[实例] 消息弹窗框"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/实例/[实例] 消息弹窗框"
                   }
                 ],
                 "collapsed": false
@@ -1735,31 +768,23 @@
                 "items": [
                   {
                     "text": "404 页面",
-                    "link": "/views/前端架构/框架原理与设计/Vue/工程化/404 页面"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/工程化/404 页面"
                   },
                   {
                     "text": "Element UI",
-                    "link": "/views/前端架构/框架原理与设计/Vue/工程化/Element UI"
-                  },
-                  {
-                    "text": "Vue 常用集成库",
-                    "link": "/views/前端架构/框架原理与设计/Vue/工程化/Vue 常用集成库"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/工程化/Element UI"
                   },
                   {
                     "text": "Vue 打包优化",
-                    "link": "/views/前端架构/框架原理与设计/Vue/工程化/Vue 打包优化"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/工程化/Vue 打包优化"
                   },
                   {
                     "text": "Vue 项目目录结构",
-                    "link": "/views/前端架构/框架原理与设计/Vue/工程化/Vue 项目目录结构"
-                  },
-                  {
-                    "text": "Vue-cli 介绍",
-                    "link": "/views/前端架构/框架原理与设计/Vue/工程化/Vue-cli 介绍"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/工程化/Vue 项目目录结构"
                   },
                   {
                     "text": "Vue-cli 搭建项目",
-                    "link": "/views/前端架构/框架原理与设计/Vue/工程化/Vue-cli 搭建项目"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/工程化/Vue-cli 搭建项目"
                   }
                 ],
                 "collapsed": false
@@ -1774,7 +799,7 @@
                 "items": [
                   {
                     "text": "Vue 测试",
-                    "link": "/views/前端架构/框架原理与设计/Vue/测试/Vue 测试"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/测试/Vue 测试"
                   }
                 ],
                 "collapsed": false
@@ -1784,27 +809,27 @@
                 "items": [
                   {
                     "text": "[规范] 单元测试规范",
-                    "link": "/views/前端架构/框架原理与设计/Vue/规范/[规范] 单元测试规范"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/规范/[规范] 单元测试规范"
                   },
                   {
                     "text": "[规范] 端到端测试规范",
-                    "link": "/views/前端架构/框架原理与设计/Vue/规范/[规范] 端到端测试规范"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/规范/[规范] 端到端测试规范"
                   },
                   {
                     "text": "[规范] 组件使用说明",
-                    "link": "/views/前端架构/框架原理与设计/Vue/规范/[规范] 组件使用说明"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/规范/[规范] 组件使用说明"
                   },
                   {
                     "text": "[规范] 组件测试体系",
-                    "link": "/views/前端架构/框架原理与设计/Vue/规范/[规范] 组件测试体系"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/规范/[规范] 组件测试体系"
                   },
                   {
                     "text": "[规范] 组件测试说明",
-                    "link": "/views/前端架构/框架原理与设计/Vue/规范/[规范] 组件测试说明"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/规范/[规范] 组件测试说明"
                   },
                   {
                     "text": "[规范] 集成测试规范",
-                    "link": "/views/前端架构/框架原理与设计/Vue/规范/[规范] 集成测试规范"
+                    "link": "/views/前端架构/A 框架原理与设计/Vue/规范/[规范] 集成测试规范"
                   }
                 ],
                 "collapsed": false
@@ -1820,9 +845,692 @@
         ]
       }
     ],
-    "/views/前端架构/测试相关": [
+    "/views/前端架构/B 前端工程化体系": [
       {
-        "text": "测试相关",
+        "text": "B 前端工程化体系",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "CSS 工程化",
+            "items": [
+              {
+                "text": "CSS Module",
+                "link": "/views/前端架构/B 前端工程化体系/CSS 工程化/CSS Module"
+              },
+              {
+                "text": "Less",
+                "link": "/views/前端架构/B 前端工程化体系/CSS 工程化/Less"
+              },
+              {
+                "text": "PostCSS",
+                "link": "/views/前端架构/B 前端工程化体系/CSS 工程化/PostCSS"
+              },
+              {
+                "text": "Sass",
+                "link": "/views/前端架构/B 前端工程化体系/CSS 工程化/Sass"
+              },
+              {
+                "text": "Stylus",
+                "link": "/views/前端架构/B 前端工程化体系/CSS 工程化/Stylus"
+              },
+              {
+                "text": "自动厂商前缀",
+                "link": "/views/前端架构/B 前端工程化体系/CSS 工程化/自动厂商前缀"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "JS 工程化",
+            "items": [
+              {
+                "text": "Babel",
+                "link": "/views/前端架构/B 前端工程化体系/JS 工程化/Babel"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "代码质量管理",
+            "items": [
+              {
+                "text": "代码评审",
+                "items": [
+                  {
+                    "text": "与传统代码评审区别",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/代码评审/与传统代码评审区别"
+                  },
+                  {
+                    "text": "性能评估",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/代码评审/性能评估"
+                  },
+                  {
+                    "text": "推广代码评审",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/代码评审/推广代码评审"
+                  },
+                  {
+                    "text": "落地实行",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/代码评审/落地实行"
+                  },
+                  {
+                    "text": "错误处理",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/代码评审/错误处理"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "前端规范",
+                "items": [
+                  {
+                    "text": "BFF_研发规范",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/前端规范/BFF_研发规范"
+                  },
+                  {
+                    "text": "CR_规范",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/前端规范/CR_规范"
+                  },
+                  {
+                    "text": "CSS 规范",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/前端规范/CSS 规范"
+                  },
+                  {
+                    "text": "HTML 规范",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/前端规范/HTML 规范"
+                  },
+                  {
+                    "text": "IDE_编辑器规范",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/前端规范/IDE_编辑器规范"
+                  },
+                  {
+                    "text": "JS 规范",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/前端规范/JS 规范"
+                  },
+                  {
+                    "text": "UI_设计规范",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/前端规范/UI_设计规范"
+                  },
+                  {
+                    "text": "前后端协作规范",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/前端规范/前后端协作规范"
+                  },
+                  {
+                    "text": "前端测试规范",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/前端规范/前端测试规范"
+                  },
+                  {
+                    "text": "技术栈规范",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/前端规范/技术栈规范"
+                  },
+                  {
+                    "text": "浏览器兼容规范",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/前端规范/浏览器兼容规范"
+                  },
+                  {
+                    "text": "编程规范",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/前端规范/编程规范"
+                  },
+                  {
+                    "text": "附1_BEM_策略及通用类名",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/前端规范/附1_BEM_策略及通用类名"
+                  },
+                  {
+                    "text": "需求研发流程规范",
+                    "link": "/views/前端架构/B 前端工程化体系/代码质量管理/前端规范/需求研发流程规范"
+                  }
+                ],
+                "collapsed": false
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "构建工具",
+            "items": [
+              {
+                "text": "Grunt",
+                "link": "/views/前端架构/B 前端工程化体系/构建工具/Grunt"
+              },
+              {
+                "text": "Gulp",
+                "link": "/views/前端架构/B 前端工程化体系/构建工具/Gulp"
+              },
+              {
+                "text": "Rollup",
+                "link": "/views/前端架构/B 前端工程化体系/构建工具/Rollup"
+              },
+              {
+                "text": "Vite",
+                "link": "/views/前端架构/B 前端工程化体系/构建工具/Vite"
+              },
+              {
+                "text": "Webpack 相关",
+                "items": [
+                  {
+                    "text": "Gzip 压缩",
+                    "link": "/views/前端架构/B 前端工程化体系/构建工具/Webpack 相关/Gzip 压缩"
+                  },
+                  {
+                    "text": "cache 配置项",
+                    "link": "/views/前端架构/B 前端工程化体系/构建工具/Webpack 相关/cache 配置项"
+                  },
+                  {
+                    "text": "optimization 配置项",
+                    "link": "/views/前端架构/B 前端工程化体系/构建工具/Webpack 相关/optimization 配置项"
+                  },
+                  {
+                    "text": "performance 配置项",
+                    "link": "/views/前端架构/B 前端工程化体系/构建工具/Webpack 相关/performance 配置项"
+                  },
+                  {
+                    "text": "webpack 版本",
+                    "link": "/views/前端架构/B 前端工程化体系/构建工具/Webpack 相关/webpack 版本"
+                  },
+                  {
+                    "text": "代码拆分",
+                    "link": "/views/前端架构/B 前端工程化体系/构建工具/Webpack 相关/代码拆分"
+                  },
+                  {
+                    "text": "作用域提升",
+                    "link": "/views/前端架构/B 前端工程化体系/构建工具/Webpack 相关/作用域提升"
+                  },
+                  {
+                    "text": "性能优化",
+                    "link": "/views/前端架构/B 前端工程化体系/构建工具/Webpack 相关/性能优化"
+                  },
+                  {
+                    "text": "拆包原则",
+                    "link": "/views/前端架构/B 前端工程化体系/构建工具/Webpack 相关/拆包原则"
+                  },
+                  {
+                    "text": "模块解析规则优化",
+                    "link": "/views/前端架构/B 前端工程化体系/构建工具/Webpack 相关/模块解析规则优化"
+                  },
+                  {
+                    "text": "魔术注释",
+                    "link": "/views/前端架构/B 前端工程化体系/构建工具/Webpack 相关/魔术注释"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "Webpack",
+                "link": "/views/前端架构/B 前端工程化体系/构建工具/Webpack"
+              },
+              {
+                "text": "构建工具对比",
+                "link": "/views/前端架构/B 前端工程化体系/构建工具/构建工具对比"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "模块化",
+            "items": [
+              {
+                "text": "CommonJS 模块查找策略",
+                "link": "/views/前端架构/B 前端工程化体系/模块化/CommonJS 模块查找策略"
+              },
+              {
+                "text": "ES Module 模块查找策略",
+                "link": "/views/前端架构/B 前端工程化体系/模块化/ES Module 模块查找策略"
+              },
+              {
+                "text": "ES Module",
+                "link": "/views/前端架构/B 前端工程化体系/模块化/ES Module"
+              },
+              {
+                "text": "ESLint",
+                "link": "/views/前端架构/B 前端工程化体系/模块化/ESLint"
+              },
+              {
+                "text": "包管理",
+                "items": [
+                  {
+                    "text": "Npm",
+                    "link": "/views/前端架构/B 前端工程化体系/模块化/包管理/Npm"
+                  },
+                  {
+                    "text": "Npx",
+                    "link": "/views/前端架构/B 前端工程化体系/模块化/包管理/Npx"
+                  },
+                  {
+                    "text": "Yarn",
+                    "link": "/views/前端架构/B 前端工程化体系/模块化/包管理/Yarn"
+                  },
+                  {
+                    "text": "curl",
+                    "link": "/views/前端架构/B 前端工程化体系/模块化/包管理/curl"
+                  },
+                  {
+                    "text": "npm与yarn对比",
+                    "link": "/views/前端架构/B 前端工程化体系/模块化/包管理/npm与yarn对比"
+                  },
+                  {
+                    "text": "package_json",
+                    "link": "/views/前端架构/B 前端工程化体系/模块化/包管理/package_json"
+                  },
+                  {
+                    "text": "pnpm",
+                    "link": "/views/前端架构/B 前端工程化体系/模块化/包管理/pnpm"
+                  },
+                  {
+                    "text": "wget",
+                    "link": "/views/前端架构/B 前端工程化体系/模块化/包管理/wget"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "模块联邦",
+                "link": "/views/前端架构/B 前端工程化体系/模块化/模块联邦"
+              },
+              {
+                "text": "模块解析策略",
+                "link": "/views/前端架构/B 前端工程化体系/模块化/模块解析策略"
+              },
+              {
+                "text": "浏览器端模块化难题",
+                "link": "/views/前端架构/B 前端工程化体系/模块化/浏览器端模块化难题"
+              },
+              {
+                "text": "跨域问题",
+                "link": "/views/前端架构/B 前端工程化体系/模块化/跨域问题"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "版本与依赖管理",
+            "items": [
+              {
+                "text": "依赖管理",
+                "items": [
+                  {
+                    "text": "Lema",
+                    "link": "/views/前端架构/B 前端工程化体系/版本与依赖管理/依赖管理/Lema"
+                  },
+                  {
+                    "text": "Yarn",
+                    "link": "/views/前端架构/B 前端工程化体系/版本与依赖管理/依赖管理/Yarn"
+                  },
+                  {
+                    "text": "npm",
+                    "link": "/views/前端架构/B 前端工程化体系/版本与依赖管理/依赖管理/npm"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "版本管理",
+                "items": [
+                  {
+                    "text": "Git",
+                    "link": "/views/前端架构/B 前端工程化体系/版本与依赖管理/版本管理/Git"
+                  },
+                  {
+                    "text": "Svn",
+                    "link": "/views/前端架构/B 前端工程化体系/版本与依赖管理/版本管理/Svn"
+                  }
+                ],
+                "collapsed": false
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "语言增强",
+            "items": [
+              {
+                "text": "CSS",
+                "items": [
+                  {
+                    "text": "Post css",
+                    "link": "/views/前端架构/B 前端工程化体系/语言增强/CSS/Post css"
+                  },
+                  {
+                    "text": "Sass(Scss)",
+                    "link": "/views/前端架构/B 前端工程化体系/语言增强/CSS/Sass(Scss)"
+                  },
+                  {
+                    "text": "Stylus",
+                    "link": "/views/前端架构/B 前端工程化体系/语言增强/CSS/Stylus"
+                  },
+                  {
+                    "text": "less",
+                    "link": "/views/前端架构/B 前端工程化体系/语言增强/CSS/less"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "JavaScript",
+                "items": [
+                  {
+                    "text": "CoffeeScript",
+                    "link": "/views/前端架构/B 前端工程化体系/语言增强/JavaScript/CoffeeScript"
+                  },
+                  {
+                    "text": "Flow",
+                    "link": "/views/前端架构/B 前端工程化体系/语言增强/JavaScript/Flow"
+                  },
+                  {
+                    "text": "TypeScript",
+                    "link": "/views/前端架构/B 前端工程化体系/语言增强/JavaScript/TypeScript"
+                  }
+                ],
+                "collapsed": false
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "转换器",
+            "items": [
+              {
+                "text": "Babel",
+                "link": "/views/前端架构/B 前端工程化体系/转换器/Babel"
+              },
+              {
+                "text": "Traceur",
+                "link": "/views/前端架构/B 前端工程化体系/转换器/Traceur"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/前端架构/C 通用功能工具集": [
+      {
+        "text": "C 通用功能工具集",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Ant Design",
+            "items": [
+              {
+                "text": "Ant Design Pro",
+                "link": "/views/前端架构/C 通用功能工具集/Ant Design/Ant Design Pro"
+              },
+              {
+                "text": "Ant Design",
+                "link": "/views/前端架构/C 通用功能工具集/Ant Design/Ant Design"
+              },
+              {
+                "text": "Ant Design概述",
+                "link": "/views/前端架构/C 通用功能工具集/Ant Design/Ant Design概述"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "Axios",
+            "link": "/views/前端架构/C 通用功能工具集/Axios"
+          },
+          {
+            "text": "BootStrap",
+            "link": "/views/前端架构/C 通用功能工具集/BootStrap"
+          },
+          {
+            "text": "JQuery",
+            "link": "/views/前端架构/C 通用功能工具集/JQuery"
+          },
+          {
+            "text": "Lodash",
+            "link": "/views/前端架构/C 通用功能工具集/Lodash"
+          },
+          {
+            "text": "Mock",
+            "link": "/views/前端架构/C 通用功能工具集/Mock"
+          },
+          {
+            "text": "Prototype",
+            "link": "/views/前端架构/C 通用功能工具集/Prototype"
+          },
+          {
+            "text": "RxJS",
+            "link": "/views/前端架构/C 通用功能工具集/RxJS"
+          },
+          {
+            "text": "Umi",
+            "items": [
+              {
+                "text": "Umi 命令",
+                "link": "/views/前端架构/C 通用功能工具集/Umi/Umi 命令"
+              },
+              {
+                "text": "Umi-cli",
+                "link": "/views/前端架构/C 通用功能工具集/Umi/Umi-cli"
+              },
+              {
+                "text": "Umijs",
+                "link": "/views/前端架构/C 通用功能工具集/Umi/Umijs"
+              },
+              {
+                "text": "代理",
+                "link": "/views/前端架构/C 通用功能工具集/Umi/代理"
+              },
+              {
+                "text": "数据模拟",
+                "link": "/views/前端架构/C 通用功能工具集/Umi/数据模拟"
+              },
+              {
+                "text": "约定式路由",
+                "link": "/views/前端架构/C 通用功能工具集/Umi/约定式路由"
+              },
+              {
+                "text": "路由信息获取",
+                "link": "/views/前端架构/C 通用功能工具集/Umi/路由信息获取"
+              },
+              {
+                "text": "配置式路由",
+                "link": "/views/前端架构/C 通用功能工具集/Umi/配置式路由"
+              },
+              {
+                "text": "配置文件",
+                "link": "/views/前端架构/C 通用功能工具集/Umi/配置文件"
+              },
+              {
+                "text": "集成dva",
+                "link": "/views/前端架构/C 通用功能工具集/Umi/集成dva"
+              },
+              {
+                "text": "集成样式",
+                "link": "/views/前端架构/C 通用功能工具集/Umi/集成样式"
+              },
+              {
+                "text": "额外约定文件",
+                "link": "/views/前端架构/C 通用功能工具集/Umi/额外约定文件"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "Underscore",
+            "link": "/views/前端架构/C 通用功能工具集/Underscore"
+          },
+          {
+            "text": "VitePress",
+            "link": "/views/前端架构/C 通用功能工具集/VitePress"
+          },
+          {
+            "text": "VuePress",
+            "link": "/views/前端架构/C 通用功能工具集/VuePress"
+          },
+          {
+            "text": "Zepto",
+            "link": "/views/前端架构/C 通用功能工具集/Zepto"
+          },
+          {
+            "text": "moment",
+            "link": "/views/前端架构/C 通用功能工具集/moment"
+          },
+          {
+            "text": "path-to-regexp",
+            "link": "/views/前端架构/C 通用功能工具集/path-to-regexp"
+          },
+          {
+            "text": "uuid",
+            "link": "/views/前端架构/C 通用功能工具集/uuid"
+          },
+          {
+            "text": "前端工具",
+            "link": "/views/前端架构/C 通用功能工具集/前端工具"
+          }
+        ]
+      }
+    ],
+    "/views/前端架构/D 前端其他技术框架": [
+      {
+        "text": "D 前端其他技术框架",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Node",
+            "items": [
+              {
+                "text": "EventEmitter",
+                "link": "/views/前端架构/D 前端其他技术框架/Node/EventEmitter"
+              },
+              {
+                "text": "Node 概述",
+                "link": "/views/前端架构/D 前端其他技术框架/Node/Node 概述"
+              },
+              {
+                "text": "http 模块",
+                "link": "/views/前端架构/D 前端其他技术框架/Node/http 模块"
+              },
+              {
+                "text": "https 模块",
+                "link": "/views/前端架构/D 前端其他技术框架/Node/https 模块"
+              },
+              {
+                "text": "net 模块",
+                "link": "/views/前端架构/D 前端其他技术框架/Node/net 模块"
+              },
+              {
+                "text": "事件循环",
+                "link": "/views/前端架构/D 前端其他技术框架/Node/事件循环"
+              },
+              {
+                "text": "全局对象",
+                "link": "/views/前端架构/D 前端其他技术框架/Node/全局对象"
+              },
+              {
+                "text": "基本内置模块",
+                "link": "/views/前端架构/D 前端其他技术框架/Node/基本内置模块"
+              },
+              {
+                "text": "常用库",
+                "items": [
+                  {
+                    "text": "connect-history-api-fallback",
+                    "link": "/views/前端架构/D 前端其他技术框架/Node/常用库/connect-history-api-fallback"
+                  },
+                  {
+                    "text": "express",
+                    "link": "/views/前端架构/D 前端其他技术框架/Node/常用库/express"
+                  },
+                  {
+                    "text": "qs",
+                    "link": "/views/前端架构/D 前端其他技术框架/Node/常用库/qs"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "文件IO",
+                "link": "/views/前端架构/D 前端其他技术框架/Node/文件IO"
+              },
+              {
+                "text": "模块化",
+                "link": "/views/前端架构/D 前端其他技术框架/Node/模块化"
+              },
+              {
+                "text": "生命周期",
+                "link": "/views/前端架构/D 前端其他技术框架/Node/生命周期"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "可视化技术",
+            "items": [
+              {
+                "text": "Canvas",
+                "items": [
+                  {
+                    "text": "Canvas 图像",
+                    "link": "/views/前端架构/D 前端其他技术框架/可视化技术/Canvas/Canvas 图像"
+                  },
+                  {
+                    "text": "Canvas 图形变换",
+                    "link": "/views/前端架构/D 前端其他技术框架/可视化技术/Canvas/Canvas 图形变换"
+                  },
+                  {
+                    "text": "Canvas 基础",
+                    "link": "/views/前端架构/D 前端其他技术框架/可视化技术/Canvas/Canvas 基础"
+                  },
+                  {
+                    "text": "Canvas 滤镜",
+                    "link": "/views/前端架构/D 前端其他技术框架/可视化技术/Canvas/Canvas 滤镜"
+                  },
+                  {
+                    "text": "Echarts",
+                    "link": "/views/前端架构/D 前端其他技术框架/可视化技术/Canvas/Echarts"
+                  },
+                  {
+                    "text": "HighCharts",
+                    "link": "/views/前端架构/D 前端其他技术框架/可视化技术/Canvas/HighCharts"
+                  },
+                  {
+                    "text": "实例",
+                    "items": [],
+                    "collapsed": false
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "SVG",
+                "items": [
+                  {
+                    "text": "SVG Snap库",
+                    "link": "/views/前端架构/D 前端其他技术框架/可视化技术/SVG/SVG Snap库"
+                  },
+                  {
+                    "text": "SVG 动画",
+                    "link": "/views/前端架构/D 前端其他技术框架/可视化技术/SVG/SVG 动画"
+                  },
+                  {
+                    "text": "SVG 图表",
+                    "link": "/views/前端架构/D 前端其他技术框架/可视化技术/SVG/SVG 图表"
+                  },
+                  {
+                    "text": "SVG 基础",
+                    "link": "/views/前端架构/D 前端其他技术框架/可视化技术/SVG/SVG 基础"
+                  },
+                  {
+                    "text": "SVG 滤镜",
+                    "link": "/views/前端架构/D 前端其他技术框架/可视化技术/SVG/SVG 滤镜"
+                  },
+                  {
+                    "text": "SVG 进阶",
+                    "link": "/views/前端架构/D 前端其他技术框架/可视化技术/SVG/SVG 进阶"
+                  }
+                ],
+                "collapsed": false
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/前端架构/E 测试相关": [
+      {
+        "text": "E 测试相关",
         "collapsed": false,
         "items": [
           {
@@ -1830,15 +1538,15 @@
             "items": [
               {
                 "text": "Jest",
-                "link": "/views/前端架构/测试相关/测试库/Jest"
+                "link": "/views/前端架构/E 测试相关/测试库/Jest"
               },
               {
                 "text": "Vitest",
-                "link": "/views/前端架构/测试相关/测试库/Vitest"
+                "link": "/views/前端架构/E 测试相关/测试库/Vitest"
               },
               {
                 "text": "Vue Test Utils",
-                "link": "/views/前端架构/测试相关/测试库/Vue Test Utils"
+                "link": "/views/前端架构/E 测试相关/测试库/Vue Test Utils"
               }
             ],
             "collapsed": false
@@ -1851,11 +1559,11 @@
                 "items": [
                   {
                     "text": "Cypress",
-                    "link": "/views/前端架构/测试相关/测试类型/E2E测试/Cypress"
+                    "link": "/views/前端架构/E 测试相关/测试类型/E2E测试/Cypress"
                   },
                   {
                     "text": "Nightwatch",
-                    "link": "/views/前端架构/测试相关/测试类型/E2E测试/Nightwatch"
+                    "link": "/views/前端架构/E 测试相关/测试类型/E2E测试/Nightwatch"
                   }
                 ],
                 "collapsed": false
@@ -1865,31 +1573,31 @@
                 "items": [
                   {
                     "text": "Chai Expect should",
-                    "link": "/views/前端架构/测试相关/测试类型/单元测试/Chai Expect should"
+                    "link": "/views/前端架构/E 测试相关/测试类型/单元测试/Chai Expect should"
                   },
                   {
                     "text": "Chai,Expect,should",
-                    "link": "/views/前端架构/测试相关/测试类型/单元测试/Chai,Expect,should"
+                    "link": "/views/前端架构/E 测试相关/测试类型/单元测试/Chai,Expect,should"
                   },
                   {
                     "text": "Istanbul",
-                    "link": "/views/前端架构/测试相关/测试类型/单元测试/Istanbul"
+                    "link": "/views/前端架构/E 测试相关/测试类型/单元测试/Istanbul"
                   },
                   {
                     "text": "Karma",
-                    "link": "/views/前端架构/测试相关/测试类型/单元测试/Karma"
+                    "link": "/views/前端架构/E 测试相关/测试类型/单元测试/Karma"
                   },
                   {
                     "text": "Sinon",
-                    "link": "/views/前端架构/测试相关/测试类型/单元测试/Sinon"
+                    "link": "/views/前端架构/E 测试相关/测试类型/单元测试/Sinon"
                   },
                   {
                     "text": "Unit Mocha QUnit Jasmine Jest",
-                    "link": "/views/前端架构/测试相关/测试类型/单元测试/Unit Mocha QUnit Jasmine Jest"
+                    "link": "/views/前端架构/E 测试相关/测试类型/单元测试/Unit Mocha QUnit Jasmine Jest"
                   },
                   {
                     "text": "Unit,Mocha,QUnit,Jasmine,Jest",
-                    "link": "/views/前端架构/测试相关/测试类型/单元测试/Unit,Mocha,QUnit,Jasmine,Jest"
+                    "link": "/views/前端架构/E 测试相关/测试类型/单元测试/Unit,Mocha,QUnit,Jasmine,Jest"
                   }
                 ],
                 "collapsed": false
@@ -1900,154 +1608,394 @@
         ]
       }
     ],
-    "/views/前端架构/通用功能工具集": [
+    "/views/前端架构/F 服务器与部署": [
       {
-        "text": "通用功能工具集",
+        "text": "F 服务器与部署",
         "collapsed": false,
         "items": [
           {
-            "text": "Ant Design",
+            "text": "CI CD",
             "items": [
               {
-                "text": "Ant Design Pro",
-                "link": "/views/前端架构/通用功能工具集/Ant Design/Ant Design Pro"
+                "text": "Git web hook",
+                "link": "/views/前端架构/F 服务器与部署/CI CD/Git web hook"
               },
               {
-                "text": "Ant Design",
-                "link": "/views/前端架构/通用功能工具集/Ant Design/Ant Design"
-              },
-              {
-                "text": "Ant Design概述",
-                "link": "/views/前端架构/通用功能工具集/Ant Design/Ant Design概述"
+                "text": "Jenkins",
+                "link": "/views/前端架构/F 服务器与部署/CI CD/Jenkins"
               }
             ],
             "collapsed": false
           },
           {
-            "text": "Axios",
-            "link": "/views/前端架构/通用功能工具集/Axios"
-          },
-          {
-            "text": "BootStrap",
-            "link": "/views/前端架构/通用功能工具集/BootStrap"
-          },
-          {
-            "text": "Dumi-组件文档研发工具",
-            "link": "/views/前端架构/通用功能工具集/Dumi-组件文档研发工具"
-          },
-          {
-            "text": "JQuery",
-            "link": "/views/前端架构/通用功能工具集/JQuery"
-          },
-          {
-            "text": "Lodash",
-            "link": "/views/前端架构/通用功能工具集/Lodash"
-          },
-          {
-            "text": "Mock",
-            "link": "/views/前端架构/通用功能工具集/Mock"
-          },
-          {
-            "text": "Prototype",
-            "link": "/views/前端架构/通用功能工具集/Prototype"
-          },
-          {
-            "text": "RxJS",
-            "link": "/views/前端架构/通用功能工具集/RxJS"
-          },
-          {
-            "text": "Umi",
+            "text": "服务器部署",
             "items": [
               {
-                "text": "Umi 命令",
-                "link": "/views/前端架构/通用功能工具集/Umi/Umi 命令"
+                "text": "Nginx 安装及配置",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/Nginx 安装及配置"
               },
               {
-                "text": "Umi-cli",
-                "link": "/views/前端架构/通用功能工具集/Umi/Umi-cli"
+                "text": "Node 安装",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/Node 安装"
               },
               {
-                "text": "Umijs",
-                "link": "/views/前端架构/通用功能工具集/Umi/Umijs"
+                "text": "Node 进程管理工具安装说明",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/Node 进程管理工具安装说明"
               },
               {
-                "text": "代理",
-                "link": "/views/前端架构/通用功能工具集/Umi/代理"
+                "text": "hosts 文件",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/hosts 文件"
               },
               {
-                "text": "数据模拟",
-                "link": "/views/前端架构/通用功能工具集/Umi/数据模拟"
+                "text": "mysql 安装及修改密码",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/mysql 安装及修改密码"
               },
               {
-                "text": "约定式路由",
-                "link": "/views/前端架构/通用功能工具集/Umi/约定式路由"
+                "text": "前后段不分离页面请求",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/前后段不分离页面请求"
               },
               {
-                "text": "路由信息获取",
-                "link": "/views/前端架构/通用功能工具集/Umi/路由信息获取"
+                "text": "反向代理请求处理",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/反向代理请求处理"
               },
               {
-                "text": "配置式路由",
-                "link": "/views/前端架构/通用功能工具集/Umi/配置式路由"
+                "text": "域名解析设置",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/域名解析设置"
               },
               {
-                "text": "配置文件",
-                "link": "/views/前端架构/通用功能工具集/Umi/配置文件"
+                "text": "域名购买及解析",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/域名购买及解析"
               },
               {
-                "text": "集成dva",
-                "link": "/views/前端架构/通用功能工具集/Umi/集成dva"
+                "text": "多域名指向",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/多域名指向"
               },
               {
-                "text": "集成样式",
-                "link": "/views/前端架构/通用功能工具集/Umi/集成样式"
+                "text": "打包项目并上传",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/打包项目并上传"
               },
               {
-                "text": "额外约定文件",
-                "link": "/views/前端架构/通用功能工具集/Umi/额外约定文件"
+                "text": "服务器免密登录配置",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/服务器免密登录配置"
+              },
+              {
+                "text": "服务器购买及系统选择",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/服务器购买及系统选择"
+              },
+              {
+                "text": "网站运行机制",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/网站运行机制"
+              },
+              {
+                "text": "跨域请求处理",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/跨域请求处理"
+              },
+              {
+                "text": "连接服务器及安装开发包",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/连接服务器及安装开发包"
+              },
+              {
+                "text": "配置Nginx 访问项目",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/配置Nginx 访问项目"
+              },
+              {
+                "text": "静态网页请求流程",
+                "link": "/views/前端架构/F 服务器与部署/服务器部署/静态网页请求流程"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/前端架构/G 性能与安全优化": [
+      {
+        "text": "G 性能与安全优化",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "SSG",
+            "items": [
+              {
+                "text": "VitePress",
+                "items": [
+                  {
+                    "text": "创建一个VitePress插件",
+                    "link": "/views/前端架构/G 性能与安全优化/SSG/VitePress/创建一个VitePress插件"
+                  },
+                  {
+                    "text": "部署 VitePress 站点",
+                    "link": "/views/前端架构/G 性能与安全优化/SSG/VitePress/部署 VitePress 站点"
+                  }
+                ],
+                "collapsed": false
               }
             ],
             "collapsed": false
           },
           {
-            "text": "Underscore",
-            "link": "/views/前端架构/通用功能工具集/Underscore"
-          },
+            "text": "SSR",
+            "items": [
+              {
+                "text": "React SSR",
+                "items": [
+                  {
+                    "text": "CSR与SSR",
+                    "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/CSR与SSR"
+                  },
+                  {
+                    "text": "NextJS",
+                    "items": [
+                      {
+                        "text": "NextJS 概述",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/NextJS/NextJS 概述"
+                      },
+                      {
+                        "text": "api 代理",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/NextJS/api 代理"
+                      },
+                      {
+                        "text": "cookie和header转换",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/NextJS/cookie和header转换"
+                      },
+                      {
+                        "text": "使用redux",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/NextJS/使用redux"
+                      },
+                      {
+                        "text": "动态路由静态化",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/NextJS/动态路由静态化"
+                      },
+                      {
+                        "text": "引入样式",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/NextJS/引入样式"
+                      },
+                      {
+                        "text": "数据静态化",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/NextJS/数据静态化"
+                      },
+                      {
+                        "text": "模板",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/NextJS/模板"
+                      },
+                      {
+                        "text": "自定义页面",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/NextJS/自定义页面"
+                      },
+                      {
+                        "text": "请求数据",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/NextJS/请求数据"
+                      },
+                      {
+                        "text": "路由",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/NextJS/路由"
+                      },
+                      {
+                        "text": "静态化",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/NextJS/静态化"
+                      },
+                      {
+                        "text": "静态资源",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/NextJS/静态资源"
+                      },
+                      {
+                        "text": "页面信息",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/NextJS/页面信息"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "staticContext",
+                    "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/staticContext"
+                  },
+                  {
+                    "text": "使用Redux",
+                    "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/使用Redux"
+                  },
+                  {
+                    "text": "使用路由",
+                    "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/使用路由"
+                  },
+                  {
+                    "text": "引入图片",
+                    "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/引入图片"
+                  },
+                  {
+                    "text": "引入样式",
+                    "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/引入样式"
+                  },
+                  {
+                    "text": "数据通信",
+                    "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/数据通信"
+                  },
+                  {
+                    "text": "渲染组件",
+                    "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR/渲染组件"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "React SSR",
+                "link": "/views/前端架构/G 性能与安全优化/SSR/React SSR"
+              },
+              {
+                "text": "SSR 概述",
+                "link": "/views/前端架构/G 性能与安全优化/SSR/SSR 概述"
+              },
+              {
+                "text": "Vue SSR",
+                "items": [
+                  {
+                    "text": "NuxtJS",
+                    "items": [
+                      {
+                        "text": "Nuxt 布局",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/Vue SSR/NuxtJS/Nuxt 布局"
+                      },
+                      {
+                        "text": "Nuxt 路由",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/Vue SSR/NuxtJS/Nuxt 路由"
+                      },
+                      {
+                        "text": "Nuxt 静态化",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/Vue SSR/NuxtJS/Nuxt 静态化"
+                      },
+                      {
+                        "text": "NuxtJS",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/Vue SSR/NuxtJS/NuxtJS"
+                      },
+                      {
+                        "text": "vuex 应用",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/Vue SSR/NuxtJS/vuex 应用"
+                      },
+                      {
+                        "text": "引入Element-ui",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/Vue SSR/NuxtJS/引入Element-ui"
+                      },
+                      {
+                        "text": "引入Vuetify",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/Vue SSR/NuxtJS/引入Vuetify"
+                      },
+                      {
+                        "text": "鉴权应用",
+                        "link": "/views/前端架构/G 性能与安全优化/SSR/Vue SSR/NuxtJS/鉴权应用"
+                      }
+                    ],
+                    "collapsed": false
+                  },
+                  {
+                    "text": "SSR 环境搭建",
+                    "link": "/views/前端架构/G 性能与安全优化/SSR/Vue SSR/SSR 环境搭建"
+                  },
+                  {
+                    "text": "Vue SSR",
+                    "link": "/views/前端架构/G 性能与安全优化/SSR/Vue SSR/Vue SSR"
+                  },
+                  {
+                    "text": "vue-cli 构建SSR",
+                    "link": "/views/前端架构/G 性能与安全优化/SSR/Vue SSR/vue-cli 构建SSR"
+                  },
+                  {
+                    "text": "数据预取",
+                    "link": "/views/前端架构/G 性能与安全优化/SSR/Vue SSR/数据预取"
+                  },
+                  {
+                    "text": "路由处理",
+                    "link": "/views/前端架构/G 性能与安全优化/SSR/Vue SSR/路由处理"
+                  }
+                ],
+                "collapsed": false
+              },
+              {
+                "text": "基本API",
+                "link": "/views/前端架构/G 性能与安全优化/SSR/基本API"
+              },
+              {
+                "text": "服务端与客户端",
+                "link": "/views/前端架构/G 性能与安全优化/SSR/服务端与客户端"
+              },
+              {
+                "text": "静态资源服务器",
+                "link": "/views/前端架构/G 性能与安全优化/SSR/静态资源服务器"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/前端架构/H 平台开发框架": [
+      {
+        "text": "H 平台开发框架",
+        "collapsed": false,
+        "items": [
           {
-            "text": "VitePress",
-            "link": "/views/前端架构/通用功能工具集/VitePress"
-          },
-          {
-            "text": "VuePress",
-            "link": "/views/前端架构/通用功能工具集/VuePress"
-          },
-          {
-            "text": "Zepto",
-            "link": "/views/前端架构/通用功能工具集/Zepto"
-          },
-          {
-            "text": "moment",
-            "link": "/views/前端架构/通用功能工具集/moment"
-          },
-          {
-            "text": "path-to-regexp",
-            "link": "/views/前端架构/通用功能工具集/path-to-regexp"
-          },
-          {
-            "text": "uuid",
-            "link": "/views/前端架构/通用功能工具集/uuid"
-          },
-          {
-            "text": "创建自定义组件库",
-            "link": "/views/前端架构/通用功能工具集/创建自定义组件库"
-          },
-          {
-            "text": "前端工具",
-            "link": "/views/前端架构/通用功能工具集/前端工具"
-          },
-          {
-            "text": "搭建前端脚手架",
-            "link": "/views/前端架构/通用功能工具集/搭建前端脚手架"
+            "text": "微信小程序",
+            "items": [
+              {
+                "text": "[功能] api+slider 实现音乐播放",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/[功能] api+slider 实现音乐播放"
+              },
+              {
+                "text": "[功能] 使用云存储资源",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/[功能] 使用云存储资源"
+              },
+              {
+                "text": "[功能] 播放音乐",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/[功能] 播放音乐"
+              },
+              {
+                "text": "[问题] swiper-item 不会随内容自动撑开",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/[问题] swiper-item 不会随内容自动撑开"
+              },
+              {
+                "text": "[问题] 修改小程序logo 及名称",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/[问题] 修改小程序logo 及名称"
+              },
+              {
+                "text": "[问题] 页面底部滚动后出现白条",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/[问题] 页面底部滚动后出现白条"
+              },
+              {
+                "text": "小程序组件",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/小程序组件"
+              },
+              {
+                "text": "小程序项目相关",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/小程序项目相关"
+              },
+              {
+                "text": "开发基础",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/开发基础"
+              },
+              {
+                "text": "开发进阶",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/开发进阶"
+              },
+              {
+                "text": "数据传递",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/数据传递"
+              },
+              {
+                "text": "滚动视图-scrollView",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/滚动视图-scrollView"
+              },
+              {
+                "text": "生命周期",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/生命周期"
+              },
+              {
+                "text": "监听全局共享数据",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/监听全局共享数据"
+              },
+              {
+                "text": "轮播控件-swiper",
+                "link": "/views/前端架构/H 平台开发框架/微信小程序/轮播控件-swiper"
+              }
+            ],
+            "collapsed": false
           }
         ]
       }
