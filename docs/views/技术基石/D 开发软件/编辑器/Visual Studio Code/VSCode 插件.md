@@ -132,7 +132,7 @@ module.exports = {
 }
 ```
 
-## [ESLint](/views/前端架构/B%20前端工程化体系/模块化/ESLint)
+## [ESLint](/views/前端架构/B%20前端工程化体系/04%20模块化/ESLint)
 
 
 <sucb>ESLint</sucb> 是一个流行的 <err>JavaScript</err> 和 <pri>TypeScript</pri> 代码质量工具，用于检测代码中的潜在错误和不符合特定编码规则的情况。在 Visual Studio Code (VSCode) 中使用 ESLint 插件可以让开发过程更加高效，因为它直接集成到了编辑器中，提供了实时的<errb>错误检查、警告以及代码格式化</errb>的功能。

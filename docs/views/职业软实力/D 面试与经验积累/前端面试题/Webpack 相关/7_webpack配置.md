@@ -1,6 +1,6 @@
 # 7_webpack.config.js 配置
 
-[返回Webpack 页](/views/前端架构/B%20前端工程化体系/构建工具/Webpack.md#_1-2-创建配置文件)
+[返回Webpack 页](/views/前端架构/B%20前端工程化体系/03%20构建工具/Webpack.md#_1-2-创建配置文件)
 
 
 

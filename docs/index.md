@@ -7,7 +7,8 @@ hero:
   tagline: 夯实前端编程基石，洞察前沿技术风向
   image:
     # src: /assets/images/web-lion logo.png
-    src: /assets/images/logo.svg
+    # src: /assets/images/logo.svg
+    src: /logo.svg
     alt: Web Lion Logo
   actions:
 

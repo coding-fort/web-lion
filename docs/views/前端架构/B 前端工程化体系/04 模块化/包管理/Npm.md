@@ -70,7 +70,7 @@ npm config set registry https://registry.npm.taobao.org/
 ### 3.1.配置文件（package.json）
 
 - 该文件可以手动创建，而更多的时候是通过`npm init` 初始化项目时创建。
-- 配置文件中有哪些内容？[[package.json 配置信息]](/views/前端架构/B%20前端工程化体系/模块化/包管理/package_json#\_1-什么是-package-json)
+- 配置文件中有哪些内容？[[package.json 配置信息]](/views/前端架构/B%20前端工程化体系/04%20模块化/包管理/package_json#\_1-什么是-package-json)
 - 记录当前工程的依赖关系。
 
 ### 3.2.package-lock.json
