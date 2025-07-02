@@ -74,6 +74,71 @@
                       {
                         "text": "004 WebSocket",
                         "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/004 WebSocket"
+                      },
+                      {
+                        "text": "01 SVG",
+                        "items": [
+                          {
+                            "text": "SVG Snap库",
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/01 SVG/SVG Snap库"
+                          },
+                          {
+                            "text": "SVG 动画",
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/01 SVG/SVG 动画"
+                          },
+                          {
+                            "text": "SVG 图表",
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/01 SVG/SVG 图表"
+                          },
+                          {
+                            "text": "SVG 基础",
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/01 SVG/SVG 基础"
+                          },
+                          {
+                            "text": "SVG 滤镜",
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/01 SVG/SVG 滤镜"
+                          },
+                          {
+                            "text": "SVG 进阶",
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/01 SVG/SVG 进阶"
+                          }
+                        ],
+                        "collapsed": false
+                      },
+                      {
+                        "text": "02 Canvas",
+                        "items": [
+                          {
+                            "text": "Canvas 图像",
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/02 Canvas/Canvas 图像"
+                          },
+                          {
+                            "text": "Canvas 图形变换",
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/02 Canvas/Canvas 图形变换"
+                          },
+                          {
+                            "text": "Canvas 基础",
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/02 Canvas/Canvas 基础"
+                          },
+                          {
+                            "text": "Canvas 滤镜",
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/02 Canvas/Canvas 滤镜"
+                          },
+                          {
+                            "text": "Echarts",
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/02 Canvas/Echarts"
+                          },
+                          {
+                            "text": "HighCharts",
+                            "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/01 HTML/f02 html5/02 Canvas/HighCharts"
+                          },
+                          {
+                            "text": "实例",
+                            "items": [],
+                            "collapsed": false
+                          }
+                        ],
+                        "collapsed": false
                       }
                     ],
                     "collapsed": false
@@ -210,6 +275,32 @@
                   {
                     "text": "001 js 概述",
                     "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/001 js 概述"
+                  },
+                  {
+                    "text": "a00 浏览器基础",
+                    "items": [
+                      {
+                        "text": "事件循环",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a00 浏览器基础/事件循环"
+                      },
+                      {
+                        "text": "浏览器渲染原理",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a00 浏览器基础/浏览器渲染原理"
+                      },
+                      {
+                        "text": "浏览器渲染流程",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a00 浏览器基础/浏览器渲染流程"
+                      },
+                      {
+                        "text": "浏览器进程模型",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a00 浏览器基础/浏览器进程模型"
+                      },
+                      {
+                        "text": "面试题",
+                        "link": "/views/技术基石/A 编程语言基础/a 前端语言核心/03 JavaScript/a00 浏览器基础/面试题"
+                      }
+                    ],
+                    "collapsed": false
                   },
                   {
                     "text": "a01 基础语法",
@@ -1625,34 +1716,7 @@
       {
         "text": "B 操作系统与服务器基础",
         "collapsed": false,
-        "items": [
-          {
-            "text": "浏览器基础",
-            "items": [
-              {
-                "text": "事件循环",
-                "link": "/views/技术基石/B 操作系统与服务器基础/浏览器基础/事件循环"
-              },
-              {
-                "text": "浏览器渲染原理",
-                "link": "/views/技术基石/B 操作系统与服务器基础/浏览器基础/浏览器渲染原理"
-              },
-              {
-                "text": "浏览器渲染流程",
-                "link": "/views/技术基石/B 操作系统与服务器基础/浏览器基础/浏览器渲染流程"
-              },
-              {
-                "text": "浏览器进程模型",
-                "link": "/views/技术基石/B 操作系统与服务器基础/浏览器基础/浏览器进程模型"
-              },
-              {
-                "text": "面试题",
-                "link": "/views/技术基石/B 操作系统与服务器基础/浏览器基础/面试题"
-              }
-            ],
-            "collapsed": false
-          }
-        ]
+        "items": []
       }
     ],
     "/views/技术基石/C 数据存储与管理": [
