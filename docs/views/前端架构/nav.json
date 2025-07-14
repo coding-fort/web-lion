@@ -328,16 +328,6 @@
                 "collapsed": false
               },
               {
-                "text": "测试",
-                "items": [
-                  {
-                    "text": "Vue 测试",
-                    "link": "/views/前端架构/A 框架原理与设计/02 Vue/测试/Vue 测试"
-                  }
-                ],
-                "collapsed": false
-              },
-              {
                 "text": "规范",
                 "items": [
                   {

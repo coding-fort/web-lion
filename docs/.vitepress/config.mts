@@ -50,6 +50,7 @@ export default defineConfig({
     siteTitle: "Web Lion",
     logo: "/logo2.svg",
     outlineTitle: "本页目录", // 设置页面大纲标题为中文
+    outline: [2,3], // 大纲最大显示到二级标题（##）
     docFooter: {
       prev: "上一篇",
       next: "下一篇",
