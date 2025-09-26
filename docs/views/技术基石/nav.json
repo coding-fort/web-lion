@@ -1786,6 +1786,54 @@
             "text": "f03 调试工具",
             "items": [
               {
+                "text": "001 Apifox",
+                "link": "/views/技术基石/D 开发软件/f03 调试工具/001 Apifox"
+              },
+              {
+                "text": "002 Postman",
+                "link": "/views/技术基石/D 开发软件/f03 调试工具/002 Postman"
+              },
+              {
+                "text": "003 对比Apifox与Postman",
+                "link": "/views/技术基石/D 开发软件/f03 调试工具/003 对比Apifox与Postman"
+              },
+              {
+                "text": "004 Swagger",
+                "link": "/views/技术基石/D 开发软件/f03 调试工具/004 Swagger"
+              },
+              {
+                "text": "005 Postman引入Swagger",
+                "link": "/views/技术基石/D 开发软件/f03 调试工具/005 Postman引入Swagger"
+              },
+              {
+                "text": "006 Postman 入门使用",
+                "link": "/views/技术基石/D 开发软件/f03 调试工具/006 Postman 入门使用"
+              },
+              {
+                "text": "007 Postman 左侧导航栏",
+                "link": "/views/技术基石/D 开发软件/f03 调试工具/007 Postman 左侧导航栏"
+              },
+              {
+                "text": "008 Postman Flows",
+                "link": "/views/技术基石/D 开发软件/f03 调试工具/008 Postman Flows"
+              },
+              {
+                "text": "009 Postman Mock",
+                "link": "/views/技术基石/D 开发软件/f03 调试工具/009 Postman Mock"
+              },
+              {
+                "text": "010 Mockoon 入门使用",
+                "link": "/views/技术基石/D 开发软件/f03 调试工具/010 Mockoon 入门使用"
+              },
+              {
+                "text": "011 对比Postman与Mockoon模拟实现",
+                "link": "/views/技术基石/D 开发软件/f03 调试工具/011 对比Postman与Mockoon模拟实现"
+              },
+              {
+                "text": "012 依赖Swagger生成Express",
+                "link": "/views/技术基石/D 开发软件/f03 调试工具/012 依赖Swagger生成Express"
+              },
+              {
                 "text": "Charles",
                 "link": "/views/技术基石/D 开发软件/f03 调试工具/Charles"
               },
@@ -1804,10 +1852,6 @@
               {
                 "text": "Firebug",
                 "link": "/views/技术基石/D 开发软件/f03 调试工具/Firebug"
-              },
-              {
-                "text": "Postman",
-                "link": "/views/技术基石/D 开发软件/f03 调试工具/Postman"
               }
             ],
             "collapsed": false

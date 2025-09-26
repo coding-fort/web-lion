@@ -149,6 +149,10 @@
                 "text": "Vue2",
                 "items": [
                   {
+                    "text": "001 vue2项目引入TS",
+                    "link": "/views/前端架构/A 框架原理与设计/02 Vue/Vue2/001 vue2项目引入TS"
+                  },
+                  {
                     "text": "Vue $attrs",
                     "link": "/views/前端架构/A 框架原理与设计/02 Vue/Vue2/Vue $attrs"
                   },
@@ -974,6 +978,10 @@
                       {
                         "text": "008 wget",
                         "link": "/views/前端架构/B 前端工程化体系/01 版本与依赖管理/f02 依赖管理/01 包管理/008 wget"
+                      },
+                      {
+                        "text": "009 nvm",
+                        "link": "/views/前端架构/B 前端工程化体系/01 版本与依赖管理/f02 依赖管理/01 包管理/009 nvm"
                       }
                     ],
                     "collapsed": false
