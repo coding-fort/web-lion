@@ -80,9 +80,9 @@ Mockoon 支持生成动态模拟数据（如随机 ID、时间戳）和条件响
 
 在响应体中插入 `{{ 变量名 }}` 即可生成动态数据，常用变量：
 
-- `{{ faker.name.fullName() }}`：随机姓名；
-- `{{ faker.internet.email() }}`：随机邮箱；
-- `{{ faker.datatype.number(100) }}`：0-100 的随机整数；
+- `\{\{ faker.name.fullName() }}`：随机姓名；
+- `\{\{ faker.internet.email() }}`：随机邮箱；
+- `\{\{ faker.datatype.number(100) }}`：0-100 的随机整数；
 - `{{ now }}`：当前时间戳；
 - `{{ uuid }}`：随机 UUID。
 

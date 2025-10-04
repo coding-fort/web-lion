@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <title>健康习惯</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../items.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <a href="/personal/index.html" class="back-btn">返回首页</a>
+        <div class="header-title-wrap">
+          <h1>健康习惯</h1>
+          <div class="header-underline"></div>
+        </div>
+      </div>
+      <p>习惯维度 · 健康习惯</p>
+    </header>
+    <main id="main-content"></main>
+    <script src="健康习惯.js"></script>
+    <script>
+      // 渲染内容
+      const main = document.getElementById("main-content");
+      main.innerHTML = healthHabitContent
+        .map(
+          (section) => `
+      <section>
+        <h2>${section.title}</h2>
+        <ul>
+          ${section.items.map((item) => `<li>${item}</li>`).join("")}
+        </ul>
+      </section>
+    `
+        )
+        .join("");
+    </script>
+  </body>
+</html>

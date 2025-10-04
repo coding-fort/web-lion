@@ -1,0 +1,219 @@
+:root {
+  --main-bg: #f8fafc;
+  --card-bg: #fff;
+  --accent: #388bff;
+  --accent-light: #b3d8ff;
+  --text-main: #1a2233;
+  --text-sub: #6b7a90;
+  --shadow: 0 2px 16px #b3c6e022;
+  --radius: 18px;
+}
+body {
+  background: var(--main-bg);
+  color: var(--text-main);
+  display: flex;
+  flex-direction: column;
+  font-family: "SF Pro Display", "Helvetica Neue", Helvetica, Arial,
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  letter-spacing: 0.01em;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+header {
+  align-items: center;
+  background: linear-gradient(90deg, #fafdff 60%, #f8fafc 100%);
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  box-shadow: var(--shadow);
+  color: var(--text-main);
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+.navbar {
+  background: none;
+  border-bottom: 1px solid #eaf2fb;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 12px 0 0 0;
+  width: 100%;
+}
+.navbar-link {
+  background: none;
+  border-radius: 10px 10px 0 0;
+  color: var(--accent);
+  font-size: 1.05em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  padding: 6px 14px;
+  position: relative;
+  text-decoration: none;
+  transition: background 0.14s, color 0.14s;
+}
+.navbar-link.active,
+.navbar-link:hover {
+  background: #eaf2fb;
+  box-shadow: 0 2px 8px #eaf2fb;
+  color: var(--accent);
+}
+.header-title-wrap {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+  margin-top: 18px;
+  width: 100%;
+}
+header h1 {
+  background: linear-gradient(90deg, var(--accent), var(--accent-light));
+  font-size: 2.1em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.18;
+  text-shadow: none;
+}
+header p {
+  color: var(--accent);
+  font-size: 1.08em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  margin-top: 12px;
+  opacity: 0.93;
+}
+.framework-list {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin: 36px auto 0 auto;
+  max-width: 520px;
+  padding: 0 8px 48px 8px;
+  width: 100%;
+}
+.item {
+  background: var(--card-bg);
+  border: 1px solid #f0f4fa;
+  border-radius: var(--radius);
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  outline: none;
+  padding: 22px 18px 16px 18px;
+  position: relative;
+  transition: box-shadow 0.13s, background 0.13s, transform 0.13s, border 0.13s;
+  width: 100%;
+  z-index: 0;
+}
+.item:hover,
+.item:focus-within {
+  background: #f3f8ff;
+  border-color: var(--accent-light);
+  box-shadow: 0 4px 16px #b3d8ff33;
+  transform: translateY(-1px) scale(1.01);
+  z-index: 2;
+}
+.item h2 {
+  color: var(--accent);
+  font-size: 1.13em;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-align: left;
+}
+.item .desc {
+  color: var(--text-sub);
+  font-size: 0.98em;
+  line-height: 1.7;
+  margin-bottom: 10px;
+  margin-top: -2px;
+}
+.item ul {
+  color: var(--text-sub);
+  font-size: 1em;
+  line-height: 1.85;
+  list-style: none;
+  margin: 0;
+  padding-left: 16px;
+  width: 100%;
+}
+.item ul li {
+  margin-bottom: 7px;
+  padding-left: 13px;
+  position: relative;
+}
+.item ul li::before {
+  background: linear-gradient(135deg, var(--accent), var(--accent-light));
+  border-radius: 50%;
+  box-shadow: 0 1px 4px #b3d8ff33;
+  content: "";
+  height: 7px;
+  left: 0;
+  position: absolute;
+  top: 11px;
+  width: 7px;
+}
+.item ul li a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.13s;
+}
+.item ul li a:hover {
+  color: var(--accent-light);
+  text-decoration: underline;
+}
+@media (max-width: 700px) {
+  .framework-list {
+    max-width: 96vw;
+    padding: 0 2vw 32px 2vw;
+  }
+  .item {
+    box-sizing: border-box;
+    max-width: 99vw;
+    overflow: hidden;
+    padding: 14px 4px 10px 8px;
+  }
+  .navbar {
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 8px 0 0 0;
+  }
+  header h1 {
+    font-size: 1.18em;
+  }
+  .header-title-wrap {
+    margin-bottom: 16px;
+    margin-top: 10px;
+  }
+}
+.item,
+header,
+.framework-list {
+  animation: fadeInUp 0.7s cubic-bezier(0.23, 1.02, 0.32, 1) both;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.item,
+header {
+  border-radius: var(--radius);
+}

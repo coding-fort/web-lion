@@ -18,22 +18,6 @@ import techFrontierNavConfig from "../views/前沿技术/nav.json";
 import softPowerNavConfig from "../views/职业软实力/nav.json";
 // 社区资源
 import communityResourceNavConfig from "../views/社区资源/nav.json";
-// // 编程基础
-// import codingBasicNavConfig from "../views/编程基础/nav.json";
-// // 工程开发
-// import engineeringDevelopmentNavConfig from "../views/工程开发/nav.json";
-// // 计算机基础
-// import computerBasicNavConfig from "../views/计算机基础/nav.json";
-// // 架构基础
-// import backendKnowledgeNavConfig from "../views/架构基础/nav.json";
-// // 领域分支
-// import domainBranchNavConfig from "../views/领域分支/nav.json";
-// // 软技能
-// import softSkillNavConfig from "../views/软技能/nav.json";
-// // 社区发展
-// import communityDevelopmentNavConfig from "../views/社区发展/nav.json";
-// // 实战示例
-// import codeDemoNavConfig from "../views/实战示例/nav.json";
 
 import viteCustomConfig from "./vitepress.config";
 
@@ -70,15 +54,6 @@ export default defineConfig({
       ...techFrontierNavConfig.nav,
       ...softPowerNavConfig.nav,
       ...communityResourceNavConfig.nav,
-      //
-      // ...codingBasicNavConfig.nav,
-      // ...engineeringDevelopmentNavConfig.nav,
-      // ...computerBasicNavConfig.nav,
-      // ...backendKnowledgeNavConfig.nav,
-      // ...domainBranchNavConfig.nav,
-      // ...softSkillNavConfig.nav,
-      // ...communityDevelopmentNavConfig.nav,
-      // ...codeDemoNavConfig.nav,
     ],
     sidebar: {
       ...navConfig.sidebar,
@@ -90,18 +65,11 @@ export default defineConfig({
       ...techFrontierNavConfig.sidebar,
       ...softPowerNavConfig.sidebar,
       ...communityResourceNavConfig.sidebar,
-      //
-      // ...codingBasicNavConfig.sidebar,
-      // ...engineeringDevelopmentNavConfig.sidebar,
-      // ...computerBasicNavConfig.sidebar,
-      // ...backendKnowledgeNavConfig.sidebar,
-      // ...domainBranchNavConfig.sidebar,
-      // ...softSkillNavConfig.sidebar,
-      // ...communityDevelopmentNavConfig.sidebar,
-      // ...codeDemoNavConfig.sidebar,
     },
     socialLinks: [
-      { icon: "github", link: "https://gitee.com/basic-fort/web-lion" },
+      { icon: "gitee", link: "https://gitee.com/basic-fort/web-lion" },
+      { icon: "github", link: "https://github.com/coding-fort/web-lion" },
+      { icon: "grapheneos", link: "/personal/index.html" }
     ],
     search: {
       provider: "local",
