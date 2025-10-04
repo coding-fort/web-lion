@@ -25,6 +25,7 @@ import viteCustomConfig from "./vitepress.config";
 export default defineConfig({
   head: [
     ["link", { rel: "stylesheet", href: "/styles/index.css" }],
+    // ["link", { rel: "stylesheet", href: "/theme/custom.css" }],
     ["link", { rel: "icon", href: "./favicon.ico" }],
   ],
   title: "Web Lion",
@@ -68,7 +69,10 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: "gitee", link: "https://gitee.com/basic-fort/web-lion" },
-      { icon: "github", link: "https://github.com/coding-fort/web-lion" },
+      // { icon: "github", link: "https://github.com/coding-fort/web-lion" },
+      // { icon: "github", link: "https://github.com/coding-fort/web-lion" },
+      // { icon: "github", link: "https://github.com/coding-fort/web-lion" },
+      // { icon: "github", link: "https://github.com/coding-fort/web-lion" },
       { icon: "grapheneos", link: "/personal/index.html" }
     ],
     search: {

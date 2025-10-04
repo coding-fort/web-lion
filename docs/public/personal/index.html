@@ -1,82 +1,93 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-<head>
-  <meta charset="UTF-8">
-  <title>个人成长框架汇总</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="index.css">
-</head>
-<body>
-  <header>
-    <nav class="navbar">
-      <a class="navbar-link active" href="#habits">习惯</a>
-      <a class="navbar-link" href="#feedback">反馈</a>
-      <a class="navbar-link" href="#mindset">心态</a>
-      <a class="navbar-link" href="#thinking">思维</a>
-      <a class="navbar-link" href="#ability">能力</a>
-      <a class="navbar-link" href="#action">行动调控</a>
-    </nav>
-    <div class="header-title-wrap">
-      <h1>个人成长框架汇总</h1>
-      <p>
+  <head>
+    <meta charset="UTF-8" />
+    <title>个人成长框架汇总</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-title-wrap">
+        <h1>个人成长框架汇总</h1>
+        <!-- <p>
         习惯 · 反馈 · 心态 · 思维 · 能力 · 行动调控
-      </p>
+      </p> -->
+        <nav class="navbar">
+          <a class="navbar-link" href="#habits">习惯</a>
+          <a class="navbar-link" href="#feedback">反馈</a>
+          <a class="navbar-link" href="#mindset">心态</a>
+          <a class="navbar-link" href="#thinking">思维</a>
+          <a class="navbar-link" href="#ability">能力</a>
+          <a class="navbar-link" href="#action">行动</a>
+        </nav>
+      </div>
+    </header>
+    <div class="framework-list" id="framework-list">
+      <!-- 内容由 data.js 渲染 -->
     </div>
-  </header>
-  <div class="framework-list" id="framework-list">
-    <!-- 内容由 data.js 渲染 -->
-  </div>
-  <script src="data.js"></script>
-  <script>
-    // 渲染页面内容
-    const map = [
-      { key: 'habits', label: '习惯' },
-      { key: 'feedback', label: '反馈' },
-      { key: 'mindset', label: '心态' },
-      { key: 'thinking', label: '思维' },
-      { key: 'ability', label: '能力' },
-      { key: 'action', label: '行动调控' }
-    ];
-    const list = document.getElementById('framework-list');
-    list.innerHTML = map.map(item => {
-      const d = data[item.key];
-      return `
+    <script src="data.js"></script>
+    <script>
+      // 渲染页面内容
+      const map = [
+        { key: "habits", label: "习惯" },
+        { key: "feedback", label: "反馈" },
+        { key: "mindset", label: "心态" },
+        { key: "thinking", label: "思维" },
+        { key: "ability", label: "能力" },
+        { key: "action", label: "行动调控" },
+      ];
+      const list = document.getElementById("framework-list");
+      list.innerHTML = map
+        .map((item) => {
+          const d = data[item.key];
+          return `
         <div class="item" id="${item.key}">
           <h2>${item.label}</h2>
           <div class="desc">${d.desc}</div>
           <ul>
-            ${d.items.map(i => `<li><a href="${i.href}">${i.title}</a></li>`).join('')}
+            ${d.items
+              .map((i) => `<li><a href="${i.href}">${i.title}</a></li>`)
+              .join("")}
           </ul>
         </div>
       `;
-    }).join('');
+        })
+        .join("");
 
-    // 顶部导航锚点跳转与高亮
-    document.querySelectorAll('.navbar-link').forEach(link => {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        const target = document.getElementById(this.getAttribute('href').replace('#', ''));
-        if (target) {
-          window.scrollTo({ top: target.offsetTop - 24, behavior: 'smooth' });
-        }
-        document.querySelectorAll('.navbar-link').forEach(l => l.classList.remove('active'));
-        this.classList.add('active');
+      // 顶部导航锚点跳转与高亮
+      document.querySelectorAll(".navbar-link").forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.getElementById(
+            this.getAttribute("href").replace("#", "")
+          );
+          if (target) {
+            window.scrollTo({ top: target.offsetTop - 24, behavior: "smooth" });
+          }
+          // document
+          //   .querySelectorAll(".navbar-link")
+          //   .forEach((l) => l.classList.remove("active"));
+          // this.classList.add("active");
+        });
       });
-    });
-    // 页面滚动时自动高亮导航
-    window.addEventListener('scroll', () => {
-      let fromTop = window.scrollY + 80;
-      let current = map[0].key;
-      for (const item of map) {
-        const section = document.getElementById(item.key);
-        if (section && section.offsetTop <= fromTop) {
-          current = item.key;
+      // 页面滚动时自动高亮导航
+      window.addEventListener("scroll", () => {
+        let fromTop = window.scrollY + 80;
+        let current = map[0].key;
+        for (const item of map) {
+          const section = document.getElementById(item.key);
+          if (section && section.offsetTop <= fromTop) {
+            current = item.key;
+          }
         }
-      }
-      document.querySelectorAll('.navbar-link').forEach(link => {
-        link.classList.toggle('active', link.getAttribute('href') === '#' + current);
+        // document.querySelectorAll(".navbar-link").forEach((link) => {
+        //   link.classList.toggle(
+        //     "active",
+        //     link.getAttribute("href") === "#" + current
+        //   );
+        // });
       });
-    });
-  </script>
-</body>
+    </script>
+  </body>
 </html>

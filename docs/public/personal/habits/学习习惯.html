@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-<head>
-  <meta charset="UTF-8">
-  <title>学习习惯</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../items.css">
-</head>
-<body>
-  <header>
-    <div class="header-inner">
-      <a href="/personal/index.html" class="back-btn">返回首页</a>
-      <div class="header-title-wrap">
-        <h1>学习习惯</h1>
-        <div class="header-underline"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <title>学习习惯</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../items.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <a href="/personal/index.html" class="back-btn">返回首页</a>
+        <div class="header-title-wrap">
+          <h1>学习习惯</h1>
+          <div class="header-underline"></div>
+        </div>
       </div>
-    </div>
-    <p>
-      习惯维度 · 学习习惯
-    </p>
-  </header>
-  <div class="framework-list" id="framework-list">
-    <!-- 内容由 学习习惯.js 渲染 -->
-  </div>
-  <script src="学习习惯.js"></script>
-  <script>
-    // 渲染页面内容
-    const list = document.getElementById('framework-list');
-    list.innerHTML = studyHabitContent.map(section => `
-      <div class="item">
+      <p>习惯维度 · 学习习惯</p>
+    </header>
+    <main id="main-content"></main>
+    <script src="学习习惯.js"></script>
+    <script>
+      // 渲染页面内容
+      const main = document.getElementById("main-content");
+      main.innerHTML = studyHabitContent
+        .map(
+          (section) => `
+      <section>
         <h2>${section.title}</h2>
         <ul>
-          ${section.items.map(item => `<li>${item}</li>`).join('')}
+          ${section.items.map((item) => `<li>${item}</li>`).join("")}
         </ul>
-      </div>
-    `).join('');
-  </script>
-</body>
+      </section>
+    `
+        )
+        .join("");
+    </script>
+  </body>
 </html>

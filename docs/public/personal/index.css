@@ -1,9 +1,9 @@
 :root {
-  --main-bg: #f8fafc;
+  --main-bg: #f6f8fb;
   --card-bg: #fff;
-  --accent: #388bff;
-  --accent-light: #b3d8ff;
-  --text-main: #1a2233;
+  --accent: #7ea1ff;
+  --accent-light: #b3c7ff;
+  --text-main: #3451b2;
   --text-sub: #6b7a90;
   --shadow: 0 2px 16px #b3c6e022;
   --radius: 18px;
@@ -22,7 +22,7 @@ body {
 }
 header {
   align-items: center;
-  background: linear-gradient(90deg, #fafdff 60%, #f8fafc 100%);
+  background: linear-gradient(90deg, #fafdff 60%, #f6f8fb 100%);
   border-bottom-left-radius: 32px;
   border-bottom-right-radius: 32px;
   box-shadow: var(--shadow);
@@ -35,7 +35,7 @@ header {
 }
 .navbar {
   background: none;
-  border-bottom: 1px solid #eaf2fb;
+  border-bottom: 1px solid #e3eafd;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -58,21 +58,22 @@ header {
 }
 .navbar-link.active,
 .navbar-link:hover {
-  background: #eaf2fb;
-  box-shadow: 0 2px 8px #eaf2fb;
-  color: var(--accent);
+  background: #e3eafd;
+  box-shadow: 0 2px 8px #e3eafd;
+  color: #3451b2;
 }
 .header-title-wrap {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin-bottom: 22px;
-  margin-top: 18px;
+  margin-top: 44px;
   width: 100%;
 }
 header h1 {
   background: linear-gradient(90deg, var(--accent), var(--accent-light));
-  font-size: 2.1em;
+  /* font-size: 2.1em; */
+  font-size: 32px;
   font-weight: 900;
   letter-spacing: 2px;
   margin: 0;
@@ -103,7 +104,7 @@ header p {
 }
 .item {
   background: var(--card-bg);
-  border: 1px solid #f0f4fa;
+  border: 1px solid #e3eafd;
   border-radius: var(--radius);
   box-shadow: none;
   display: flex;
@@ -118,9 +119,9 @@ header p {
 }
 .item:hover,
 .item:focus-within {
-  background: #f3f8ff;
+  background: #f0f4ff;
   border-color: var(--accent-light);
-  box-shadow: 0 4px 16px #b3d8ff33;
+  box-shadow: 0 4px 16px #b3c7ff55;
   transform: translateY(-1px) scale(1.01);
   z-index: 2;
 }
@@ -157,7 +158,7 @@ header p {
 .item ul li::before {
   background: linear-gradient(135deg, var(--accent), var(--accent-light));
   border-radius: 50%;
-  box-shadow: 0 1px 4px #b3d8ff33;
+  box-shadow: 0 1px 4px #b3c7ff33;
   content: "";
   height: 7px;
   left: 0;
@@ -171,7 +172,7 @@ header p {
   transition: color 0.13s;
 }
 .item ul li a:hover {
-  color: var(--accent-light);
+  color: #3451b2;
   text-decoration: underline;
 }
 @media (max-width: 700px) {
@@ -191,11 +192,11 @@ header p {
     padding: 8px 0 0 0;
   }
   header h1 {
-    font-size: 1.18em;
+    /* font-size: 1.18em; */
   }
   .header-title-wrap {
     margin-bottom: 16px;
-    margin-top: 10px;
+    margin-top: 32px;
   }
 }
 .item,

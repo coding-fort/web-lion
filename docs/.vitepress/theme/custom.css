@@ -1,0 +1,10 @@
+/* 扩大社交链接容器宽度 */
+.VPSocialLinks {
+  flex-wrap: wrap; /* 允许换行（可选，根据需求） */
+  max-width: none !important; /* 取消最大宽度限制 */
+}
+
+/* 若需要换行，可增加间距 */
+.VPSocialLinks .social-link {
+  margin: 0 8px 8px 0; /* 底部和右侧增加间距，避免拥挤 */
+}

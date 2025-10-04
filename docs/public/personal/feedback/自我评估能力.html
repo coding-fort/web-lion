@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8" />
+    <title>自我评估能力</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../items.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <a href="/personal/index.html" class="back-btn">返回首页</a>
+        <div class="header-title-wrap">
+          <h1>自我评估能力</h1>
+          <div class="header-underline"></div>
+        </div>
+      </div>
+      <p>反馈维度 · 自我评估能力</p>
+    </header>
+    <main id="main-content"></main>
+    <script src="自我评估能力.js"></script>
+    <script>
+      // 渲染内容
+      const main = document.getElementById("main-content");
+      main.innerHTML = selfAssessmentAbilityContent
+        .map(
+          (section) => `
+      <section>
+        <h2>${section.title}</h2>
+        <ul>
+          ${section.items.map((item) => `<li>${item}</li>`).join("")}
+        </ul>
+      </section>
+    `
+        )
+        .join("");
+    </script>
+  </body>
+</html>
+
+
+<!-- 
+
+参考健康习惯.html和健康习惯.js 文件，在public/personal 目录生成或更新 以下对应文件
+/ability 目录
+1.沟通能力.html和.js 文件，并提取总结沟通能力.md文档的内容，更新沟通能力.js 文件中
+2.精力管理能力.html和.js 文件，并提取总结精力管理能力.md文档的内容，更新精力管理能力.js 文件中
+2.问题解决能力.html和.js 文件，并提取总结问题解决能力.md文档的内容，更新问题解决能力.js 文件中
+/action 目录
+1.复盘能力.html和.js 文件，并提取总结复盘能力.md文档的内容，更新复盘能力.js 文件中
+2.计划能力.html和.js 文件，并提取总结计划能力.md文档的内容，更新计划能力.js 文件中
+3.决策能力.html和.js 文件，并提取总结决策能力.md文档的内容，更新决策能力.js 文件中
+4.应变能力.html和.js 文件，并提取总结应变能力.md文档的内容，更新应变能力.js 文件中
+5.自律能力.html和.js 文件，并提取总结自律能力.md文档的内容，更新自律能力.js 文件中
+6.执行力.html和.js 文件，并提取总结执行力.md文档的内容，更新执行力.js 文件中
+
+-->

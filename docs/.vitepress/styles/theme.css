@@ -11,3 +11,22 @@ pre code {
   /* word-wrap: break-word !important; /* 这会使得长单词在行尾断开 */
 }
 
+.VPSocialLinks.social-links {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-left: 10px;
+  overflow: auto;
+
+  width: 100px;
+}
+.VPNavBarSocialLinks {
+  /* width: auto; */
+  padding-left: 20px;
+}
+.VPSocialLinks.social-links.VPNavScreenSocialLinks {
+  width: auto;
+}
+
+.VPSocialLink {
+  margin: 0 2px;
+}

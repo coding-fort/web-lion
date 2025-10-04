@@ -1,9 +1,9 @@
 :root {
-  --main-bg: #f8fafc;
+  --main-bg: #f6f8fb;
   --card-bg: #fff;
-  --accent: #388bff;
-  --accent-light: #b3d8ff;
-  --text-main: #1a2233;
+  --accent: #7ea1ff;
+  --accent-light: #b3c7ff;
+  --text-main: #3451b2;
   --text-sub: #6b7a90;
   --shadow: 0 2px 16px #b3c6e022;
   --radius: 18px;
@@ -22,7 +22,7 @@ body {
 }
 header {
   align-items: center;
-  background: linear-gradient(90deg, #fafdff 60%, #f8fafc 100%);
+  background: linear-gradient(90deg, #fafdff 60%, #f6f8fb 100%);
   border-bottom-left-radius: 32px;
   border-bottom-right-radius: 32px;
   box-shadow: var(--shadow);
@@ -41,6 +41,7 @@ header {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  margin-top: 16px;
   max-width: 700px;
   padding: 0 0.5em;
   position: relative;
@@ -87,7 +88,8 @@ header {
 }
 header h1 {
   background: linear-gradient(90deg, var(--accent), var(--accent-light));
-  font-size: 1.7em;
+  /* font-size: 1.7em; */
+  font-size: 32px;
   font-weight: 900;
   letter-spacing: 0.18em;
   line-height: 1.2;
@@ -115,7 +117,7 @@ header p {
   font-size: 1.02em;
   font-weight: 500;
   letter-spacing: 2px;
-  margin-bottom: 0;
+  margin-bottom: 16px;
   margin-top: 8px;
   opacity: 0.93;
   text-align: center;
@@ -133,6 +135,7 @@ main,
 .framework-list {
   align-items: center;
   background: var(--card-bg);
+  border: 1px solid #e3eafd;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   box-sizing: border-box;
@@ -157,7 +160,7 @@ section {
   width: 100%;
 }
 section:not(:last-child)::after {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #e3eafd;
   content: "";
   display: block;
   max-width: 96vw;
@@ -198,7 +201,7 @@ b {
     padding: 0 2px;
   }
   header h1 {
-    font-size: 1.15em;
+    /* font-size: 1.15em; */
     padding: 0 4px;
   }
   .back-btn {
