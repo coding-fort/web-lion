@@ -1705,7 +1705,18 @@
       {
         "text": "B 操作系统与服务器基础",
         "collapsed": false,
-        "items": []
+        "items": [
+          {
+            "text": "f01 Linux",
+            "items": [
+              {
+                "text": "001 安装linux及入门",
+                "link": "/views/技术基石/B 操作系统与服务器基础/f01 Linux/001 安装linux及入门"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
       }
     ],
     "/views/技术基石/C 数据存储与管理": [

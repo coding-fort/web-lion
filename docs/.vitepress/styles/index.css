@@ -227,3 +227,8 @@ ans::before {
 ans.show {
   color: #999;
 }
+
+w-100 {
+  display: inline-block;
+  width: 100px;
+}

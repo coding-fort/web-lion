@@ -4,38 +4,65 @@
       "text": "运维架构",
       "items": [
         {
-          "text": "云原生与容器化运维",
-          "link": "/views/运维架构/云原生与容器化运维/readme.md"
+          "text": "A 基础运维架构",
+          "link": "/views/运维架构/A 基础运维架构/readme.md"
         },
         {
-          "text": "基础运维架构",
-          "link": "/views/运维架构/基础运维架构/readme.md"
+          "text": "B 云原生与容器化运维",
+          "link": "/views/运维架构/B 云原生与容器化运维/readme.md"
         },
         {
-          "text": "运维自动化与监控",
-          "link": "/views/运维架构/运维自动化与监控/readme.md"
+          "text": "C 运维自动化与监控",
+          "link": "/views/运维架构/C 运维自动化与监控/readme.md"
         }
       ]
     }
   ],
   "sidebar": {
-    "/views/运维架构/云原生与容器化运维": [
+    "/views/运维架构/A 基础运维架构": [
       {
-        "text": "云原生与容器化运维",
+        "text": "A 基础运维架构",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "f01 Nginx",
+            "items": [
+              {
+                "text": "001 nginx 介绍与入门",
+                "link": "/views/运维架构/A 基础运维架构/f01 Nginx/001 nginx 介绍与入门"
+              },
+              {
+                "text": "002 linux 配置nginx",
+                "link": "/views/运维架构/A 基础运维架构/f01 Nginx/002 linux 配置nginx"
+              },
+              {
+                "text": "003 将nginx 安装到指定目录",
+                "link": "/views/运维架构/A 基础运维架构/f01 Nginx/003 将nginx 安装到指定目录"
+              },
+              {
+                "text": "004 两种方式对比",
+                "link": "/views/运维架构/A 基础运维架构/f01 Nginx/004 两种方式对比"
+              },
+              {
+                "text": "005 启动后无法访问默认页",
+                "link": "/views/运维架构/A 基础运维架构/f01 Nginx/005 启动后无法访问默认页"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/运维架构/B 云原生与容器化运维": [
+      {
+        "text": "B 云原生与容器化运维",
         "collapsed": false,
         "items": []
       }
     ],
-    "/views/运维架构/基础运维架构": [
+    "/views/运维架构/C 运维自动化与监控": [
       {
-        "text": "基础运维架构",
-        "collapsed": false,
-        "items": []
-      }
-    ],
-    "/views/运维架构/运维自动化与监控": [
-      {
-        "text": "运维自动化与监控",
+        "text": "C 运维自动化与监控",
         "collapsed": false,
         "items": []
       }

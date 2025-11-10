@@ -296,6 +296,18 @@
                   {
                     "text": "[实例] 消息弹窗框",
                     "link": "/views/前端架构/A 框架原理与设计/02 Vue/实例/[实例] 消息弹窗框"
+                  },
+                  {
+                    "text": "[通用]列表分页组件",
+                    "link": "/views/前端架构/A 框架原理与设计/02 Vue/实例/[通用]列表分页组件"
+                  },
+                  {
+                    "text": "[通用]命令式弹窗组件",
+                    "link": "/views/前端架构/A 框架原理与设计/02 Vue/实例/[通用]命令式弹窗组件"
+                  },
+                  {
+                    "text": "列表静态与动态渲染分析",
+                    "link": "/views/前端架构/A 框架原理与设计/02 Vue/实例/列表静态与动态渲染分析"
                   }
                 ],
                 "collapsed": false
@@ -1059,6 +1071,10 @@
                     "link": "/views/前端架构/B 前端工程化体系/02 代码质量管理/f01 前端规范/014 UI_设计规范"
                   },
                   {
+                    "text": "015 权限标识命名规范文档",
+                    "link": "/views/前端架构/B 前端工程化体系/02 代码质量管理/f01 前端规范/015 权限标识命名规范文档"
+                  },
+                  {
                     "text": "901 附1_BEM_策略及通用类名",
                     "link": "/views/前端架构/B 前端工程化体系/02 代码质量管理/f01 前端规范/901 附1_BEM_策略及通用类名"
                   }
@@ -1575,36 +1591,18 @@
             "link": "/views/前端架构/D 前端自动化测试/000 自动化测试"
           },
           {
-            "text": "测试库",
-            "items": [
-              {
-                "text": "Jest",
-                "link": "/views/前端架构/D 前端自动化测试/测试库/Jest"
-              },
-              {
-                "text": "Vitest",
-                "link": "/views/前端架构/D 前端自动化测试/测试库/Vitest"
-              },
-              {
-                "text": "Vue Test Utils",
-                "link": "/views/前端架构/D 前端自动化测试/测试库/Vue Test Utils"
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "测试类型",
+            "text": "f01 测试类型",
             "items": [
               {
                 "text": "E2E测试",
                 "items": [
                   {
                     "text": "Cypress",
-                    "link": "/views/前端架构/D 前端自动化测试/测试类型/E2E测试/Cypress"
+                    "link": "/views/前端架构/D 前端自动化测试/f01 测试类型/E2E测试/Cypress"
                   },
                   {
                     "text": "Nightwatch",
-                    "link": "/views/前端架构/D 前端自动化测试/测试类型/E2E测试/Nightwatch"
+                    "link": "/views/前端架构/D 前端自动化测试/f01 测试类型/E2E测试/Nightwatch"
                   }
                 ],
                 "collapsed": false
@@ -1614,34 +1612,184 @@
                 "items": [
                   {
                     "text": "Chai Expect should",
-                    "link": "/views/前端架构/D 前端自动化测试/测试类型/单元测试/Chai Expect should"
+                    "link": "/views/前端架构/D 前端自动化测试/f01 测试类型/单元测试/Chai Expect should"
                   },
                   {
                     "text": "Chai,Expect,should",
-                    "link": "/views/前端架构/D 前端自动化测试/测试类型/单元测试/Chai,Expect,should"
+                    "link": "/views/前端架构/D 前端自动化测试/f01 测试类型/单元测试/Chai,Expect,should"
                   },
                   {
                     "text": "Istanbul",
-                    "link": "/views/前端架构/D 前端自动化测试/测试类型/单元测试/Istanbul"
+                    "link": "/views/前端架构/D 前端自动化测试/f01 测试类型/单元测试/Istanbul"
                   },
                   {
                     "text": "Karma",
-                    "link": "/views/前端架构/D 前端自动化测试/测试类型/单元测试/Karma"
+                    "link": "/views/前端架构/D 前端自动化测试/f01 测试类型/单元测试/Karma"
                   },
                   {
                     "text": "Sinon",
-                    "link": "/views/前端架构/D 前端自动化测试/测试类型/单元测试/Sinon"
+                    "link": "/views/前端架构/D 前端自动化测试/f01 测试类型/单元测试/Sinon"
                   },
                   {
                     "text": "Unit Mocha QUnit Jasmine Jest",
-                    "link": "/views/前端架构/D 前端自动化测试/测试类型/单元测试/Unit Mocha QUnit Jasmine Jest"
+                    "link": "/views/前端架构/D 前端自动化测试/f01 测试类型/单元测试/Unit Mocha QUnit Jasmine Jest"
                   },
                   {
                     "text": "Unit,Mocha,QUnit,Jasmine,Jest",
-                    "link": "/views/前端架构/D 前端自动化测试/测试类型/单元测试/Unit,Mocha,QUnit,Jasmine,Jest"
+                    "link": "/views/前端架构/D 前端自动化测试/f01 测试类型/单元测试/Unit,Mocha,QUnit,Jasmine,Jest"
                   }
                 ],
                 "collapsed": false
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "f02 测试库",
+            "items": [
+              {
+                "text": "001 前端测试库对比",
+                "link": "/views/前端架构/D 前端自动化测试/f02 测试库/001 前端测试库对比"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "f03 Vue Test Utils",
+            "items": [
+              {
+                "text": "001 Vue Test Utils 基础",
+                "link": "/views/前端架构/D 前端自动化测试/f03 Vue Test Utils/001 Vue Test Utils 基础"
+              },
+              {
+                "text": "002 常用 API 速查表",
+                "link": "/views/前端架构/D 前端自动化测试/f03 Vue Test Utils/002 常用 API 速查表"
+              },
+              {
+                "text": "003 Wrapper 与 WrapperArray 说明",
+                "link": "/views/前端架构/D 前端自动化测试/f03 Vue Test Utils/003 Wrapper 与 WrapperArray 说明"
+              },
+              {
+                "text": "004 Vue Test Utils + Jest 快速上手",
+                "link": "/views/前端架构/D 前端自动化测试/f03 Vue Test Utils/004 Vue Test Utils + Jest 快速上手"
+              },
+              {
+                "text": "005 组件测试前置工具（组件）",
+                "link": "/views/前端架构/D 前端自动化测试/f03 Vue Test Utils/005 组件测试前置工具（组件）"
+              },
+              {
+                "text": "006 组件测试前置工具（非组件）",
+                "link": "/views/前端架构/D 前端自动化测试/f03 Vue Test Utils/006 组件测试前置工具（非组件）"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "f04 Jest",
+            "items": [
+              {
+                "text": "001 Jest 基础",
+                "link": "/views/前端架构/D 前端自动化测试/f04 Jest/001 Jest 基础"
+              },
+              {
+                "text": "002 常用 API 速查表",
+                "link": "/views/前端架构/D 前端自动化测试/f04 Jest/002 常用 API 速查表"
+              },
+              {
+                "text": "003 配置文件",
+                "link": "/views/前端架构/D 前端自动化测试/f04 Jest/003 配置文件"
+              },
+              {
+                "text": "004 项目专属配置模板",
+                "link": "/views/前端架构/D 前端自动化测试/f04 Jest/004 项目专属配置模板"
+              },
+              {
+                "text": "005 Jest + Vue-Test-Utils 测试案例",
+                "link": "/views/前端架构/D 前端自动化测试/f04 Jest/005 Jest + Vue-Test-Utils 测试案例"
+              },
+              {
+                "text": "006 Jest + Vue Test Utils 常用 API 对照表",
+                "link": "/views/前端架构/D 前端自动化测试/f04 Jest/006 Jest + Vue Test Utils 常用 API 对照表"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "f04 Vitest",
+            "items": [
+              {
+                "text": "001 Vitest",
+                "link": "/views/前端架构/D 前端自动化测试/f04 Vitest/001 Vitest"
+              },
+              {
+                "text": "005 Vue3 项目引入vitest",
+                "link": "/views/前端架构/D 前端自动化测试/f04 Vitest/005 Vue3 项目引入vitest"
+              },
+              {
+                "text": "006 Vue2 项目引入vitest",
+                "link": "/views/前端架构/D 前端自动化测试/f04 Vitest/006 Vue2 项目引入vitest"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "t01 Jest 测试工具封装",
+            "items": [
+              {
+                "text": "001 D HelloWorld 测试",
+                "link": "/views/前端架构/D 前端自动化测试/t01 Jest 测试工具封装/001 D HelloWorld 测试"
+              },
+              {
+                "text": "002 D ElementUI 按钮测试",
+                "link": "/views/前端架构/D 前端自动化测试/t01 Jest 测试工具封装/002 D ElementUI 按钮测试"
+              },
+              {
+                "text": "003 D ElementUI 输入框测试",
+                "link": "/views/前端架构/D 前端自动化测试/t01 Jest 测试工具封装/003 D ElementUI 输入框测试"
+              },
+              {
+                "text": "004 D ElementUI 基础测试",
+                "link": "/views/前端架构/D 前端自动化测试/t01 Jest 测试工具封装/004 D ElementUI 基础测试"
+              },
+              {
+                "text": "005 D 模拟请求测试",
+                "link": "/views/前端架构/D 前端自动化测试/t01 Jest 测试工具封装/005 D 模拟请求测试"
+              },
+              {
+                "text": "006 D 真实接口请求测试",
+                "link": "/views/前端架构/D 前端自动化测试/t01 Jest 测试工具封装/006 D 真实接口请求测试"
+              },
+              {
+                "text": "007 D 远程接口请求测试",
+                "link": "/views/前端架构/D 前端自动化测试/t01 Jest 测试工具封装/007 D 远程接口请求测试"
+              },
+              {
+                "text": "008 D 基础表单测试",
+                "link": "/views/前端架构/D 前端自动化测试/t01 Jest 测试工具封装/008 D 基础表单测试"
+              },
+              {
+                "text": "009 D SCSS 样式引入测试",
+                "link": "/views/前端架构/D 前端自动化测试/t01 Jest 测试工具封装/009 D SCSS 样式引入测试"
+              },
+              {
+                "text": "010 D 图片引入测试",
+                "link": "/views/前端架构/D 前端自动化测试/t01 Jest 测试工具封装/010 D 图片引入测试"
+              },
+              {
+                "text": "101 T 测试库是否可用",
+                "link": "/views/前端架构/D 前端自动化测试/t01 Jest 测试工具封装/101 T 测试库是否可用"
+              },
+              {
+                "text": "102 T SCSS 转换工具",
+                "link": "/views/前端架构/D 前端自动化测试/t01 Jest 测试工具封装/102 T SCSS 转换工具"
+              },
+              {
+                "text": "103 T axios base 配置",
+                "link": "/views/前端架构/D 前端自动化测试/t01 Jest 测试工具封装/103 T axios base 配置"
+              },
+              {
+                "text": "104 T 测试方法自定义设置",
+                "link": "/views/前端架构/D 前端自动化测试/t01 Jest 测试工具封装/104 T 测试方法自定义设置"
               }
             ],
             "collapsed": false
