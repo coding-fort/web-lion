@@ -4,20 +4,24 @@
       "text": "社区资源",
       "items": [
         {
-          "text": "学习资源",
-          "link": "/views/社区资源/学习资源/readme.md"
+          "text": "A 学习资源",
+          "link": "/views/社区资源/A 学习资源/readme.md"
         },
         {
-          "text": "社区生态",
-          "link": "/views/社区资源/社区生态/readme.md"
+          "text": "B  社区生态",
+          "link": "/views/社区资源/B  社区生态/readme.md"
+        },
+        {
+          "text": "C 示例项目",
+          "link": "/views/社区资源/C 示例项目/readme.md"
         }
       ]
     }
   ],
   "sidebar": {
-    "/views/社区资源/学习资源": [
+    "/views/社区资源/A 学习资源": [
       {
-        "text": "学习资源",
+        "text": "A 学习资源",
         "collapsed": false,
         "items": [
           {
@@ -25,7 +29,7 @@
             "items": [
               {
                 "text": "第4版",
-                "link": "/views/社区资源/学习资源/《JavaScript高级程序设计》/第4版"
+                "link": "/views/社区资源/A 学习资源/《JavaScript高级程序设计》/第4版"
               }
             ],
             "collapsed": false
@@ -33,50 +37,66 @@
         ]
       }
     ],
-    "/views/社区资源/社区生态": [
+    "/views/社区资源/B  社区生态": [
       {
-        "text": "社区生态",
+        "text": "B  社区生态",
         "collapsed": false,
         "items": [
           {
-            "text": "CSDN",
-            "items": [
-              {
-                "text": "CSDN",
-                "link": "/views/社区资源/社区生态/CSDN/CSDN"
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "Gitee",
-            "items": [
-              {
-                "text": "Gitee",
-                "link": "/views/社区资源/社区生态/Gitee/Gitee"
-              }
-            ],
-            "collapsed": false
-          },
-          {
-            "text": "Github",
+            "text": "f01 Github",
             "items": [
               {
                 "text": "Github",
-                "link": "/views/社区资源/社区生态/Github/Github"
+                "link": "/views/社区资源/B  社区生态/f01 Github/Github"
               }
             ],
             "collapsed": false
           },
           {
-            "text": "掘金社区",
+            "text": "f02 Gitee",
             "items": [
               {
-                "text": "掘金社区",
-                "link": "/views/社区资源/社区生态/掘金社区/掘金社区"
+                "text": "Gitee",
+                "link": "/views/社区资源/B  社区生态/f02 Gitee/Gitee"
               }
             ],
             "collapsed": false
+          },
+          {
+            "text": "f03 掘金社区",
+            "items": [
+              {
+                "text": "掘金社区",
+                "link": "/views/社区资源/B  社区生态/f03 掘金社区/掘金社区"
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "f04 CSDN",
+            "items": [
+              {
+                "text": "CSDN",
+                "link": "/views/社区资源/B  社区生态/f04 CSDN/CSDN"
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/社区资源/C 示例项目": [
+      {
+        "text": "C 示例项目",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "001 后台系统示例项目",
+            "link": "/views/社区资源/C 示例项目/001 后台系统示例项目"
+          },
+          {
+            "text": "002 微信小程序开发资源汇总",
+            "link": "/views/社区资源/C 示例项目/002 微信小程序开发资源汇总"
           }
         ]
       }

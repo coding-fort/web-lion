@@ -18,6 +18,10 @@
         {
           "text": "D 面试与经验积累",
           "link": "/views/职业软实力/D 面试与经验积累/readme.md"
+        },
+        {
+          "text": "E 标准化流程SOP",
+          "link": "/views/职业软实力/E 标准化流程SOP/readme.md"
         }
       ]
     }
@@ -340,6 +344,10 @@
               {
                 "text": "《把时间当作朋友》",
                 "link": "/views/职业软实力/A 个人能力素养/f 读书笔记/《把时间当作朋友》"
+              },
+              {
+                "text": "《把自己当成一家公司来经营》",
+                "link": "/views/职业软实力/A 个人能力素养/f 读书笔记/《把自己当成一家公司来经营》"
               },
               {
                 "text": "《贫穷的本质》",
@@ -845,6 +853,26 @@
               }
             ],
             "collapsed": false
+          }
+        ]
+      }
+    ],
+    "/views/职业软实力/E 标准化流程SOP": [
+      {
+        "text": "E 标准化流程SOP",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "001 短视频内容转化SOP",
+            "link": "/views/职业软实力/E 标准化流程SOP/001 短视频内容转化SOP"
+          },
+          {
+            "text": "002 互联网文章转化SOP",
+            "link": "/views/职业软实力/E 标准化流程SOP/002 互联网文章转化SOP"
+          },
+          {
+            "text": "003 工作学习爱好文件系统SOP",
+            "link": "/views/职业软实力/E 标准化流程SOP/003 工作学习爱好文件系统SOP"
           }
         ]
       }
