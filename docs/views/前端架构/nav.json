@@ -1000,6 +1000,16 @@
                   }
                 ],
                 "collapsed": false
+              },
+              {
+                "text": "f03 库封装",
+                "items": [
+                  {
+                    "text": "001 二次封装 element-ui",
+                    "link": "/views/前端架构/B 前端工程化体系/01 版本与依赖管理/f03 库封装/001 二次封装 element-ui"
+                  }
+                ],
+                "collapsed": false
               }
             ],
             "collapsed": false

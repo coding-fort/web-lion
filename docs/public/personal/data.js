@@ -47,7 +47,8 @@ const data = {
       { title: "决策能力", href: "/personal/action/决策能力.html" },
       { title: "应变能力", href: "/personal/action/应变能力.html" },
       { title: "自律能力", href: "/personal/action/自律能力.html" },
-      { title: "执行力", href: "/personal/action/执行力.html" }
+      { title: "执行力", href: "/personal/action/执行力.html" },
+      { title: "极简主义", href: "/personal/action/极简主义.html" }
     ]
   }
 };

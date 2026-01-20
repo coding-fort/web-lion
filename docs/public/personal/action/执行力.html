@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>执行力</title>
-    <link rel="stylesheet" href="../items.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../items.css" />
+  </head>
+  <body>
     <header>
-        <button class="back-btn" onclick="history.back()">← 返回</button>
-        <div class="header-title-wrap">
-            <h1 class="header-title">执行力</h1>
-        </div>
+      <a href="/personal/index.html" class="back-btn">返回首页</a>
+      <div class="header-title-wrap">
+        <h1 class="header-title">执行力</h1>
+        <div class="header-underline"></div>
+      </div>
+      <p>行动调控维度 · 执行力</p>
     </header>
-    <main id="content-container"></main>
+    <main id="main-content"></main>
     <script src="./执行力.js"></script>
     <script>
-        renderContent(executionContent);
+      // 渲染内容
+      const main = document.getElementById("main-content");
+      main.innerHTML = executionContent
+        .map(
+          (section) => `
+      <section>
+        <h2>${section.title}</h2>
+        <ul>
+          ${section.items.map((item) => `<li>${item}</li>`).join("")}
+        </ul>
+      </section>
+    `
+        )
+        .join("");
     </script>
-</body>
+  </body>
 </html>
